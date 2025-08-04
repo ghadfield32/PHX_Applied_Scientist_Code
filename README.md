@@ -1,5 +1,154 @@
 # FastAPI + React • Railway-ready Template
 
+# PHX Suns — Applied Scientist Codebase
+
+Welcome to **PHX\_Applied\_Scientist\_Code** — the repository that houses all analysis, models, and deliverables developed for the Phoenix Suns *Applied Scientist – Basketball Analytics* interview projects.
+
+---
+
+## Table of Contents
+
+1. [Role Alignment](#role-alignment)
+2. [Repository Layout](#repository-layout)
+3. [Project 1 │ Draft‑Pick Value Differential](#project-1--draft-pick-value-differential)
+4. [Project 2 │ Player Market‑Value Modelling](#project-2--player-market-value-modelling)
+5. [What We Built & Learned](#what-we-built--learned)
+6. [Quick Start](#quick-start)
+7. [Next Steps](#next-steps)
+8. [Contact](#contact)
+
+---
+
+## Role Alignment
+
+This codebase is tailored to the **Applied Scientist – Basketball Analytics** posting for the Phoenix Suns (Player 15 Group). The projects and infrastructure directly map to the core responsibilities outlined in the job description:
+
+| Job Responsibility                              | Repository Support                                                                                                                           |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Rigorous Basketball Research**                | Notebooks and `src/research/` prototypes explore asset valuation, salary prediction, and contract‐ROI trends.                                |
+| **Statistical / ML Model Development**          | Reproducible CatBoost, LightGBM, and Bayesian pipelines with Optuna + MLflow tracking.                                                       |
+| **Computer‑Vision & Spatiotemporal Innovation** | Template modules for shot‑chart hexbin mapping and YOLO‑v10 tracking are stubbed under `src/cv/`.                                            |
+| **Data Workflow End‑to‑End**                    | Automated DAGs fetch Spotrac contracts, NBA API stats, Kaggle injuries; all ETL steps land in DuckDB + Parquet for lightning‑fast iteration. |
+| **Deployment & Packaging**                      | FastAPI backend serves models, Streamlit dashboards power exploratory visuals, and React (Vite) front‑end hosts interactive demos.           |
+| **Insight Delivery**                            | PDF briefs, slide decks, and a single‑page analytics portal summarise findings for front‑office stakeholders.                                |
+
+
+---
+
+## Project 1 │ Draft‑Pick Value Differential
+
+### Objective
+
+Quantify the “**Draft‑Night Premium**” — the price delta teams pay (or save) when trading picks on Draft Night versus earlier checkpoints (season start, trade deadline, post‑lottery).
+
+### Data Sources
+
+* **NBA Trade Logs** (2005‑2025) — pick number, date, protections, accompanying assets.
+* **Player Outcomes** (Basketball‑Reference Win Shares, VORP).
+* **Rookie‑Scale Salaries** (Spotrac).
+* **Draft Class Strength Indicators** (consensus mock‑draft ranks).
+
+### Methodology
+
+1. **Baseline Value Curve** — Log‑linear regression of four‑year Win Shares by pick 1‑60.
+2. **Surplus‑Value Adjustment** — Convert talent → \$ by mapping WS→Wins→Cap \$.
+3. **Time‑Indexed Trade Regression** — `value ~ pick_no + timing_dummies + controls` to isolate *DraftNight* coefficient.
+4. **Bayesian Monte‑Carlo Risk Simulations** — propagate class‑strength & outcome variance.
+5. **Behavioural Overlay** — literature‑based bias factors (winner’s curse, GM overconfidence).
+
+### Deliverables
+
+* 4‑paragraph process memo (`docs/Project1_DraftPick_Valuation.pdf`).
+* R‑notebook vignettes benchmarking curve fits & priors.
+
+---
+
+## Project 2 │ Player Market‑Value Modelling
+
+### Abstract
+
+Season‑aware ML stack forecasts **AAV ÷ Max‑Cap‑Tier** for free agents. Best CatBoost model (Optuna‑tuned, forward‑chaining) scores:
+
+| Metric   | Value | Salary‑Scale Equivalent |
+| -------- | ----- | ----------------------- |
+| **RMSE** | 0.138 | ≈ \$21.4 M              |
+| **MAE**  | 0.088 | ≈ \$13.6 M              |
+| **R²**   | 0.622 | 62 % variance explained |
+
+### Data Assembly & Features
+
+* **Spotrac (2010‑25)** — contract terms, taxes, max‑tier tables.
+* **NBA API (1996‑25)** — box‑score, advanced dashboards, synergy play‑types.
+* **Basketball‑Reference** — BPM, VORP, Win Shares.
+* **Kaggle Injuries + live scraper** — player reliability metrics.
+* **Market Size One‑Hot** — Big vs Small (Nielsen reach / spend).
+
+> **Target:** `AAV_pctMaxCap = AAV / MaxCap_serviceTier` (25 % / 30 % / 35 % cap bands).
+
+### Modelling Protocol
+
+1. **Pre‑processing** — ColumnTransformer with numeric scaling + categorical OHE/ordinal.
+2. **Model Zoo** — CatBoost ▸ LightGBM ▸ XGBoost ▸ RF ▸ ElasticNet.
+3. **Validation** — 5‑fold forward‑chaining (season‑t splits).
+4. **Tracking** — MLflow artefacts versioned under `mlruns/` (volume‑mounted in Railway).
+5. **Optuna Hyper‑Search** — 100 TPE trials on depth, LR, L2, subsample.
+
+### Key Visualisation
+
+A `Predicted vs Actual AAV_pctMaxCap` scatter (+ 45° line) illustrates error spread; colour encodes cap tier. Explained in `docs/Project2_Visualization.pdf`.
+
+---
+
+## What We Built & Learned
+
+* **Data Engineering** — Automated ETL pipelines marry trades, salaries, and injuries into analytical‑ready DuckDB.
+* **Feature Engineering** — 300 + candidate stats funnelled to \~50 using mutual‑info & variance filters.
+* **Model Excellence** — CatBoost edged baseline by **‑26 % RMSE**; insights expose market inefficiencies (e.g., usage‑rate ranks dominate cap‑scaled pay).
+* **Process Rigor** — Draft‑Pick framework blends economic theory + Bayesian risk, mirroring front‑office decision cadence.
+* **Full‑Stack Delivery** — FastAPI endpoints and React dashboards let scouts & execs interrogate live predictions and pick curves.
+
+---
+
+## Quick Start
+
+```bash
+# clone & enter
+git clone https://github.com/ghadfield32/PHX_Applied_Scientist_Code.git
+cd PHX_Applied_Scientist_Code
+
+# install py deps (uv is optional)
+uv pip install -r requirements.txt  # or: pip install -e .[dev]
+
+# spin up services
+npm run backend:dev   # FastAPI on :8000
+npm run seed          # create demo creds
+cd web && npm run dev # React on :5173
+```
+
+Full instructions (Docker + Railway) live in `docs/setup_manual.md`.
+
+---
+
+## Next Steps
+
+* **Ensemble Stacking** — Blend CatBoost + LightGBM for ≤ 0.12 RMSE.
+* **Contextual RAG Chatbot** — Integrate LangGraph agents to answer salary & draft‑trade hypotheticals with live NBA API.
+* **Vision Module** — YOLO‑v10 tracking of shot quality to refine draft prospect valuations.
+
+---
+
+## Contact
+
+Feel free to open an issue or reach out:
+
+```
+Geoff Hadfield
+GitHub / LinkedIn ▸ ghadfield32
+Email ▸ ghadfield32@gmail.com
+```
+
+
+
 This repo contains a FastAPI back-end (`/api`) and a React (Vite) front-end (`/web`) with **JAX/NumPyro backend** for Bayesian machine learning models.  
 Follow the steps below to run everything locally with **Railway CLI** and then deploy the two services on railway.com.
 
