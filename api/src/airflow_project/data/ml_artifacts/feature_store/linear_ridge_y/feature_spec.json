@@ -1,0 +1,16 @@
+{
+  "target": "y",
+  "numerical": [
+    "a"
+  ],
+  "nominal_cats": [
+    "b"
+  ],
+  "ordinal_map": {
+    "c": [
+      "Low",
+      "High"
+    ]
+  },
+  "drops": []
+}

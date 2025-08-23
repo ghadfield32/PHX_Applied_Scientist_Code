@@ -1,0 +1,85 @@
+column,is_constant,should_not_be_constant,violates
+Player,False,False,False
+Season,True,False,False
+Team,False,False,False
+Age,False,False,False
+GP,False,False,False
+GS,False,False,False
+MP,False,False,False
+PTS,False,True,False
+FG,False,False,False
+FGA,False,False,False
+3P,False,False,False
+3PA,False,False,False
+FT,False,False,False
+FTA,False,False,False
+TRB,False,False,False
+AST,False,False,False
+STL,False,False,False
+BLK,False,False,False
+TOV,False,False,False
+PF,False,False,False
+ORB,False,False,False
+DRB,False,False,False
+Position,False,False,False
+TeamID,False,False,False
+Years_of_Service,False,False,False
+2P,False,False,False
+2PA,False,False,False
+eFG%,False,False,False
+2P%,False,False,False
+PER,False,False,False
+TS%,False,False,False
+ORB%,False,False,False
+DRB%,False,False,False
+TRB%,False,False,False
+AST%,False,False,False
+STL%,False,False,False
+BLK%,False,False,False
+TOV%,False,False,False
+USG%,False,False,False
+OWS,False,False,False
+DWS,False,False,False
+WS,False,False,False
+WS/48,False,False,False
+OBPM,False,False,False
+DBPM,False,False,False
+BPM,False,False,False
+VORP,False,False,False
+Wins,False,False,False
+Losses,False,False,False
+Injured,True,False,False
+Injury_Periods,True,False,False
+Total_Days_Injured,True,False,False
+Injury_Risk,True,False,False
+FG%,False,False,False
+3P%,False,False,False
+FT%,False,False,False
+PTS_per_36,False,False,False
+AST_per_36,False,False,False
+TRB_per_36,False,False,False
+Tm_FGA,False,False,False
+Tm_FTA,False,False,False
+Tm_TOV,False,False,False
+Tm_FG,False,False,False
+Tm_ORB,False,False,False
+Tm_DRB,False,False,False
+Tm_TRB,False,False,False
+Tm_MP,False,False,False
+Tm_AST,False,False,False
+Team_Poss,False,False,False
+Player_Poss,False,False,False
+Scoring_Usage%,False,False,False
+Turnover_Usage%,False,False,False
+Playmaking_Usage%,False,False,False
+True_Usage%,False,False,False
+Offensive_Load%,False,False,False
+Salary Cap,True,False,False
+Luxury Tax,True,False,False
+1st Apron,True,False,False
+2nd Apron,True,False,False
+BAE,True,False,False
+Non-Taxpayer MLE,True,False,False
+Taxpayer MLE,True,False,False
+Team Room MLE,True,False,False
+Salary_Cap_Inflated,True,False,False

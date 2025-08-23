@@ -1,0 +1,966 @@
+{
+  "missing_columns": [
+    "AAV_PCT_CAP",
+    "PTS_PER_36_rollmean_3",
+    "PTS_PER_36_rollslope_3",
+    "WS_rollmean_3",
+    "WS_rollslope_3",
+    "YRS_OF_SERVICE",
+    "experience_bucket",
+    "portability_score"
+  ],
+  "unexpected_columns": [
+    "2-YEAR CASH",
+    "3-YEAR CASH",
+    "3PA_ZERO",
+    "AAV",
+    "AGE                     AT SIGNING",
+    "AGE_ADV",
+    "AGE_HUSTLE",
+    "BELOW_MINIMUM_FLOOR",
+    "CAP_DOLLARS_PLUS_MINUS",
+    "CAP_MAXIMUM",
+    "CAP_MINIMUM",
+    "CAP_PERCENT_PLUS_MINUS",
+    "CBA_END_DATE",
+    "CBA_FREE_AGENCY",
+    "CBA_START_DATE",
+    "CBA_TRADE_DEADLINE",
+    "CONTRACT_SEASON_RK",
+    "END_CONTRACT_YEAR",
+    "FTA_ZERO",
+    "INJURY_END_DATE",
+    "INJURY_START_DATE",
+    "MINIMUM_CONTRACT_VALUE",
+    "MINIMUM_MATCHED",
+    "NICKNAME",
+    "PLAYER",
+    "PLAYER_CONTRACTS",
+    "PLAYER_NAME",
+    "PLAYER_NAME_CONTRACTS",
+    "PLAYER_NAME_DEFENSE",
+    "PLAYER_NAME_EFFICIENCY",
+    "PLAYER_NAME_INJURIES",
+    "PLAYER_NAME_PLAYTYPE",
+    "SERVICE_YEARS",
+    "SOURCE",
+    "START_CONTRACT_YEAR",
+    "TAX_END_DATE",
+    "TAX_FREE_AGENCY",
+    "TAX_START_DATE",
+    "TAX_THRESHOLD",
+    "TAX_TRADE_DEADLINE",
+    "TEAM",
+    "TEAM                     SIGNED WITH",
+    "TEAM_ABBREVIATION",
+    "TEAM_ABBREVIATION_CONTRACTS",
+    "TEAM_ABBREVIATION_EFFICIENCY",
+    "TEAM_ABBREVIATION_PLAYTYPE",
+    "TEAM_NAME",
+    "TEAM_NAME_CONTRACTS",
+    "TEAM_NAME_EFFICIENCY",
+    "TEAM_NAME_INJURIES",
+    "__MERGE_OFFDEF"
+  ],
+  "dtype_mismatches": {
+    "YRS": {
+      "expected_category": "ordinal",
+      "actual_dtype": "float64",
+      "reason": "expected categorical-like dtype (object/string/categorical), got float64"
+    },
+    "AGE": {
+      "expected_category": "ordinal",
+      "actual_dtype": "float64",
+      "reason": "expected categorical-like dtype (object/string/categorical), got float64"
+    },
+    "YEARS_OF_SERVICE": {
+      "expected_category": "ordinal",
+      "actual_dtype": "int64",
+      "reason": "expected categorical-like dtype (object/string/categorical), got int64"
+    }
+  },
+  "ok": [
+    {
+      "PLAYER_ID": "object"
+    },
+    {
+      "TEAM_ID": "object"
+    },
+    {
+      "VALUE": "float64"
+    },
+    {
+      "GP": "int64"
+    },
+    {
+      "GS": "int64"
+    },
+    {
+      "MP": "float64"
+    },
+    {
+      "PLAYER_POSS": "float64"
+    },
+    {
+      "TM_FGA": "int64"
+    },
+    {
+      "TM_FG": "int64"
+    },
+    {
+      "TM_TRB": "int64"
+    },
+    {
+      "TM_TOV": "int64"
+    },
+    {
+      "TM_ORB": "int64"
+    },
+    {
+      "TM_MP": "float64"
+    },
+    {
+      "TM_FTA": "int64"
+    },
+    {
+      "TM_DRB": "int64"
+    },
+    {
+      "TM_AST": "int64"
+    },
+    {
+      "FG": "int64"
+    },
+    {
+      "FGA": "int64"
+    },
+    {
+      "FG%": "float64"
+    },
+    {
+      "3P": "int64"
+    },
+    {
+      "3PA": "int64"
+    },
+    {
+      "3P%": "float64"
+    },
+    {
+      "2P": "int64"
+    },
+    {
+      "2PA": "int64"
+    },
+    {
+      "2P%": "float64"
+    },
+    {
+      "FT": "int64"
+    },
+    {
+      "FTA": "int64"
+    },
+    {
+      "FT%": "float64"
+    },
+    {
+      "FTR": "float64"
+    },
+    {
+      "EFG%": "float64"
+    },
+    {
+      "TS%": "float64"
+    },
+    {
+      "USG%": "float64"
+    },
+    {
+      "TRUE_USAGE%": "float64"
+    },
+    {
+      "TURNOVER_USAGE%": "float64"
+    },
+    {
+      "PLAYMAKING_USAGE%": "float64"
+    },
+    {
+      "SCORING_USAGE%": "float64"
+    },
+    {
+      "PER": "float64"
+    },
+    {
+      "BPM": "float64"
+    },
+    {
+      "OBPM": "float64"
+    },
+    {
+      "DBPM": "float64"
+    },
+    {
+      "VORP": "float64"
+    },
+    {
+      "OWS": "float64"
+    },
+    {
+      "DWS": "float64"
+    },
+    {
+      "WS": "float64"
+    },
+    {
+      "WS/48": "float64"
+    },
+    {
+      "OFFENSIVE_LOAD%": "float64"
+    },
+    {
+      "AST_RANK": "int64"
+    },
+    {
+      "BLK_RANK": "int64"
+    },
+    {
+      "BLKA_RANK": "int64"
+    },
+    {
+      "OREB_RANK": "int64"
+    },
+    {
+      "REB_RANK": "int64"
+    },
+    {
+      "PTS_RANK": "int64"
+    },
+    {
+      "PLUS_MINUS_RANK": "int64"
+    },
+    {
+      "FTA_RANK": "int64"
+    },
+    {
+      "FT_PCT_RANK": "int64"
+    },
+    {
+      "FG_PCT_RANK": "int64"
+    },
+    {
+      "FGM_RANK": "int64"
+    },
+    {
+      "W_RANK": "int64"
+    },
+    {
+      "L_RANK": "int64"
+    },
+    {
+      "W_PCT_RANK": "int64"
+    },
+    {
+      "MIN_RANK": "int64"
+    },
+    {
+      "NBA_FANTASY_PTS_RANK": "int64"
+    },
+    {
+      "WNBA_FANTASY_PTS_RANK": "int64"
+    },
+    {
+      "TD3_RANK": "int64"
+    },
+    {
+      "DD2_RANK": "int64"
+    },
+    {
+      "WINS": "int64"
+    },
+    {
+      "LOSSES": "int64"
+    },
+    {
+      "W_PCT": "float64"
+    },
+    {
+      "W": "int64"
+    },
+    {
+      "L": "int64"
+    },
+    {
+      "3PAR": "float64"
+    },
+    {
+      "AST": "int64"
+    },
+    {
+      "AST%": "float64"
+    },
+    {
+      "AST_DEFENSE": "float64"
+    },
+    {
+      "AST_PER_36": "float64"
+    },
+    {
+      "BLK": "int64"
+    },
+    {
+      "BLK%": "float64"
+    },
+    {
+      "BLKA": "float64"
+    },
+    {
+      "BLK_DEFENSE": "float64"
+    },
+    {
+      "BOX_OUTS": "int64"
+    },
+    {
+      "BOX_OUT_PLAYER_REBS": "int64"
+    },
+    {
+      "BOX_OUT_PLAYER_TEAM_REBS": "int64"
+    },
+    {
+      "BPM_BBREF": "float64"
+    },
+    {
+      "CHARGES_DRAWN": "int64"
+    },
+    {
+      "CONTESTED_SHOTS": "int64"
+    },
+    {
+      "CONTESTED_SHOTS_2PT": "int64"
+    },
+    {
+      "CONTESTED_SHOTS_3PT": "int64"
+    },
+    {
+      "DD2": "int64"
+    },
+    {
+      "DEFLECTIONS": "int64"
+    },
+    {
+      "DEF_BOXOUTS": "int64"
+    },
+    {
+      "DEF_LOOSE_BALLS_RECOVERED": "int64"
+    },
+    {
+      "DRB": "int64"
+    },
+    {
+      "DRB%": "float64"
+    },
+    {
+      "DRB%_BBREF": "float64"
+    },
+    {
+      "DREB": "float64"
+    },
+    {
+      "DREB_RANK": "int64"
+    },
+    {
+      "DWS_BBREF": "float64"
+    },
+    {
+      "D_FG_PCT": "float64"
+    },
+    {
+      "E_AST_RATIO": "float64"
+    },
+    {
+      "E_AST_RATIO_RANK": "float64"
+    },
+    {
+      "E_DEF_RATING": "float64"
+    },
+    {
+      "E_DEF_RATING_RANK": "float64"
+    },
+    {
+      "E_DREB_PCT": "float64"
+    },
+    {
+      "E_DREB_PCT_RANK": "float64"
+    },
+    {
+      "E_NET_RATING": "float64"
+    },
+    {
+      "E_NET_RATING_RANK": "float64"
+    },
+    {
+      "E_OFF_RATING": "float64"
+    },
+    {
+      "E_OFF_RATING_RANK": "float64"
+    },
+    {
+      "E_OREB_PCT": "float64"
+    },
+    {
+      "E_OREB_PCT_RANK": "float64"
+    },
+    {
+      "E_PACE": "float64"
+    },
+    {
+      "E_PACE_RANK": "float64"
+    },
+    {
+      "E_REB_PCT": "float64"
+    },
+    {
+      "E_REB_PCT_RANK": "float64"
+    },
+    {
+      "E_TOV_PCT": "float64"
+    },
+    {
+      "E_TOV_PCT_RANK": "float64"
+    },
+    {
+      "E_USG_PCT": "float64"
+    },
+    {
+      "E_USG_PCT_RANK": "float64"
+    },
+    {
+      "FG3A": "float64"
+    },
+    {
+      "FG3A_RANK": "int64"
+    },
+    {
+      "FG3M": "float64"
+    },
+    {
+      "FG3M_RANK": "int64"
+    },
+    {
+      "FG3_PCT": "float64"
+    },
+    {
+      "FG3_PCT_RANK": "int64"
+    },
+    {
+      "FGA_DEFENSE": "float64"
+    },
+    {
+      "FGA_RANK": "int64"
+    },
+    {
+      "FGM": "float64"
+    },
+    {
+      "FG_PCT": "float64"
+    },
+    {
+      "FTA_DEFENSE": "float64"
+    },
+    {
+      "FTM": "float64"
+    },
+    {
+      "FTM_RANK": "int64"
+    },
+    {
+      "FT_PCT": "float64"
+    },
+    {
+      "G": "int64"
+    },
+    {
+      "GP_DEFENSE": "int64"
+    },
+    {
+      "GP_EFFICIENCY": "float64"
+    },
+    {
+      "GP_RANK": "int64"
+    },
+    {
+      "MIN": "float64"
+    },
+    {
+      "MIN_ADV": "float64"
+    },
+    {
+      "MIN_HUSTLE": "float64"
+    },
+    {
+      "NBA_FANTASY_PTS": "float64"
+    },
+    {
+      "OFF_BOXOUTS": "int64"
+    },
+    {
+      "OFF_LOOSE_BALLS_RECOVERED": "int64"
+    },
+    {
+      "ORB": "int64"
+    },
+    {
+      "ORB%": "float64"
+    },
+    {
+      "ORB%_BBREF": "float64"
+    },
+    {
+      "OREB": "float64"
+    },
+    {
+      "OWS_BBREF": "float64"
+    },
+    {
+      "PCT_BOX_OUTS_DEF": "float64"
+    },
+    {
+      "PCT_BOX_OUTS_OFF": "float64"
+    },
+    {
+      "PCT_BOX_OUTS_REB": "float64"
+    },
+    {
+      "PCT_BOX_OUTS_TEAM_REB": "float64"
+    },
+    {
+      "PCT_LOOSE_BALLS_RECOVERED_DEF": "float64"
+    },
+    {
+      "PCT_LOOSE_BALLS_RECOVERED_OFF": "float64"
+    },
+    {
+      "PF": "int64"
+    },
+    {
+      "PFD": "float64"
+    },
+    {
+      "PFD_RANK": "int64"
+    },
+    {
+      "PF_DEFENSE": "float64"
+    },
+    {
+      "PF_RANK": "int64"
+    },
+    {
+      "PLUS_MINUS": "float64"
+    },
+    {
+      "PTS": "int64"
+    },
+    {
+      "PTS_DEFENSE": "float64"
+    },
+    {
+      "PTS_PER_36": "float64"
+    },
+    {
+      "REB": "float64"
+    },
+    {
+      "SCREEN_ASSISTS": "int64"
+    },
+    {
+      "SCREEN_AST_PTS": "int64"
+    },
+    {
+      "STL": "int64"
+    },
+    {
+      "STL%": "float64"
+    },
+    {
+      "STL_DEFENSE": "float64"
+    },
+    {
+      "STL_RANK": "int64"
+    },
+    {
+      "TD3": "int64"
+    },
+    {
+      "TEAM_COUNT": "int64"
+    },
+    {
+      "TEAM_POSS": "float64"
+    },
+    {
+      "TOTAL_DAYS_INJURED": "float64"
+    },
+    {
+      "TOV": "int64"
+    },
+    {
+      "TOV%": "float64"
+    },
+    {
+      "TOV_DEFENSE": "float64"
+    },
+    {
+      "TOV_RANK": "int64"
+    },
+    {
+      "TRB": "int64"
+    },
+    {
+      "TRB%": "float64"
+    },
+    {
+      "TRB%_BBREF": "float64"
+    },
+    {
+      "TRB_PER_36": "float64"
+    },
+    {
+      "VORP_BBREF": "float64"
+    },
+    {
+      "WNBA_FANTASY_PTS": "float64"
+    },
+    {
+      "LOOSE_BALLS_RECOVERED": "int64"
+    },
+    {
+      "GP_RANK_EFFICIENCY": "float64"
+    },
+    {
+      "W_EFFICIENCY": "float64"
+    },
+    {
+      "L_EFFICIENCY": "float64"
+    },
+    {
+      "W_PCT_EFFICIENCY": "float64"
+    },
+    {
+      "W_RANK_EFFICIENCY": "float64"
+    },
+    {
+      "L_RANK_EFFICIENCY": "float64"
+    },
+    {
+      "W_PCT_RANK_EFFICIENCY": "float64"
+    },
+    {
+      "MIN_RANK_EFFICIENCY": "float64"
+    },
+    {
+      "OFF_EFG_PCT_CUT": "float64"
+    },
+    {
+      "OFF_EFG_PCT_HANDOFF": "float64"
+    },
+    {
+      "OFF_EFG_PCT_ISOLATION": "float64"
+    },
+    {
+      "OFF_EFG_PCT_MISC": "float64"
+    },
+    {
+      "OFF_EFG_PCT_OFFREBOUND": "float64"
+    },
+    {
+      "OFF_EFG_PCT_OFFSCREEN": "float64"
+    },
+    {
+      "OFF_EFG_PCT_PRBALLHANDLER": "float64"
+    },
+    {
+      "OFF_EFG_PCT_PRROLLMAN": "float64"
+    },
+    {
+      "OFF_EFG_PCT_POSTUP": "float64"
+    },
+    {
+      "OFF_EFG_PCT_SPOTUP": "float64"
+    },
+    {
+      "OFF_EFG_PCT_TRANSITION": "float64"
+    },
+    {
+      "OFF_FG_PCT_CUT": "float64"
+    },
+    {
+      "OFF_FG_PCT_HANDOFF": "float64"
+    },
+    {
+      "OFF_FG_PCT_ISOLATION": "float64"
+    },
+    {
+      "OFF_FG_PCT_MISC": "float64"
+    },
+    {
+      "OFF_FG_PCT_OFFREBOUND": "float64"
+    },
+    {
+      "OFF_FG_PCT_OFFSCREEN": "float64"
+    },
+    {
+      "OFF_FG_PCT_PRBALLHANDLER": "float64"
+    },
+    {
+      "OFF_FG_PCT_PRROLLMAN": "float64"
+    },
+    {
+      "OFF_FG_PCT_POSTUP": "float64"
+    },
+    {
+      "OFF_FG_PCT_SPOTUP": "float64"
+    },
+    {
+      "OFF_FG_PCT_TRANSITION": "float64"
+    },
+    {
+      "OFF_FT_POSS_PCT_CUT": "float64"
+    },
+    {
+      "OFF_FT_POSS_PCT_HANDOFF": "float64"
+    },
+    {
+      "OFF_FT_POSS_PCT_ISOLATION": "float64"
+    },
+    {
+      "OFF_FT_POSS_PCT_MISC": "float64"
+    },
+    {
+      "OFF_FT_POSS_PCT_OFFREBOUND": "float64"
+    },
+    {
+      "OFF_FT_POSS_PCT_OFFSCREEN": "float64"
+    },
+    {
+      "OFF_FT_POSS_PCT_PRBALLHANDLER": "float64"
+    },
+    {
+      "OFF_FT_POSS_PCT_PRROLLMAN": "float64"
+    },
+    {
+      "OFF_FT_POSS_PCT_POSTUP": "float64"
+    },
+    {
+      "OFF_FT_POSS_PCT_SPOTUP": "float64"
+    },
+    {
+      "OFF_FT_POSS_PCT_TRANSITION": "float64"
+    },
+    {
+      "OFF_POSS_CUT": "float64"
+    },
+    {
+      "OFF_POSS_HANDOFF": "float64"
+    },
+    {
+      "OFF_POSS_ISOLATION": "float64"
+    },
+    {
+      "OFF_POSS_MISC": "float64"
+    },
+    {
+      "OFF_POSS_OFFREBOUND": "float64"
+    },
+    {
+      "OFF_POSS_OFFSCREEN": "float64"
+    },
+    {
+      "OFF_POSS_PRBALLHANDLER": "float64"
+    },
+    {
+      "OFF_POSS_PRROLLMAN": "float64"
+    },
+    {
+      "OFF_POSS_POSTUP": "float64"
+    },
+    {
+      "OFF_POSS_SPOTUP": "float64"
+    },
+    {
+      "OFF_POSS_TRANSITION": "float64"
+    },
+    {
+      "OFF_PPP_CUT": "float64"
+    },
+    {
+      "OFF_PPP_HANDOFF": "float64"
+    },
+    {
+      "OFF_PPP_ISOLATION": "float64"
+    },
+    {
+      "OFF_PPP_MISC": "float64"
+    },
+    {
+      "OFF_PPP_OFFREBOUND": "float64"
+    },
+    {
+      "OFF_PPP_OFFSCREEN": "float64"
+    },
+    {
+      "OFF_PPP_PRBALLHANDLER": "float64"
+    },
+    {
+      "OFF_PPP_PRROLLMAN": "float64"
+    },
+    {
+      "OFF_PPP_POSTUP": "float64"
+    },
+    {
+      "OFF_PPP_SPOTUP": "float64"
+    },
+    {
+      "OFF_PPP_TRANSITION": "float64"
+    },
+    {
+      "DEF_EFG_PCT_HANDOFF": "float64"
+    },
+    {
+      "DEF_EFG_PCT_ISOLATION": "float64"
+    },
+    {
+      "DEF_EFG_PCT_OFFSCREEN": "float64"
+    },
+    {
+      "DEF_EFG_PCT_PRBALLHANDLER": "float64"
+    },
+    {
+      "DEF_EFG_PCT_PRROLLMAN": "float64"
+    },
+    {
+      "DEF_EFG_PCT_POSTUP": "float64"
+    },
+    {
+      "DEF_EFG_PCT_SPOTUP": "float64"
+    },
+    {
+      "DEF_FG_PCT_HANDOFF": "float64"
+    },
+    {
+      "DEF_FG_PCT_ISOLATION": "float64"
+    },
+    {
+      "DEF_FG_PCT_OFFSCREEN": "float64"
+    },
+    {
+      "DEF_FG_PCT_PRBALLHANDLER": "float64"
+    },
+    {
+      "DEF_FG_PCT_PRROLLMAN": "float64"
+    },
+    {
+      "DEF_FG_PCT_POSTUP": "float64"
+    },
+    {
+      "DEF_FG_PCT_SPOTUP": "float64"
+    },
+    {
+      "DEF_FT_POSS_PCT_HANDOFF": "float64"
+    },
+    {
+      "DEF_FT_POSS_PCT_ISOLATION": "float64"
+    },
+    {
+      "DEF_FT_POSS_PCT_OFFSCREEN": "float64"
+    },
+    {
+      "DEF_FT_POSS_PCT_PRBALLHANDLER": "float64"
+    },
+    {
+      "DEF_FT_POSS_PCT_PRROLLMAN": "float64"
+    },
+    {
+      "DEF_FT_POSS_PCT_POSTUP": "float64"
+    },
+    {
+      "DEF_FT_POSS_PCT_SPOTUP": "float64"
+    },
+    {
+      "DEF_POSS_HANDOFF": "float64"
+    },
+    {
+      "DEF_POSS_ISOLATION": "float64"
+    },
+    {
+      "DEF_POSS_OFFSCREEN": "float64"
+    },
+    {
+      "DEF_POSS_PRBALLHANDLER": "float64"
+    },
+    {
+      "DEF_POSS_PRROLLMAN": "float64"
+    },
+    {
+      "DEF_POSS_POSTUP": "float64"
+    },
+    {
+      "DEF_POSS_SPOTUP": "float64"
+    },
+    {
+      "DEF_PPP_HANDOFF": "float64"
+    },
+    {
+      "DEF_PPP_ISOLATION": "float64"
+    },
+    {
+      "DEF_PPP_OFFSCREEN": "float64"
+    },
+    {
+      "DEF_PPP_PRBALLHANDLER": "float64"
+    },
+    {
+      "DEF_PPP_PRROLLMAN": "float64"
+    },
+    {
+      "DEF_PPP_POSTUP": "float64"
+    },
+    {
+      "DEF_PPP_SPOTUP": "float64"
+    },
+    {
+      "SEASON": "object"
+    },
+    {
+      "MERGED_SEASON_MIN": "object"
+    },
+    {
+      "MERGED_SEASON_MAX": "object"
+    },
+    {
+      "PLAYER_ID": "object"
+    },
+    {
+      "POSITION": "object"
+    },
+    {
+      "TEAM_ID": "object"
+    },
+    {
+      "SEASON_TYPE": "object"
+    },
+    {
+      "NODEFSTATAVAILCHECK": "object"
+    },
+    {
+      "_MERGE": "category"
+    },
+    {
+      "POS": "object"
+    },
+    {
+      "COMBINED_REASONING": "object"
+    },
+    {
+      "SOURCE_PLAYTYPE": "object"
+    }
+  ]
+}

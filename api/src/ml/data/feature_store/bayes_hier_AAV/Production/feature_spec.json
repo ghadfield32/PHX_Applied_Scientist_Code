@@ -1,0 +1,1350 @@
+{
+  "target": "AAV",
+  "numerical": [
+    "2P",
+    "2P%",
+    "2PA",
+    "3P",
+    "3P%",
+    "3PA",
+    "3PAR",
+    "AGE",
+    "AST",
+    "AST%",
+    "AST_RANK",
+    "BLK",
+    "BLK%",
+    "BLKA",
+    "BLKA_RANK",
+    "BLK_RANK",
+    "BOX_OUTS",
+    "BOX_OUT_PLAYER_REBS",
+    "BOX_OUT_PLAYER_TEAM_REBS",
+    "BPM",
+    "BPM_BBREF",
+    "CHARGES_DRAWN",
+    "CONTESTED_SHOTS",
+    "CONTESTED_SHOTS_2PT",
+    "CONTESTED_SHOTS_3PT",
+    "DBPM",
+    "DD2",
+    "DD2_RANK",
+    "DEFLECTIONS",
+    "DEF_BOXOUTS",
+    "DEF_EFG_PCT_HANDOFF",
+    "DEF_EFG_PCT_ISOLATION",
+    "DEF_EFG_PCT_OFFSCREEN",
+    "DEF_EFG_PCT_POSTUP",
+    "DEF_EFG_PCT_PRBALLHANDLER",
+    "DEF_EFG_PCT_PRROLLMAN",
+    "DEF_EFG_PCT_SPOTUP",
+    "DEF_FG_PCT_HANDOFF",
+    "DEF_FG_PCT_ISOLATION",
+    "DEF_FG_PCT_OFFSCREEN",
+    "DEF_FG_PCT_POSTUP",
+    "DEF_FG_PCT_PRBALLHANDLER",
+    "DEF_FG_PCT_PRROLLMAN",
+    "DEF_FG_PCT_SPOTUP",
+    "DEF_FT_POSS_PCT_HANDOFF",
+    "DEF_FT_POSS_PCT_ISOLATION",
+    "DEF_FT_POSS_PCT_OFFSCREEN",
+    "DEF_FT_POSS_PCT_POSTUP",
+    "DEF_FT_POSS_PCT_PRBALLHANDLER",
+    "DEF_FT_POSS_PCT_PRROLLMAN",
+    "DEF_FT_POSS_PCT_SPOTUP",
+    "DEF_LOOSE_BALLS_RECOVERED",
+    "DEF_POSS_HANDOFF",
+    "DEF_POSS_ISOLATION",
+    "DEF_POSS_OFFSCREEN",
+    "DEF_POSS_POSTUP",
+    "DEF_POSS_PRBALLHANDLER",
+    "DEF_POSS_PRROLLMAN",
+    "DEF_POSS_SPOTUP",
+    "DEF_PPP_HANDOFF",
+    "DEF_PPP_ISOLATION",
+    "DEF_PPP_OFFSCREEN",
+    "DEF_PPP_POSTUP",
+    "DEF_PPP_PRBALLHANDLER",
+    "DEF_PPP_PRROLLMAN",
+    "DEF_PPP_SPOTUP",
+    "DRB",
+    "DRB%",
+    "DREB",
+    "DREB_RANK",
+    "DWS",
+    "DWS_BBREF",
+    "D_FG_PCT",
+    "EFG%",
+    "E_AST_RATIO",
+    "E_AST_RATIO_RANK",
+    "E_DEF_RATING",
+    "E_DEF_RATING_RANK",
+    "E_DREB_PCT",
+    "E_DREB_PCT_RANK",
+    "E_NET_RATING",
+    "E_NET_RATING_RANK",
+    "E_OFF_RATING",
+    "E_OFF_RATING_RANK",
+    "E_OREB_PCT",
+    "E_OREB_PCT_RANK",
+    "E_PACE",
+    "E_PACE_RANK",
+    "E_REB_PCT",
+    "E_REB_PCT_RANK",
+    "E_TOV_PCT",
+    "E_TOV_PCT_RANK",
+    "E_USG_PCT",
+    "E_USG_PCT_RANK",
+    "FG",
+    "FG%",
+    "FG3A",
+    "FG3A_RANK",
+    "FG3M",
+    "FG3M_RANK",
+    "FG3_PCT",
+    "FG3_PCT_RANK",
+    "FGA",
+    "FGA_RANK",
+    "FGM",
+    "FGM_RANK",
+    "FG_PCT",
+    "FG_PCT_RANK",
+    "FT",
+    "FT%",
+    "FTA",
+    "FTA_RANK",
+    "FTM",
+    "FTM_RANK",
+    "FTR",
+    "FT_PCT",
+    "FT_PCT_RANK",
+    "G",
+    "GP",
+    "GP_RANK",
+    "GS",
+    "L",
+    "LOOSE_BALLS_RECOVERED",
+    "LOSSES",
+    "L_RANK",
+    "MIN",
+    "MIN_RANK",
+    "MP",
+    "OBPM",
+    "OFFENSIVE_LOAD%",
+    "OFF_BOXOUTS",
+    "OFF_EFG_PCT_CUT",
+    "OFF_EFG_PCT_HANDOFF",
+    "OFF_EFG_PCT_ISOLATION",
+    "OFF_EFG_PCT_MISC",
+    "OFF_EFG_PCT_OFFREBOUND",
+    "OFF_EFG_PCT_OFFSCREEN",
+    "OFF_EFG_PCT_POSTUP",
+    "OFF_EFG_PCT_PRBALLHANDLER",
+    "OFF_EFG_PCT_PRROLLMAN",
+    "OFF_EFG_PCT_SPOTUP",
+    "OFF_EFG_PCT_TRANSITION",
+    "OFF_FG_PCT_CUT",
+    "OFF_FG_PCT_HANDOFF",
+    "OFF_FG_PCT_ISOLATION",
+    "OFF_FG_PCT_MISC",
+    "OFF_FG_PCT_OFFREBOUND",
+    "OFF_FG_PCT_OFFSCREEN",
+    "OFF_FG_PCT_POSTUP",
+    "OFF_FG_PCT_PRBALLHANDLER",
+    "OFF_FG_PCT_PRROLLMAN",
+    "OFF_FG_PCT_SPOTUP",
+    "OFF_FG_PCT_TRANSITION",
+    "OFF_FT_POSS_PCT_CUT",
+    "OFF_FT_POSS_PCT_HANDOFF",
+    "OFF_FT_POSS_PCT_ISOLATION",
+    "OFF_FT_POSS_PCT_MISC",
+    "OFF_FT_POSS_PCT_OFFREBOUND",
+    "OFF_FT_POSS_PCT_OFFSCREEN",
+    "OFF_FT_POSS_PCT_POSTUP",
+    "OFF_FT_POSS_PCT_PRBALLHANDLER",
+    "OFF_FT_POSS_PCT_PRROLLMAN",
+    "OFF_FT_POSS_PCT_SPOTUP",
+    "OFF_FT_POSS_PCT_TRANSITION",
+    "OFF_LOOSE_BALLS_RECOVERED",
+    "OFF_POSS_CUT",
+    "OFF_POSS_HANDOFF",
+    "OFF_POSS_ISOLATION",
+    "OFF_POSS_MISC",
+    "OFF_POSS_OFFREBOUND",
+    "OFF_POSS_OFFSCREEN",
+    "OFF_POSS_POSTUP",
+    "OFF_POSS_PRBALLHANDLER",
+    "OFF_POSS_PRROLLMAN",
+    "OFF_POSS_SPOTUP",
+    "OFF_POSS_TRANSITION",
+    "OFF_PPP_CUT",
+    "OFF_PPP_HANDOFF",
+    "OFF_PPP_ISOLATION",
+    "OFF_PPP_MISC",
+    "OFF_PPP_OFFREBOUND",
+    "OFF_PPP_OFFSCREEN",
+    "OFF_PPP_POSTUP",
+    "OFF_PPP_PRBALLHANDLER",
+    "OFF_PPP_PRROLLMAN",
+    "OFF_PPP_SPOTUP",
+    "OFF_PPP_TRANSITION",
+    "ORB",
+    "ORB%",
+    "OREB",
+    "OREB_RANK",
+    "OWS",
+    "PCT_BOX_OUTS_DEF",
+    "PCT_BOX_OUTS_OFF",
+    "PCT_BOX_OUTS_REB",
+    "PCT_BOX_OUTS_TEAM_REB",
+    "PCT_LOOSE_BALLS_RECOVERED_DEF",
+    "PCT_LOOSE_BALLS_RECOVERED_OFF",
+    "PER",
+    "PF",
+    "PFD",
+    "PFD_RANK",
+    "PF_RANK",
+    "PLAYER_POSS",
+    "PLAYMAKING_USAGE%",
+    "PLUS_MINUS",
+    "PLUS_MINUS_RANK",
+    "PTS",
+    "PTS_RANK",
+    "REB",
+    "REB_RANK",
+    "SCORING_USAGE%",
+    "SCREEN_ASSISTS",
+    "SCREEN_AST_PTS",
+    "STL",
+    "STL%",
+    "STL_RANK",
+    "TD3",
+    "TD3_RANK",
+    "TEAM_COUNT",
+    "TEAM_POSS",
+    "TM_AST",
+    "TM_DRB",
+    "TM_FG",
+    "TM_FGA",
+    "TM_FTA",
+    "TM_MP",
+    "TM_ORB",
+    "TM_TOV",
+    "TM_TRB",
+    "TOTAL_DAYS_INJURED",
+    "TOV",
+    "TOV%",
+    "TOV_RANK",
+    "TRB",
+    "TRB%",
+    "TRB%_BBREF",
+    "TRB_PER_36",
+    "TRUE_USAGE%",
+    "TS%",
+    "TURNOVER_USAGE%",
+    "USG%",
+    "VORP",
+    "VORP_BBREF",
+    "W",
+    "WINS",
+    "WS",
+    "WS/48",
+    "WS_rollmean_3",
+    "W_PCT",
+    "W_PCT_RANK",
+    "W_RANK",
+    "portability_score"
+  ],
+  "nominal_cats": [
+    "POSITION",
+    "cap_space_tier",
+    "market_tier"
+  ],
+  "ordinal_map": {
+    "experience_bucket": [
+      "0",
+      "1-2",
+      "3-5",
+      "6-9",
+      "10-14",
+      "15+"
+    ]
+  },
+  "drops": [
+    "player_id",
+    "team_id",
+    "_uid",
+    "_merge"
+  ],
+  "time_cols": [
+    "SEASON",
+    "SEASON_TYPE",
+    "season_start_year"
+  ],
+  "raw_features": [
+    "GP",
+    "GS",
+    "MP",
+    "PLAYER_POSS",
+    "TM_FGA",
+    "TM_FG",
+    "TM_TRB",
+    "TM_TOV",
+    "TM_ORB",
+    "TM_MP",
+    "TM_FTA",
+    "TM_DRB",
+    "TM_AST",
+    "FG",
+    "FGA",
+    "FG%",
+    "3P",
+    "3PA",
+    "3P%",
+    "2P",
+    "2PA",
+    "2P%",
+    "FT",
+    "FTA",
+    "FT%",
+    "FTR",
+    "EFG%",
+    "TS%",
+    "USG%",
+    "TRUE_USAGE%",
+    "TURNOVER_USAGE%",
+    "PLAYMAKING_USAGE%",
+    "SCORING_USAGE%",
+    "PER",
+    "BPM",
+    "OBPM",
+    "DBPM",
+    "VORP",
+    "OWS",
+    "DWS",
+    "WS",
+    "WS/48",
+    "OFFENSIVE_LOAD%",
+    "WS_rollmean_3",
+    "portability_score",
+    "AST_RANK",
+    "BLK_RANK",
+    "BLKA_RANK",
+    "OREB_RANK",
+    "REB_RANK",
+    "PTS_RANK",
+    "PLUS_MINUS_RANK",
+    "FTA_RANK",
+    "FT_PCT_RANK",
+    "FG_PCT_RANK",
+    "FGM_RANK",
+    "W_RANK",
+    "L_RANK",
+    "W_PCT_RANK",
+    "MIN_RANK",
+    "TD3_RANK",
+    "DD2_RANK",
+    "WINS",
+    "LOSSES",
+    "W_PCT",
+    "W",
+    "L",
+    "3PAR",
+    "AST",
+    "AST%",
+    "BLK",
+    "BLK%",
+    "BLKA",
+    "BOX_OUTS",
+    "BOX_OUT_PLAYER_REBS",
+    "BOX_OUT_PLAYER_TEAM_REBS",
+    "BPM_BBREF",
+    "CHARGES_DRAWN",
+    "CONTESTED_SHOTS",
+    "CONTESTED_SHOTS_2PT",
+    "CONTESTED_SHOTS_3PT",
+    "DD2",
+    "DEFLECTIONS",
+    "DEF_BOXOUTS",
+    "DEF_LOOSE_BALLS_RECOVERED",
+    "DRB",
+    "DRB%",
+    "DREB",
+    "DREB_RANK",
+    "DWS_BBREF",
+    "D_FG_PCT",
+    "E_AST_RATIO",
+    "E_AST_RATIO_RANK",
+    "E_DEF_RATING",
+    "E_DEF_RATING_RANK",
+    "E_DREB_PCT",
+    "E_DREB_PCT_RANK",
+    "E_NET_RATING",
+    "E_NET_RATING_RANK",
+    "E_OFF_RATING",
+    "E_OFF_RATING_RANK",
+    "E_OREB_PCT",
+    "E_OREB_PCT_RANK",
+    "E_PACE",
+    "E_PACE_RANK",
+    "E_REB_PCT",
+    "E_REB_PCT_RANK",
+    "E_TOV_PCT",
+    "E_TOV_PCT_RANK",
+    "E_USG_PCT",
+    "E_USG_PCT_RANK",
+    "FG3A",
+    "FG3A_RANK",
+    "FG3M",
+    "FG3M_RANK",
+    "FG3_PCT",
+    "FG3_PCT_RANK",
+    "FGA_RANK",
+    "FGM",
+    "FG_PCT",
+    "FTM",
+    "FTM_RANK",
+    "FT_PCT",
+    "G",
+    "GP_RANK",
+    "MIN",
+    "OFF_BOXOUTS",
+    "OFF_LOOSE_BALLS_RECOVERED",
+    "ORB",
+    "ORB%",
+    "OREB",
+    "PCT_BOX_OUTS_DEF",
+    "PCT_BOX_OUTS_OFF",
+    "PCT_BOX_OUTS_REB",
+    "PCT_BOX_OUTS_TEAM_REB",
+    "PCT_LOOSE_BALLS_RECOVERED_DEF",
+    "PCT_LOOSE_BALLS_RECOVERED_OFF",
+    "PF",
+    "PFD",
+    "PFD_RANK",
+    "PF_RANK",
+    "PLUS_MINUS",
+    "PTS",
+    "REB",
+    "SCREEN_ASSISTS",
+    "SCREEN_AST_PTS",
+    "STL",
+    "STL%",
+    "STL_RANK",
+    "TD3",
+    "TEAM_COUNT",
+    "TEAM_POSS",
+    "TOTAL_DAYS_INJURED",
+    "major_injury_14d_flag",
+    "major_injury_30d_flag",
+    "TOV",
+    "TOV%",
+    "TOV_RANK",
+    "TRB",
+    "TRB%",
+    "TRB%_BBREF",
+    "TRB_PER_36",
+    "VORP_BBREF",
+    "LOOSE_BALLS_RECOVERED",
+    "OFF_EFG_PCT_CUT",
+    "OFF_EFG_PCT_HANDOFF",
+    "OFF_EFG_PCT_ISOLATION",
+    "OFF_EFG_PCT_MISC",
+    "OFF_EFG_PCT_OFFREBOUND",
+    "OFF_EFG_PCT_OFFSCREEN",
+    "OFF_EFG_PCT_PRBALLHANDLER",
+    "OFF_EFG_PCT_PRROLLMAN",
+    "OFF_EFG_PCT_POSTUP",
+    "OFF_EFG_PCT_SPOTUP",
+    "OFF_EFG_PCT_TRANSITION",
+    "OFF_FG_PCT_CUT",
+    "OFF_FG_PCT_HANDOFF",
+    "OFF_FG_PCT_ISOLATION",
+    "OFF_FG_PCT_MISC",
+    "OFF_FG_PCT_OFFREBOUND",
+    "OFF_FG_PCT_OFFSCREEN",
+    "OFF_FG_PCT_PRBALLHANDLER",
+    "OFF_FG_PCT_PRROLLMAN",
+    "OFF_FG_PCT_POSTUP",
+    "OFF_FG_PCT_SPOTUP",
+    "OFF_FG_PCT_TRANSITION",
+    "OFF_FT_POSS_PCT_CUT",
+    "OFF_FT_POSS_PCT_HANDOFF",
+    "OFF_FT_POSS_PCT_ISOLATION",
+    "OFF_FT_POSS_PCT_MISC",
+    "OFF_FT_POSS_PCT_OFFREBOUND",
+    "OFF_FT_POSS_PCT_OFFSCREEN",
+    "OFF_FT_POSS_PCT_PRBALLHANDLER",
+    "OFF_FT_POSS_PCT_PRROLLMAN",
+    "OFF_FT_POSS_PCT_POSTUP",
+    "OFF_FT_POSS_PCT_SPOTUP",
+    "OFF_FT_POSS_PCT_TRANSITION",
+    "OFF_POSS_CUT",
+    "OFF_POSS_HANDOFF",
+    "OFF_POSS_ISOLATION",
+    "OFF_POSS_MISC",
+    "OFF_POSS_OFFREBOUND",
+    "OFF_POSS_OFFSCREEN",
+    "OFF_POSS_PRBALLHANDLER",
+    "OFF_POSS_PRROLLMAN",
+    "OFF_POSS_POSTUP",
+    "OFF_POSS_SPOTUP",
+    "OFF_POSS_TRANSITION",
+    "OFF_PPP_CUT",
+    "OFF_PPP_HANDOFF",
+    "OFF_PPP_ISOLATION",
+    "OFF_PPP_MISC",
+    "OFF_PPP_OFFREBOUND",
+    "OFF_PPP_OFFSCREEN",
+    "OFF_PPP_PRBALLHANDLER",
+    "OFF_PPP_PRROLLMAN",
+    "OFF_PPP_POSTUP",
+    "OFF_PPP_SPOTUP",
+    "OFF_PPP_TRANSITION",
+    "DEF_EFG_PCT_HANDOFF",
+    "DEF_EFG_PCT_ISOLATION",
+    "DEF_EFG_PCT_OFFSCREEN",
+    "DEF_EFG_PCT_PRBALLHANDLER",
+    "DEF_EFG_PCT_PRROLLMAN",
+    "DEF_EFG_PCT_POSTUP",
+    "DEF_EFG_PCT_SPOTUP",
+    "DEF_FG_PCT_HANDOFF",
+    "DEF_FG_PCT_ISOLATION",
+    "DEF_FG_PCT_OFFSCREEN",
+    "DEF_FG_PCT_PRBALLHANDLER",
+    "DEF_FG_PCT_PRROLLMAN",
+    "DEF_FG_PCT_POSTUP",
+    "DEF_FG_PCT_SPOTUP",
+    "DEF_FT_POSS_PCT_HANDOFF",
+    "DEF_FT_POSS_PCT_ISOLATION",
+    "DEF_FT_POSS_PCT_OFFSCREEN",
+    "DEF_FT_POSS_PCT_PRBALLHANDLER",
+    "DEF_FT_POSS_PCT_PRROLLMAN",
+    "DEF_FT_POSS_PCT_POSTUP",
+    "DEF_FT_POSS_PCT_SPOTUP",
+    "DEF_POSS_HANDOFF",
+    "DEF_POSS_ISOLATION",
+    "DEF_POSS_OFFSCREEN",
+    "DEF_POSS_PRBALLHANDLER",
+    "DEF_POSS_PRROLLMAN",
+    "DEF_POSS_POSTUP",
+    "DEF_POSS_SPOTUP",
+    "DEF_PPP_HANDOFF",
+    "DEF_PPP_ISOLATION",
+    "DEF_PPP_OFFSCREEN",
+    "DEF_PPP_PRBALLHANDLER",
+    "DEF_PPP_PRROLLMAN",
+    "DEF_PPP_POSTUP",
+    "DEF_PPP_SPOTUP",
+    "SEASON",
+    "season_start_year",
+    "experience_bucket",
+    "AGE",
+    "POSITION",
+    "SEASON_TYPE",
+    "market_tier",
+    "cap_space_tier"
+  ],
+  "encoded_feature_map": {
+    "GP": [
+      "num__GP"
+    ],
+    "GS": [
+      "num__GS"
+    ],
+    "MP": [
+      "num__MP"
+    ],
+    "PLAYER_POSS": [
+      "num__PLAYER_POSS"
+    ],
+    "TM_FGA": [
+      "num__TM_FGA"
+    ],
+    "TM_FG": [
+      "num__TM_FG"
+    ],
+    "TM_TRB": [
+      "num__TM_TRB"
+    ],
+    "TM_TOV": [
+      "num__TM_TOV"
+    ],
+    "TM_ORB": [
+      "num__TM_ORB"
+    ],
+    "TM_MP": [
+      "num__TM_MP"
+    ],
+    "TM_FTA": [
+      "num__TM_FTA"
+    ],
+    "TM_DRB": [
+      "num__TM_DRB"
+    ],
+    "TM_AST": [
+      "num__TM_AST"
+    ],
+    "FG": [
+      "num__FG"
+    ],
+    "FGA": [
+      "num__FGA"
+    ],
+    "FG%": [
+      "num__FG%"
+    ],
+    "3P": [
+      "num__3P"
+    ],
+    "3PA": [
+      "num__3PA"
+    ],
+    "3P%": [
+      "num__3P%"
+    ],
+    "2P": [
+      "num__2P"
+    ],
+    "2PA": [
+      "num__2PA"
+    ],
+    "2P%": [
+      "num__2P%"
+    ],
+    "FT": [
+      "num__FT"
+    ],
+    "FTA": [
+      "num__FTA"
+    ],
+    "FT%": [
+      "num__FT%"
+    ],
+    "FTR": [
+      "num__FTR"
+    ],
+    "EFG%": [
+      "num__EFG%"
+    ],
+    "TS%": [
+      "num__TS%"
+    ],
+    "USG%": [
+      "num__USG%"
+    ],
+    "TRUE_USAGE%": [
+      "num__TRUE_USAGE%"
+    ],
+    "TURNOVER_USAGE%": [
+      "num__TURNOVER_USAGE%"
+    ],
+    "PLAYMAKING_USAGE%": [
+      "num__PLAYMAKING_USAGE%"
+    ],
+    "SCORING_USAGE%": [
+      "num__SCORING_USAGE%"
+    ],
+    "PER": [
+      "num__PER"
+    ],
+    "BPM": [
+      "num__BPM"
+    ],
+    "OBPM": [
+      "num__OBPM"
+    ],
+    "DBPM": [
+      "num__DBPM"
+    ],
+    "VORP": [
+      "num__VORP"
+    ],
+    "OWS": [
+      "num__OWS"
+    ],
+    "DWS": [
+      "num__DWS"
+    ],
+    "WS": [
+      "num__WS"
+    ],
+    "WS/48": [
+      "num__WS/48"
+    ],
+    "OFFENSIVE_LOAD%": [
+      "num__OFFENSIVE_LOAD%"
+    ],
+    "WS_rollmean_3": [
+      "num__WS_rollmean_3"
+    ],
+    "portability_score": [
+      "num__portability_score"
+    ],
+    "AST_RANK": [
+      "num__AST_RANK"
+    ],
+    "BLK_RANK": [
+      "num__BLK_RANK"
+    ],
+    "BLKA_RANK": [
+      "num__BLKA_RANK"
+    ],
+    "OREB_RANK": [
+      "num__OREB_RANK"
+    ],
+    "REB_RANK": [
+      "num__REB_RANK"
+    ],
+    "PTS_RANK": [
+      "num__PTS_RANK"
+    ],
+    "PLUS_MINUS_RANK": [
+      "num__PLUS_MINUS_RANK"
+    ],
+    "FTA_RANK": [
+      "num__FTA_RANK"
+    ],
+    "FT_PCT_RANK": [
+      "num__FT_PCT_RANK"
+    ],
+    "FG_PCT_RANK": [
+      "num__FG_PCT_RANK"
+    ],
+    "FGM_RANK": [
+      "num__FGM_RANK"
+    ],
+    "W_RANK": [
+      "num__W_RANK"
+    ],
+    "L_RANK": [
+      "num__L_RANK"
+    ],
+    "W_PCT_RANK": [
+      "num__W_PCT_RANK"
+    ],
+    "MIN_RANK": [
+      "num__MIN_RANK"
+    ],
+    "TD3_RANK": [
+      "num__TD3_RANK"
+    ],
+    "DD2_RANK": [
+      "num__DD2_RANK"
+    ],
+    "WINS": [
+      "num__WINS"
+    ],
+    "LOSSES": [
+      "num__LOSSES"
+    ],
+    "W_PCT": [
+      "num__W_PCT"
+    ],
+    "W": [
+      "num__W"
+    ],
+    "L": [
+      "num__L"
+    ],
+    "3PAR": [
+      "num__3PAR"
+    ],
+    "AST": [
+      "num__AST"
+    ],
+    "AST%": [
+      "num__AST%"
+    ],
+    "BLK": [
+      "num__BLK"
+    ],
+    "BLK%": [
+      "num__BLK%"
+    ],
+    "BLKA": [
+      "num__BLKA"
+    ],
+    "BOX_OUTS": [
+      "num__BOX_OUTS"
+    ],
+    "BOX_OUT_PLAYER_REBS": [
+      "num__BOX_OUT_PLAYER_REBS"
+    ],
+    "BOX_OUT_PLAYER_TEAM_REBS": [
+      "num__BOX_OUT_PLAYER_TEAM_REBS"
+    ],
+    "BPM_BBREF": [
+      "num__BPM_BBREF"
+    ],
+    "CHARGES_DRAWN": [
+      "num__CHARGES_DRAWN"
+    ],
+    "CONTESTED_SHOTS": [
+      "num__CONTESTED_SHOTS"
+    ],
+    "CONTESTED_SHOTS_2PT": [
+      "num__CONTESTED_SHOTS_2PT"
+    ],
+    "CONTESTED_SHOTS_3PT": [
+      "num__CONTESTED_SHOTS_3PT"
+    ],
+    "DD2": [
+      "num__DD2"
+    ],
+    "DEFLECTIONS": [
+      "num__DEFLECTIONS"
+    ],
+    "DEF_BOXOUTS": [
+      "num__DEF_BOXOUTS"
+    ],
+    "DEF_LOOSE_BALLS_RECOVERED": [
+      "num__DEF_LOOSE_BALLS_RECOVERED"
+    ],
+    "DRB": [
+      "num__DRB"
+    ],
+    "DRB%": [
+      "num__DRB%"
+    ],
+    "DREB": [
+      "num__DREB"
+    ],
+    "DREB_RANK": [
+      "num__DREB_RANK"
+    ],
+    "DWS_BBREF": [
+      "num__DWS_BBREF"
+    ],
+    "D_FG_PCT": [
+      "num__D_FG_PCT"
+    ],
+    "E_AST_RATIO": [
+      "num__E_AST_RATIO"
+    ],
+    "E_AST_RATIO_RANK": [
+      "num__E_AST_RATIO_RANK"
+    ],
+    "E_DEF_RATING": [
+      "num__E_DEF_RATING"
+    ],
+    "E_DEF_RATING_RANK": [
+      "num__E_DEF_RATING_RANK"
+    ],
+    "E_DREB_PCT": [
+      "num__E_DREB_PCT"
+    ],
+    "E_DREB_PCT_RANK": [
+      "num__E_DREB_PCT_RANK"
+    ],
+    "E_NET_RATING": [
+      "num__E_NET_RATING"
+    ],
+    "E_NET_RATING_RANK": [
+      "num__E_NET_RATING_RANK"
+    ],
+    "E_OFF_RATING": [
+      "num__E_OFF_RATING"
+    ],
+    "E_OFF_RATING_RANK": [
+      "num__E_OFF_RATING_RANK"
+    ],
+    "E_OREB_PCT": [
+      "num__E_OREB_PCT"
+    ],
+    "E_OREB_PCT_RANK": [
+      "num__E_OREB_PCT_RANK"
+    ],
+    "E_PACE": [
+      "num__E_PACE"
+    ],
+    "E_PACE_RANK": [
+      "num__E_PACE_RANK"
+    ],
+    "E_REB_PCT": [
+      "num__E_REB_PCT"
+    ],
+    "E_REB_PCT_RANK": [
+      "num__E_REB_PCT_RANK"
+    ],
+    "E_TOV_PCT": [
+      "num__E_TOV_PCT"
+    ],
+    "E_TOV_PCT_RANK": [
+      "num__E_TOV_PCT_RANK"
+    ],
+    "E_USG_PCT": [
+      "num__E_USG_PCT"
+    ],
+    "E_USG_PCT_RANK": [
+      "num__E_USG_PCT_RANK"
+    ],
+    "FG3A": [
+      "num__FG3A"
+    ],
+    "FG3A_RANK": [
+      "num__FG3A_RANK"
+    ],
+    "FG3M": [
+      "num__FG3M"
+    ],
+    "FG3M_RANK": [
+      "num__FG3M_RANK"
+    ],
+    "FG3_PCT": [
+      "num__FG3_PCT"
+    ],
+    "FG3_PCT_RANK": [
+      "num__FG3_PCT_RANK"
+    ],
+    "FGA_RANK": [
+      "num__FGA_RANK"
+    ],
+    "FGM": [
+      "num__FGM"
+    ],
+    "FG_PCT": [
+      "num__FG_PCT"
+    ],
+    "FTM": [
+      "num__FTM"
+    ],
+    "FTM_RANK": [
+      "num__FTM_RANK"
+    ],
+    "FT_PCT": [
+      "num__FT_PCT"
+    ],
+    "G": [
+      "num__G"
+    ],
+    "GP_RANK": [
+      "num__GP_RANK"
+    ],
+    "MIN": [
+      "num__MIN"
+    ],
+    "OFF_BOXOUTS": [
+      "num__OFF_BOXOUTS"
+    ],
+    "OFF_LOOSE_BALLS_RECOVERED": [
+      "num__OFF_LOOSE_BALLS_RECOVERED"
+    ],
+    "ORB": [
+      "num__ORB"
+    ],
+    "ORB%": [
+      "num__ORB%"
+    ],
+    "OREB": [
+      "num__OREB"
+    ],
+    "PCT_BOX_OUTS_DEF": [
+      "num__PCT_BOX_OUTS_DEF"
+    ],
+    "PCT_BOX_OUTS_OFF": [
+      "num__PCT_BOX_OUTS_OFF"
+    ],
+    "PCT_BOX_OUTS_REB": [
+      "num__PCT_BOX_OUTS_REB"
+    ],
+    "PCT_BOX_OUTS_TEAM_REB": [
+      "num__PCT_BOX_OUTS_TEAM_REB"
+    ],
+    "PCT_LOOSE_BALLS_RECOVERED_DEF": [
+      "num__PCT_LOOSE_BALLS_RECOVERED_DEF"
+    ],
+    "PCT_LOOSE_BALLS_RECOVERED_OFF": [
+      "num__PCT_LOOSE_BALLS_RECOVERED_OFF"
+    ],
+    "PF": [
+      "num__PF"
+    ],
+    "PFD": [
+      "num__PFD"
+    ],
+    "PFD_RANK": [
+      "num__PFD_RANK"
+    ],
+    "PF_RANK": [
+      "num__PF_RANK"
+    ],
+    "PLUS_MINUS": [
+      "num__PLUS_MINUS"
+    ],
+    "PTS": [
+      "num__PTS"
+    ],
+    "REB": [
+      "num__REB"
+    ],
+    "SCREEN_ASSISTS": [
+      "num__SCREEN_ASSISTS"
+    ],
+    "SCREEN_AST_PTS": [
+      "num__SCREEN_AST_PTS"
+    ],
+    "STL": [
+      "num__STL"
+    ],
+    "STL%": [
+      "num__STL%"
+    ],
+    "STL_RANK": [
+      "num__STL_RANK"
+    ],
+    "TD3": [
+      "num__TD3"
+    ],
+    "TEAM_COUNT": [
+      "num__TEAM_COUNT"
+    ],
+    "TEAM_POSS": [
+      "num__TEAM_POSS"
+    ],
+    "TOTAL_DAYS_INJURED": [
+      "num__TOTAL_DAYS_INJURED"
+    ],
+    "TOV": [
+      "num__TOV"
+    ],
+    "TOV%": [
+      "num__TOV%"
+    ],
+    "TOV_RANK": [
+      "num__TOV_RANK"
+    ],
+    "TRB": [
+      "num__TRB"
+    ],
+    "TRB%": [
+      "num__TRB%"
+    ],
+    "TRB%_BBREF": [
+      "num__TRB%_BBREF"
+    ],
+    "TRB_PER_36": [
+      "num__TRB_PER_36"
+    ],
+    "VORP_BBREF": [
+      "num__VORP_BBREF"
+    ],
+    "LOOSE_BALLS_RECOVERED": [
+      "num__LOOSE_BALLS_RECOVERED"
+    ],
+    "OFF_EFG_PCT_CUT": [
+      "num__OFF_EFG_PCT_CUT"
+    ],
+    "OFF_EFG_PCT_HANDOFF": [
+      "num__OFF_EFG_PCT_HANDOFF"
+    ],
+    "OFF_EFG_PCT_ISOLATION": [
+      "num__OFF_EFG_PCT_ISOLATION"
+    ],
+    "OFF_EFG_PCT_MISC": [
+      "num__OFF_EFG_PCT_MISC"
+    ],
+    "OFF_EFG_PCT_OFFREBOUND": [
+      "num__OFF_EFG_PCT_OFFREBOUND"
+    ],
+    "OFF_EFG_PCT_OFFSCREEN": [
+      "num__OFF_EFG_PCT_OFFSCREEN"
+    ],
+    "OFF_EFG_PCT_PRBALLHANDLER": [
+      "num__OFF_EFG_PCT_PRBALLHANDLER"
+    ],
+    "OFF_EFG_PCT_PRROLLMAN": [
+      "num__OFF_EFG_PCT_PRROLLMAN"
+    ],
+    "OFF_EFG_PCT_POSTUP": [
+      "num__OFF_EFG_PCT_POSTUP"
+    ],
+    "OFF_EFG_PCT_SPOTUP": [
+      "num__OFF_EFG_PCT_SPOTUP"
+    ],
+    "OFF_EFG_PCT_TRANSITION": [
+      "num__OFF_EFG_PCT_TRANSITION"
+    ],
+    "OFF_FG_PCT_CUT": [
+      "num__OFF_FG_PCT_CUT"
+    ],
+    "OFF_FG_PCT_HANDOFF": [
+      "num__OFF_FG_PCT_HANDOFF"
+    ],
+    "OFF_FG_PCT_ISOLATION": [
+      "num__OFF_FG_PCT_ISOLATION"
+    ],
+    "OFF_FG_PCT_MISC": [
+      "num__OFF_FG_PCT_MISC"
+    ],
+    "OFF_FG_PCT_OFFREBOUND": [
+      "num__OFF_FG_PCT_OFFREBOUND"
+    ],
+    "OFF_FG_PCT_OFFSCREEN": [
+      "num__OFF_FG_PCT_OFFSCREEN"
+    ],
+    "OFF_FG_PCT_PRBALLHANDLER": [
+      "num__OFF_FG_PCT_PRBALLHANDLER"
+    ],
+    "OFF_FG_PCT_PRROLLMAN": [
+      "num__OFF_FG_PCT_PRROLLMAN"
+    ],
+    "OFF_FG_PCT_POSTUP": [
+      "num__OFF_FG_PCT_POSTUP"
+    ],
+    "OFF_FG_PCT_SPOTUP": [
+      "num__OFF_FG_PCT_SPOTUP"
+    ],
+    "OFF_FG_PCT_TRANSITION": [
+      "num__OFF_FG_PCT_TRANSITION"
+    ],
+    "OFF_FT_POSS_PCT_CUT": [
+      "num__OFF_FT_POSS_PCT_CUT"
+    ],
+    "OFF_FT_POSS_PCT_HANDOFF": [
+      "num__OFF_FT_POSS_PCT_HANDOFF"
+    ],
+    "OFF_FT_POSS_PCT_ISOLATION": [
+      "num__OFF_FT_POSS_PCT_ISOLATION"
+    ],
+    "OFF_FT_POSS_PCT_MISC": [
+      "num__OFF_FT_POSS_PCT_MISC"
+    ],
+    "OFF_FT_POSS_PCT_OFFREBOUND": [
+      "num__OFF_FT_POSS_PCT_OFFREBOUND"
+    ],
+    "OFF_FT_POSS_PCT_OFFSCREEN": [
+      "num__OFF_FT_POSS_PCT_OFFSCREEN"
+    ],
+    "OFF_FT_POSS_PCT_PRBALLHANDLER": [
+      "num__OFF_FT_POSS_PCT_PRBALLHANDLER"
+    ],
+    "OFF_FT_POSS_PCT_PRROLLMAN": [
+      "num__OFF_FT_POSS_PCT_PRROLLMAN"
+    ],
+    "OFF_FT_POSS_PCT_POSTUP": [
+      "num__OFF_FT_POSS_PCT_POSTUP"
+    ],
+    "OFF_FT_POSS_PCT_SPOTUP": [
+      "num__OFF_FT_POSS_PCT_SPOTUP"
+    ],
+    "OFF_FT_POSS_PCT_TRANSITION": [
+      "num__OFF_FT_POSS_PCT_TRANSITION"
+    ],
+    "OFF_POSS_CUT": [
+      "num__OFF_POSS_CUT"
+    ],
+    "OFF_POSS_HANDOFF": [
+      "num__OFF_POSS_HANDOFF"
+    ],
+    "OFF_POSS_ISOLATION": [
+      "num__OFF_POSS_ISOLATION"
+    ],
+    "OFF_POSS_MISC": [
+      "num__OFF_POSS_MISC"
+    ],
+    "OFF_POSS_OFFREBOUND": [
+      "num__OFF_POSS_OFFREBOUND"
+    ],
+    "OFF_POSS_OFFSCREEN": [
+      "num__OFF_POSS_OFFSCREEN"
+    ],
+    "OFF_POSS_PRBALLHANDLER": [
+      "num__OFF_POSS_PRBALLHANDLER"
+    ],
+    "OFF_POSS_PRROLLMAN": [
+      "num__OFF_POSS_PRROLLMAN"
+    ],
+    "OFF_POSS_POSTUP": [
+      "num__OFF_POSS_POSTUP"
+    ],
+    "OFF_POSS_SPOTUP": [
+      "num__OFF_POSS_SPOTUP"
+    ],
+    "OFF_POSS_TRANSITION": [
+      "num__OFF_POSS_TRANSITION"
+    ],
+    "OFF_PPP_CUT": [
+      "num__OFF_PPP_CUT"
+    ],
+    "OFF_PPP_HANDOFF": [
+      "num__OFF_PPP_HANDOFF"
+    ],
+    "OFF_PPP_ISOLATION": [
+      "num__OFF_PPP_ISOLATION"
+    ],
+    "OFF_PPP_MISC": [
+      "num__OFF_PPP_MISC"
+    ],
+    "OFF_PPP_OFFREBOUND": [
+      "num__OFF_PPP_OFFREBOUND"
+    ],
+    "OFF_PPP_OFFSCREEN": [
+      "num__OFF_PPP_OFFSCREEN"
+    ],
+    "OFF_PPP_PRBALLHANDLER": [
+      "num__OFF_PPP_PRBALLHANDLER"
+    ],
+    "OFF_PPP_PRROLLMAN": [
+      "num__OFF_PPP_PRROLLMAN"
+    ],
+    "OFF_PPP_POSTUP": [
+      "num__OFF_PPP_POSTUP"
+    ],
+    "OFF_PPP_SPOTUP": [
+      "num__OFF_PPP_SPOTUP"
+    ],
+    "OFF_PPP_TRANSITION": [
+      "num__OFF_PPP_TRANSITION"
+    ],
+    "DEF_EFG_PCT_HANDOFF": [
+      "num__DEF_EFG_PCT_HANDOFF"
+    ],
+    "DEF_EFG_PCT_ISOLATION": [
+      "num__DEF_EFG_PCT_ISOLATION"
+    ],
+    "DEF_EFG_PCT_OFFSCREEN": [
+      "num__DEF_EFG_PCT_OFFSCREEN"
+    ],
+    "DEF_EFG_PCT_PRBALLHANDLER": [
+      "num__DEF_EFG_PCT_PRBALLHANDLER"
+    ],
+    "DEF_EFG_PCT_PRROLLMAN": [
+      "num__DEF_EFG_PCT_PRROLLMAN"
+    ],
+    "DEF_EFG_PCT_POSTUP": [
+      "num__DEF_EFG_PCT_POSTUP"
+    ],
+    "DEF_EFG_PCT_SPOTUP": [
+      "num__DEF_EFG_PCT_SPOTUP"
+    ],
+    "DEF_FG_PCT_HANDOFF": [
+      "num__DEF_FG_PCT_HANDOFF"
+    ],
+    "DEF_FG_PCT_ISOLATION": [
+      "num__DEF_FG_PCT_ISOLATION"
+    ],
+    "DEF_FG_PCT_OFFSCREEN": [
+      "num__DEF_FG_PCT_OFFSCREEN"
+    ],
+    "DEF_FG_PCT_PRBALLHANDLER": [
+      "num__DEF_FG_PCT_PRBALLHANDLER"
+    ],
+    "DEF_FG_PCT_PRROLLMAN": [
+      "num__DEF_FG_PCT_PRROLLMAN"
+    ],
+    "DEF_FG_PCT_POSTUP": [
+      "num__DEF_FG_PCT_POSTUP"
+    ],
+    "DEF_FG_PCT_SPOTUP": [
+      "num__DEF_FG_PCT_SPOTUP"
+    ],
+    "DEF_FT_POSS_PCT_HANDOFF": [
+      "num__DEF_FT_POSS_PCT_HANDOFF"
+    ],
+    "DEF_FT_POSS_PCT_ISOLATION": [
+      "num__DEF_FT_POSS_PCT_ISOLATION"
+    ],
+    "DEF_FT_POSS_PCT_OFFSCREEN": [
+      "num__DEF_FT_POSS_PCT_OFFSCREEN"
+    ],
+    "DEF_FT_POSS_PCT_PRBALLHANDLER": [
+      "num__DEF_FT_POSS_PCT_PRBALLHANDLER"
+    ],
+    "DEF_FT_POSS_PCT_PRROLLMAN": [
+      "num__DEF_FT_POSS_PCT_PRROLLMAN"
+    ],
+    "DEF_FT_POSS_PCT_POSTUP": [
+      "num__DEF_FT_POSS_PCT_POSTUP"
+    ],
+    "DEF_FT_POSS_PCT_SPOTUP": [
+      "num__DEF_FT_POSS_PCT_SPOTUP"
+    ],
+    "DEF_POSS_HANDOFF": [
+      "num__DEF_POSS_HANDOFF"
+    ],
+    "DEF_POSS_ISOLATION": [
+      "num__DEF_POSS_ISOLATION"
+    ],
+    "DEF_POSS_OFFSCREEN": [
+      "num__DEF_POSS_OFFSCREEN"
+    ],
+    "DEF_POSS_PRBALLHANDLER": [
+      "num__DEF_POSS_PRBALLHANDLER"
+    ],
+    "DEF_POSS_PRROLLMAN": [
+      "num__DEF_POSS_PRROLLMAN"
+    ],
+    "DEF_POSS_POSTUP": [
+      "num__DEF_POSS_POSTUP"
+    ],
+    "DEF_POSS_SPOTUP": [
+      "num__DEF_POSS_SPOTUP"
+    ],
+    "DEF_PPP_HANDOFF": [
+      "num__DEF_PPP_HANDOFF"
+    ],
+    "DEF_PPP_ISOLATION": [
+      "num__DEF_PPP_ISOLATION"
+    ],
+    "DEF_PPP_OFFSCREEN": [
+      "num__DEF_PPP_OFFSCREEN"
+    ],
+    "DEF_PPP_PRBALLHANDLER": [
+      "num__DEF_PPP_PRBALLHANDLER"
+    ],
+    "DEF_PPP_PRROLLMAN": [
+      "num__DEF_PPP_PRROLLMAN"
+    ],
+    "DEF_PPP_POSTUP": [
+      "num__DEF_PPP_POSTUP"
+    ],
+    "DEF_PPP_SPOTUP": [
+      "num__DEF_PPP_SPOTUP"
+    ],
+    "SEASON": [
+      "ord__SEASON"
+    ],
+    "season_start_year": [
+      "ord__season_start_year"
+    ],
+    "experience_bucket": [
+      "ord__experience_bucket"
+    ],
+    "AGE": [
+      "ord__AGE"
+    ],
+    "POSITION": [
+      "nom__POSITION_Center-Forward",
+      "nom__POSITION_Forward",
+      "nom__POSITION_Forward-Center",
+      "nom__POSITION_Forward-Guard",
+      "nom__POSITION_Guard",
+      "nom__POSITION_Guard-Forward"
+    ],
+    "market_tier": [
+      "nom__market_tier_medium_market",
+      "nom__market_tier_small_market"
+    ],
+    "cap_space_tier": [
+      "nom__cap_space_tier_Low",
+      "nom__cap_space_tier_Medium",
+      "nom__cap_space_tier_Very High",
+      "nom__cap_space_tier_Very Low"
+    ]
+  },
+  "clip_bounds": {},
+  "feature_selection": null,
+  "version": 2,
+  "schema_hash": "1bc6502b0c6ccb83",
+  "preprocessor_signature": {
+    "verbose_feature_names_out": true,
+    "sparse_threshold": 0.0,
+    "has_num": true,
+    "has_ord": true,
+    "has_nom": true
+  },
+  "ohe_categories": {},
+  "nominal_drop_strategy": "first",
+  "ordinal_categories": {}
+}

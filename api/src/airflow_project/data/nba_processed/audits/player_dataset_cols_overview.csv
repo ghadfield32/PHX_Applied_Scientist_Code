@@ -1,0 +1,85 @@
+column,expected,present,required,missing_required
+1st Apron,True,True,False,False
+2P,True,True,False,False
+2P%,True,True,False,False
+2PA,True,True,False,False
+2nd Apron,True,True,False,False
+3P,True,True,False,False
+3P%,True,True,False,False
+3PA,True,True,False,False
+AST,True,True,False,False
+AST%,True,True,False,False
+AST_per_36,True,True,False,False
+Age,True,True,False,False
+BAE,True,True,False,False
+BLK,True,True,False,False
+BLK%,True,True,False,False
+BPM,True,True,False,False
+DBPM,True,True,False,False
+DRB,True,True,False,False
+DRB%,True,True,False,False
+DWS,True,True,False,False
+FG,True,True,False,False
+FG%,True,True,False,False
+FGA,True,True,False,False
+FT,True,True,False,False
+FT%,True,True,False,False
+FTA,True,True,False,False
+GP,True,True,False,False
+GS,True,True,False,False
+Injured,True,True,False,False
+Injury_Periods,True,True,False,False
+Injury_Risk,True,True,False,False
+Losses,True,True,False,False
+Luxury Tax,True,True,False,False
+MP,True,True,False,False
+Non-Taxpayer MLE,True,True,False,False
+OBPM,True,True,False,False
+ORB,True,True,False,False
+ORB%,True,True,False,False
+OWS,True,True,False,False
+Offensive_Load%,True,True,False,False
+PER,True,True,False,False
+PF,True,True,False,False
+PTS,True,True,False,False
+PTS_per_36,True,True,False,False
+Player,True,True,True,False
+Player_Poss,True,True,False,False
+Playmaking_Usage%,True,True,False,False
+Position,True,True,False,False
+STL,True,True,False,False
+STL%,True,True,False,False
+Salary Cap,True,True,False,False
+Salary_Cap_Inflated,True,True,False,False
+Scoring_Usage%,True,True,False,False
+Season,True,True,True,False
+TOV,True,True,False,False
+TOV%,True,True,False,False
+TRB,True,True,False,False
+TRB%,True,True,False,False
+TRB_per_36,True,True,False,False
+TS%,True,True,False,False
+Taxpayer MLE,True,True,False,False
+Team,True,True,True,False
+Team Room MLE,True,True,False,False
+TeamID,True,True,False,False
+Team_Poss,True,True,False,False
+Tm_AST,True,True,False,False
+Tm_DRB,True,True,False,False
+Tm_FG,True,True,False,False
+Tm_FGA,True,True,False,False
+Tm_FTA,True,True,False,False
+Tm_MP,True,True,False,False
+Tm_ORB,True,True,False,False
+Tm_TOV,True,True,False,False
+Tm_TRB,True,True,False,False
+Total_Days_Injured,True,True,False,False
+True_Usage%,True,True,False,False
+Turnover_Usage%,True,True,False,False
+USG%,True,True,False,False
+VORP,True,True,False,False
+WS,True,True,False,False
+WS/48,True,True,False,False
+Wins,True,True,False,False
+Years_of_Service,True,True,False,False
+eFG%,True,True,False,False

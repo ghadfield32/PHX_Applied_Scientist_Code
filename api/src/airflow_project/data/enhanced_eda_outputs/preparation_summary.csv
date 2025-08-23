@@ -1,0 +1,7 @@
+step,feature_count,details
+Original,285,285 numeric features
+Missing Filter,285,Dropped 0 high-missing features
+Variance Threshold,50,Reduced to 50 features
+MI Selection,50,Top 50 by mutual information
+Log Transform,50,Applied log1p to 25 features
+Missing Indicators,50,Added 0 missing indicators

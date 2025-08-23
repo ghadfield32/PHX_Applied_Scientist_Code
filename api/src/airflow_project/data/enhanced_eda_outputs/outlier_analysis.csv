@@ -1,0 +1,2 @@
+method,iso_outliers,lof_outliers,iqr_outliers,total_samples
+multivariate,196,196,408,1955

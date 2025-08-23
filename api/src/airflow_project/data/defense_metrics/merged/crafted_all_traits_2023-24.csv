@@ -1,0 +1,443 @@
+PLAYER_NAME,SEASON,VERS_VERSATILITYRATING,VERS_MATCHUPDIFFICULTY,VERS_CRAFTEDDPM,TEAM_ABBREVIATION,POSITION,VERS_CRAFTEDDPM_ORIG,PLAYER_ID,TEAM_ID,TEAM_NAME
+A.J. Lawson,2023-24,39.5,22.8,-0.3,TOR,SG,-0.3 42%,1630639,1610612742,Dallas Mavericks
+AJ Green,2023-24,44.6,51.1,0.0,MIL,SG,0 67%,1631260,1610612749,Milwaukee Bucks
+AJ Johnson,2023-24,24.7,29.6,-0.8,WAS,SG,-0.8 11%,1642358,1610612764,Washington Wizards
+Aaron Gordon,2023-24,85.4,64.6,0.5,DEN,PF,0.5 69%,203932,1610612743,Denver Nuggets
+Aaron Holiday,2023-24,27.4,49.2,0.6,HOU,PG,0.6 70%,1628988,1610612745,Houston Rockets
+Aaron Nesmith,2023-24,55.2,61.4,-0.4,IND,SF,-0.4 38%,1630174,1610612754,Indiana Pacers
+Aaron Wiggins,2023-24,83.4,42.7,-0.2,OKC,SG,-0.2 43%,1630598,1610612760,Oklahoma City Thunder
+Adem Bona,2023-24,15.7,35.2,0.7,PHI,C,0.7 78%,1641737,1610612755,Philadelphia 76ers
+Ajay Mitchell,2023-24,46.9,33.3,0.4,OKC,SG,0.4 68%,1642349,1610612760,Oklahoma City Thunder
+Al Horford,2023-24,76.9,61.4,2.2,BOS,C,2.2 94%,201143,1610612738,Boston Celtics
+Alec Burks,2023-24,32.5,38.4,0.2,MIA,SG,0.2 60%,202692,1610612752,New York Knicks
+Alex Caruso,2023-24,95.5,73.7,3.9,OKC,PG,3.9 100%,1627936,1610612741,Chicago Bulls
+Alex Len,2023-24,2.7,26.2,1.1,LAL,C,1.1 80%,203458,1610612758,Sacramento Kings
+Alex Sarr,2023-24,4.3,55.5,-0.3,WAS,PF,-0.3 36%,1642259,1610612764,Washington Wizards
+Alperen Sengun,2023-24,26.5,40.5,1.4,HOU,C,1.4 84%,1630578,1610612745,Houston Rockets
+Amen Thompson,2023-24,74.4,84.1,2.4,HOU,SF,2.4 98%,1641708,1610612745,Houston Rockets
+Amir Coffey,2023-24,51.3,55.7,-1.2,LAC,SF,-1.2 11%,1629599,1610612746,La Clippers
+Andre Drummond,2023-24,2.9,45.2,0.4,PHI,C,0.4 69%,203083,1610612741,Chicago Bulls
+Andre Jackson Jr.,2023-24,40.4,92.7,0.0,MIL,SF,0 42%,1641748,1610612749,Milwaukee Bucks
+Andrew Nembhard,2023-24,17.0,100.0,0.6,IND,PG,0.6 71%,1629614,1610612754,Indiana Pacers
+Andrew Wiggins,2023-24,73.5,84.3,-0.5,MIA,SF,-0.5 36%,203952,1610612744,Golden State Warriors
+Anfernee Simons,2023-24,44.2,43.3,-2.4,POR,PG,-2.4 2%,1629014,1610612757,Portland Trail Blazers
+Anthony Black,2023-24,48.9,63.1,1.2,ORL,PG,1.2 85%,1641710,1610612753,Orlando Magic
+Anthony Davis,2023-24,12.6,56.4,3.1,DAL,C,3.1 98%,203076,1610612747,Los Angeles Lakers
+Anthony Edwards,2023-24,79.1,55.3,0.0,MIN,SG,0 58%,1630162,1610612750,Minnesota Timberwolves
+Anthony Gill,2023-24,92.6,30.5,-0.3,WAS,PF,-0.3 41%,1630264,1610612764,Washington Wizards
+Antonio Reeves,2023-24,33.9,25.1,-1.4,NOP,SG,-1.4 9%,1641810,1610612740,New Orleans Pelicans
+Ausar Thompson,2023-24,93.0,84.0,2.6,DET,SF,2.6 97%,1641709,1610612765,Detroit Pistons
+Austin Reaves,2023-24,52.5,62.1,-1.0,LAL,SG,-1 17%,1630559,1610612747,Los Angeles Lakers
+Ayo Dosunmu,2023-24,34.5,79.2,-1.0,CHI,SG,-1 15%,1630245,1610612741,Chicago Bulls
+Bam Adebayo,2023-24,13.9,60.6,2.0,MIA,C,2 93%,1628389,1610612748,Miami Heat
+Baylor Scheierman,2023-24,50.2,15.3,-0.1,BOS,SG,-0.1 57%,1631248,1610612738,Boston Celtics
+Ben Sheppard,2023-24,20.2,69.3,-0.6,IND,SG,-0.6 35%,1641767,1610612754,Indiana Pacers
+Ben Simmons,2023-24,89.9,51.0,1.2,LAC,PF,1.2 81%,1627732,1610612751,Brooklyn Nets
+Bennedict Mathurin,2023-24,43.9,53.2,-1.5,IND,SF,-1.5 8%,1631097,1610612754,Indiana Pacers
+Bilal Coulibaly,2023-24,75.1,96.2,-0.9,WAS,SF,-0.9 21%,1641731,1610612764,Washington Wizards
+Bismack Biyombo,2023-24,1.6,28.6,0.9,SAS,C,0.9 80%,202687,1610612760,Oklahoma City Thunder
+Blake Wesley,2023-24,25.8,44.7,0.4,SAS,PG,0.4 64%,1631104,1610612759,San Antonio Spurs
+Bobby Portis,2023-24,37.4,39.1,-0.1,MIL,PF,-0.1 47%,1626171,1610612749,Milwaukee Bucks
+Bogdan Bogdanović,2023-24,47.5,39.4,-0.1,LAC,SG,-0.1 54%,203992,1610612737,Atlanta Hawks
+Bol Bol,2023-24,64.3,28.8,0.4,PHX,C,0.4 66%,1629626,1610612756,Phoenix Suns
+Bradley Beal,2023-24,53.6,82.3,-1.6,PHX,SG,-1.6 9%,203078,1610612756,Phoenix Suns
+Brandin Podziemski,2023-24,59.2,59.3,1.7,GSW,SG,1.7 89%,1641764,1610612744,Golden State Warriors
+Brandon Boston Jr.,2023-24,55.8,69.0,-0.7,NOP,SG,-0.7 26%,1630527,1610612746,La Clippers
+Brandon Clarke,2023-24,65.9,41.5,1.4,MEM,PF,1.4 86%,1629634,1610612763,Memphis Grizzlies
+Brandon Ingram,2023-24,52.2,46.4,-0.7,TOR,SF,-0.7 25%,1627742,1610612740,New Orleans Pelicans
+Brandon Miller,2023-24,46.6,52.3,-1.2,CHA,SF,-1.2 14%,1641706,1610612766,Charlotte Hornets
+Brandon Williams,2023-24,23.3,48.5,-0.7,DAL,PG,-0.7 26%,1630314,1610612742,Dallas Mavericks
+Brice Sensabaugh,2023-24,66.6,34.8,-2.7,UTA,SF,-2.7 1%,1641729,1610612762,Utah Jazz
+Brook Lopez,2023-24,6.5,48.9,2.7,MIL,C,2.7 96%,201572,1610612749,Milwaukee Bucks
+Bruce Brown,2023-24,77.1,57.1,-0.8,NOP,SG,-0.8 24%,1628971,1610612761,Toronto Raptors
+Bub Carrington,2023-24,34.1,58.8,-0.4,WAS,SG,-0.4 35%,1642267,1610612764,Washington Wizards
+Buddy Hield,2023-24,60.8,49.3,-0.7,GSW,SG,-0.7 27%,1627741,1610612755,Philadelphia 76Ers
+CJ McCollum,2023-24,53.1,53.2,-1.8,NOP,SG,-1.8 4%,203468,1610612740,New Orleans Pelicans
+Cade Cunningham,2023-24,85.7,51.9,-0.5,DET,SG,-0.5 26%,1630595,1610612765,Detroit Pistons
+Caleb Houstan,2023-24,50.4,23.4,-0.6,ORL,SG,-0.6 34%,1631216,1610612753,Orlando Magic
+Caleb Martin,2023-24,88.6,79.8,0.3,DAL,SF,0.3 63%,1628997,1610612748,Miami Heat
+Cam Reddish,2023-24,74.9,78.1,0.5,LAL,SF,0.5 68%,1629629,1610612747,Los Angeles Lakers
+Cam Spencer,2023-24,15.5,27.0,-0.8,MEM,SG,-0.8 23%,1642285,1610612763,Memphis Grizzlies
+Cam Whitmore,2023-24,92.4,36.7,-0.9,HOU,SF,-0.9 12%,1641715,1610612745,Houston Rockets
+Cameron Johnson,2023-24,72.6,52.4,-0.7,BKN,PF,-0.7 24%,1629661,1610612751,Brooklyn Nets
+Cameron Payne,2023-24,23.5,28.8,-0.2,NYK,PG,-0.2 55%,1626166,1610612755,Philadelphia 76Ers
+Caris LeVert,2023-24,61.7,54.9,-0.2,ATL,SF,-0.2 46%,1627747,1610612739,Cleveland Cavaliers
+Cason Wallace,2023-24,52.9,71.9,1.5,OKC,PG,1.5 86%,1641717,1610612760,Oklahoma City Thunder
+Charles Bassey,2023-24,11.0,44.7,0.7,SAS,C,0.7 73%,1629646,1610612759,San Antonio Spurs
+Chet Holmgren,2023-24,33.6,55.3,3.2,OKC,C,3.2 99%,1631096,1610612760,Oklahoma City Thunder
+Chris Boucher,2023-24,75.8,30.9,-0.1,TOR,C,-0.1 51%,1628449,1610612761,Toronto Raptors
+Chris Paul,2023-24,54.5,42.0,0.8,SAS,PG,0.8 74%,101108,1610612744,Golden State Warriors
+Christian Braun,2023-24,36.3,84.4,0.0,DEN,SF,0 58%,1631128,1610612743,Denver Nuggets
+Christian Koloko,2023-24,16.1,27.6,1.3,LAL,C,1.3 85%,1631132,1610612747,Los Angeles Lakers
+Clint Capela,2023-24,0.4,52.7,1.3,ATL,C,1.3 85%,203991,1610612737,Atlanta Hawks
+Coby White,2023-24,42.4,42.9,-1.9,CHI,PG,-1.9 4%,1629632,1610612741,Chicago Bulls
+Cody Martin,2023-24,98.2,75.3,1.8,PHX,SF,1.8 88%,1628998,1610612766,Charlotte Hornets
+Cody Williams,2023-24,82.7,56.0,-1.1,UTA,SF,-1.1 16%,1642262,1610612762,Utah Jazz
+Colby Jones,2023-24,56.3,34.6,0.4,WAS,SG,0.4 63%,1641732,1610612758,Sacramento Kings
+Cole Anthony,2023-24,28.7,49.4,0.4,ORL,PG,0.4 66%,1630175,1610612753,Orlando Magic
+Colin Castleton,2023-24,61.9,17.6,-0.1,LAL,C,-0.1 44%,1630658,1610612747,Los Angeles Lakers
+Collin Gillespie,2023-24,32.3,55.6,-0.2,PHX,PG,-0.2 30%,1631221,1610612743,Denver Nuggets
+Collin Sexton,2023-24,58.7,60.8,-2.7,UTA,PG,-2.7 1%,1629012,1610612762,Utah Jazz
+Corey Kispert,2023-24,51.1,33.0,-2.6,WAS,SF,-2.6 1%,1630557,1610612764,Washington Wizards
+Cory Joseph,2023-24,21.5,48.8,-0.1,ORL,PG,-0.1 55%,202709,1610612753,Orlando Magic
+Craig Porter Jr.,2023-24,32.7,35.3,-0.4,CLE,PG,-0.4 37%,1641854,1610612739,Cleveland Cavaliers
+D'Angelo Russell,2023-24,62.3,49.7,-0.2,BKN,PG,-0.2 47%,1626156,1610612747,Los Angeles Lakers
+DaQuan Jeffries,2023-24,87.9,49.8,-0.4,CHA,SG,-0.4 23%,1629610,1610612752,New York Knicks
+Dalano Banton,2023-24,79.8,31.7,-0.3,POR,SG,-0.3 39%,1630625,1610612757,Portland Trail Blazers
+Dalen Terry,2023-24,48.0,59.9,0.6,CHI,SG,0.6 76%,1631207,1610612741,Chicago Bulls
+Dalton Knecht,2023-24,66.8,40.0,-2.0,LAL,SF,-2 2%,1642261,1610612747,Los Angeles Lakers
+Damian Lillard,2023-24,31.8,44.9,-1.0,MIL,PG,-1 19%,203081,1610612749,Milwaukee Bucks
+Damion Baugh,2023-24,51.8,68.4,-1.0,CHA,SG,-1 11%,1641878,1610612766,Charlotte Hornets
+Daniel Gafford,2023-24,8.3,56.6,1.0,DAL,C,1 77%,1629655,1610612742,Dallas Mavericks
+Daniel Theis,2023-24,5.6,39.5,0.4,LAC,C,0.4 68%,1628464,1610612746,La Clippers
+Danté Exum,2023-24,85.0,68.4,-0.1,DAL,SG,-0.1 47%,203957,1610612742,Dallas Mavericks
+Dariq Whitehead,2023-24,40.1,18.1,-0.9,BKN,SG,-0.9 12%,1641727,1610612751,Brooklyn Nets
+Darius Garland,2023-24,28.0,56.9,-0.9,CLE,PG,-0.9 16%,1629636,1610612739,Cleveland Cavaliers
+David Roddy,2023-24,67.9,38.7,-0.6,HOU,PF,-0.6 26%,1631223,1610612756,Phoenix Suns
+Davion Mitchell,2023-24,17.9,96.1,0.5,MIA,PG,0.5 73%,1630558,1610612758,Sacramento Kings
+Day'Ron Sharpe,2023-24,9.0,42.6,1.4,BKN,C,1.4 86%,1630549,1610612751,Brooklyn Nets
+De'Aaron Fox,2023-24,35.9,65.4,-0.6,SAS,PG,-0.6 29%,1628368,1610612758,Sacramento Kings
+De'Andre Hunter,2023-24,84.1,62.9,-1.1,CLE,SF,-1.1 13%,1629631,1610612737,Atlanta Hawks
+DeAndre Jordan,2023-24,3.1,33.2,0.9,DEN,C,0.9 80%,201599,1610612743,Denver Nuggets
+DeMar DeRozan,2023-24,48.7,35.7,-1.0,SAC,SF,-1 16%,201942,1610612741,Chicago Bulls
+Dean Wade,2023-24,95.3,62.0,2.3,CLE,PF,2.3 95%,1629731,1610612739,Cleveland Cavaliers
+Deandre Ayton,2023-24,5.2,59.4,0.4,POR,C,0.4 67%,1629028,1610612757,Portland Trail Blazers
+Dejounte Murray,2023-24,43.3,84.0,-0.8,NOP,PG,-0.8 22%,1627749,1610612737,Atlanta Hawks
+Delon Wright,2023-24,24.4,48.3,2.0,NYK,PG,2 92%,1626153,1610612748,Miami Heat
+Deni Avdija,2023-24,93.9,51.5,0.2,POR,SF,0.2 64%,1630166,1610612764,Washington Wizards
+Dennis Schröder,2023-24,25.1,77.9,-0.7,DET,PG,-0.7 26%,203471,1610612751,Brooklyn Nets
+Dereck Lively II,2023-24,19.3,60.4,2.5,DAL,C,2.5 97%,1641726,1610612742,Dallas Mavericks
+Derrick Jones Jr.,2023-24,80.7,83.0,1.1,LAC,PF,1.1 82%,1627884,1610612742,Dallas Mavericks
+Derrick White,2023-24,44.8,64.2,1.6,BOS,SG,1.6 88%,1628401,1610612738,Boston Celtics
+Desmond Bane,2023-24,50.7,61.9,0.1,MEM,SG,0.1 53%,1630217,1610612763,Memphis Grizzlies
+Devin Booker,2023-24,58.1,56.0,-1.9,PHX,SG,-1.9 3%,1626164,1610612756,Phoenix Suns
+Devin Carter,2023-24,19.1,61.2,-0.1,SAC,SG,-0.1 61%,1642269,1610612758,Sacramento Kings
+Devin Vassell,2023-24,40.6,53.7,-1.3,SAS,SG,-1.3 10%,1630170,1610612759,San Antonio Spurs
+Dillon Brooks,2023-24,99.6,83.5,0.5,HOU,SF,0.5 70%,1628415,1610612745,Houston Rockets
+Dillon Jones,2023-24,91.7,17.9,0.1,OKC,SF,0.1 66%,1641794,1610612760,Oklahoma City Thunder
+Domantas Sabonis,2023-24,0.9,55.7,0.9,SAC,C,0.9 73%,1627734,1610612758,Sacramento Kings
+Dominick Barlow,2023-24,20.0,29.2,-0.4,ATL,PF,-0.4 42%,1631230,1610612759,San Antonio Spurs
+Donovan Clingan,2023-24,7.4,39.9,2.2,POR,C,2.2 97%,1642270,1610612757,Portland Trail Blazers
+Donovan Mitchell,2023-24,47.3,42.1,0.2,CLE,SG,0.2 66%,1628378,1610612739,Cleveland Cavaliers
+Donte DiVincenzo,2023-24,35.0,43.5,0.2,MIN,SG,0.2 56%,1628978,1610612752,New York Knicks
+Dorian Finney-Smith,2023-24,100.0,84.5,1.6,LAL,SF,1.6 87%,1627827,1610612751,Brooklyn Nets
+Doug McDermott,2023-24,38.1,27.1,-2.2,SAC,SF,-2.2 2%,203926,1610612754,Indiana Pacers
+Draymond Green,2023-24,65.0,57.3,4.5,GSW,PF,4.5 100%,203110,1610612744,Golden State Warriors
+Drew Eubanks,2023-24,9.4,36.4,0.9,LAC,C,0.9 75%,1629234,1610612756,Phoenix Suns
+Dru Smith,2023-24,20.4,62.0,1.3,MIA,SG,1.3 84%,1630696,1610612748,Miami Heat
+Duncan Robinson,2023-24,37.7,32.2,-0.7,MIA,SF,-0.7 25%,1629130,1610612748,Miami Heat
+Duop Reath,2023-24,26.0,29.8,-0.8,POR,C,-0.8 20%,1641871,1610612757,Portland Trail Blazers
+Dwight Powell,2023-24,30.9,35.8,2.2,DAL,C,2.2 92%,203939,1610612742,Dallas Mavericks
+Dyson Daniels,2023-24,44.4,95.6,1.8,ATL,SG,1.8 91%,1630700,1610612740,New Orleans Pelicans
+Elfrid Payton,2023-24,50.9,44.5,0.0,NOP,PG,0 51%,203901,1610612740,New Orleans Pelicans
+Eric Gordon,2023-24,77.4,45.9,-0.9,PHI,SG,-0.9 20%,201569,1610612756,Phoenix Suns
+Evan Mobley,2023-24,63.9,49.3,2.2,CLE,PF,2.2 94%,1630596,1610612739,Cleveland Cavaliers
+Franz Wagner,2023-24,64.8,61.0,0.9,ORL,SF,0.9 79%,1630532,1610612753,Orlando Magic
+Fred VanVleet,2023-24,30.0,74.0,1.9,HOU,PG,1.9 91%,1627832,1610612745,Houston Rockets
+GG Jackson,2023-24,84.8,50.9,-1.6,MEM,PF,-1.6 7%,1641713,1610612763,Memphis Grizzlies
+Gabe Vincent,2023-24,45.1,66.3,0.2,LAL,SG,0.2 59%,1629216,1610612747,Los Angeles Lakers
+Garrison Mathews,2023-24,33.2,34.1,-0.5,ATL,SG,-0.5 32%,1629726,1610612737,Atlanta Hawks
+Gary Harris,2023-24,22.9,53.7,1.1,ORL,SG,1.1 81%,203914,1610612753,Orlando Magic
+Gary Payton II,2023-24,32.1,88.1,1.3,GSW,SG,1.3 84%,1627780,1610612744,Golden State Warriors
+Georges Niang,2023-24,74.2,34.6,-1.2,ATL,PF,-1.2 8%,1627777,1610612739,Cleveland Cavaliers
+Giannis Antetokounmpo,2023-24,56.5,48.2,2.3,MIL,PF,2.3 96%,203507,1610612749,Milwaukee Bucks
+Goga Bitadze,2023-24,6.3,43.6,2.8,ORL,C,2.8 98%,1629048,1610612753,Orlando Magic
+Gradey Dick,2023-24,36.1,50.3,-1.8,TOR,SG,-1.8 6%,1641711,1610612761,Toronto Raptors
+Grant Williams,2023-24,41.0,64.9,0.2,CHA,PF,0.2 62%,1629684,1610612766,Charlotte Hornets
+Grayson Allen,2023-24,40.8,44.7,-0.7,PHX,SG,-0.7 23%,1628960,1610612756,Phoenix Suns
+Guerschon Yabusele,2023-24,22.6,50.2,-0.9,PHI,PF,-0.9 19%,1627824,1610612755,Philadelphia 76ers
+Gui Santos,2023-24,89.0,42.0,0.5,GSW,PF,0.5 70%,1630611,1610612744,Golden State Warriors
+Harrison Barnes,2023-24,68.4,58.0,-1.7,SAS,PF,-1.7 7%,203084,1610612758,Sacramento Kings
+Haywood Highsmith,2023-24,83.6,79.9,1.6,MIA,SF,1.6 86%,1629312,1610612748,Miami Heat
+Herbert Jones,2023-24,94.2,72.2,2.7,NOP,SF,2.7 97%,1630529,1610612740,New Orleans Pelicans
+Hunter Tyson,2023-24,71.3,26.1,-0.8,DEN,PF,-0.8 22%,1641816,1610612743,Denver Nuggets
+Immanuel Quickley,2023-24,19.5,54.5,-0.1,TOR,PG,-0.1 51%,1630193,1610612761,Toronto Raptors
+Isaac Jones,2023-24,65.7,36.8,-1.0,SAC,PF,-1 18%,1642403,1610612758,Sacramento Kings
+Isaac Okoro,2023-24,78.3,70.5,0.8,CLE,SF,0.8 77%,1630171,1610612739,Cleveland Cavaliers
+Isaiah Collier,2023-24,49.3,62.1,-1.3,UTA,PG,-1.3 9%,1642268,1610612762,Utah Jazz
+Isaiah Hartenstein,2023-24,9.2,55.9,3.0,OKC,C,3 99%,1628392,1610612752,New York Knicks
+Isaiah Joe,2023-24,39.0,37.9,0.1,OKC,SG,0.1 60%,1630198,1610612760,Oklahoma City Thunder
+Isaiah Stewart,2023-24,4.5,47.6,2.1,DET,C,2.1 94%,1630191,1610612765,Detroit Pistons
+Isaiah Wong,2023-24,18.2,53.8,-0.2,IND,SG,-0.2 46%,1631209,1610612754,Indiana Pacers
+Ivica Zubac,2023-24,7.6,53.9,3.1,LAC,C,3.1 99%,1627826,1610612746,La Clippers
+Ja Morant,2023-24,37.9,58.3,0.1,MEM,PG,0.1 48%,1629630,1610612763,Memphis Grizzlies
+Ja'Kobe Walter,2023-24,24.0,47.3,-0.7,TOR,PG,-0.7 33%,1642266,1610612761,Toronto Raptors
+Jabari Smith Jr.,2023-24,94.4,44.6,0.1,HOU,PF,0.1 60%,1631095,1610612745,Houston Rockets
+Jabari Walker,2023-24,70.9,27.3,0.1,POR,PF,0.1 59%,1631133,1610612757,Portland Trail Blazers
+Jaden Hardy,2023-24,60.5,39.7,-1.8,DAL,SG,-1.8 3%,1630702,1610612742,Dallas Mavericks
+Jaden Ivey,2023-24,27.8,75.9,-1.8,DET,SG,-1.8 5%,1631093,1610612765,Detroit Pistons
+Jaden McDaniels,2023-24,89.2,86.1,1.7,MIN,SF,1.7 88%,1630183,1610612750,Minnesota Timberwolves
+Jaden Springer,2023-24,56.7,41.7,0.9,UTA,SG,0.9 74%,1630531,1610612738,Boston Celtics
+Jae'Sean Tate,2023-24,99.3,37.0,2.1,HOU,PF,2.1 93%,1630256,1610612745,Houston Rockets
+Jaime Jaquez Jr.,2023-24,94.8,45.1,0.1,MIA,SF,0.1 50%,1631170,1610612748,Miami Heat
+Jake LaRavia,2023-24,55.6,51.6,0.2,SAC,SF,0.2 64%,1631222,1610612763,Memphis Grizzlies
+Jakob Poeltl,2023-24,1.8,61.5,2.4,TOR,C,2.4 96%,1627751,1610612761,Toronto Raptors
+Jakob Pöltl,2023-24,3.0,48.0,1.2,TOR,C,1.2 81%,1627751,1610612761,Toronto Raptors
+Jalen Brunson,2023-24,33.0,39.4,-1.5,NYK,PG,-1.5 7%,1628973,1610612752,New York Knicks
+Jalen Duren,2023-24,3.4,53.1,1.1,DET,C,1.1 77%,1631105,1610612765,Detroit Pistons
+Jalen Green,2023-24,43.0,48.4,-1.7,HOU,SG,-1.7 5%,1630224,1610612745,Houston Rockets
+Jalen Hood-Schifino,2023-24,53.4,35.8,-0.9,PHI,PG,-0.9 10%,1641720,1610612747,Los Angeles Lakers
+Jalen Johnson,2023-24,27.6,53.1,1.8,ATL,PF,1.8 90%,1630552,1610612737,Atlanta Hawks
+Jalen Pickett,2023-24,47.8,41.1,0.0,DEN,PG,0 52%,1629618,1610612743,Denver Nuggets
+Jalen Smith,2023-24,11.2,39.1,0.1,CHI,PF,0.1 60%,1630188,1610612754,Indiana Pacers
+Jalen Suggs,2023-24,38.6,76.8,2.2,ORL,PG,2.2 93%,1630591,1610612753,Orlando Magic
+Jalen Williams,2023-24,98.7,55.9,1.2,OKC,SG,1.2 81%,1631114,1610612760,Oklahoma City Thunder
+Jalen Wilson,2023-24,83.9,52.2,-1.2,BKN,SF,-1.2 15%,1630592,1610612751,Brooklyn Nets
+Jamal Cain,2023-24,86.8,41.1,-0.4,NOP,SF,-0.4 31%,1631288,1610612748,Miami Heat
+Jamal Murray,2023-24,60.1,55.0,-1.2,DEN,PG,-1.2 15%,1627750,1610612743,Denver Nuggets
+Jamal Shead,2023-24,15.9,57.4,-1.3,TOR,PG,-1.3 12%,1642347,1610612761,Toronto Raptors
+James Harden,2023-24,89.7,53.0,0.4,LAC,SG,0.4 70%,201935,1610612746,La Clippers
+Jamison Battle,2023-24,23.8,27.3,-1.5,TOR,SF,-1.5 8%,1642419,1610612761,Toronto Raptors
+Jarace Walker,2023-24,67.5,44.3,0.2,IND,PF,0.2 63%,1641716,1610612754,Indiana Pacers
+Jared Butler,2023-24,48.2,38.9,-0.6,PHI,SG,-0.6 29%,1630215,1610612764,Washington Wizards
+Jared McCain,2023-24,67.0,49.1,-1.8,PHI,SG,-1.8 4%,1642272,1610612755,Philadelphia 76ers
+Jaren Jackson Jr.,2023-24,62.6,51.3,2.1,MEM,PF,2.1 93%,1628991,1610612763,Memphis Grizzlies
+Jarred Vanderbilt,2023-24,99.8,69.3,1.7,LAL,PF,1.7 87%,1629020,1610612747,Los Angeles Lakers
+Jarrett Allen,2023-24,9.6,54.5,2.3,CLE,C,2.3 94%,1628386,1610612739,Cleveland Cavaliers
+Javonte Green,2023-24,94.6,67.4,0.7,CLE,SF,0.7 77%,1629750,1610612741,Chicago Bulls
+Jaxson Hayes,2023-24,14.6,42.8,2.1,LAL,C,2.1 92%,1629637,1610612747,Los Angeles Lakers
+Jay Huff,2023-24,22.4,31.0,0.2,MEM,C,0.2 66%,1630643,1610612743,Denver Nuggets
+Jaylen Brown,2023-24,90.4,69.8,-0.7,BOS,SF,-0.7 22%,1627759,1610612738,Boston Celtics
+Jaylen Clark,2023-24,59.6,73.3,0.1,MIN,SG,0.1 59%,1641740,1610612750,Minnesota Timberwolves
+Jaylen Wells,2023-24,24.9,96.4,-1.3,MEM,SF,-1.3 12%,1642377,1610612763,Memphis Grizzlies
+Jaylin Williams,2023-24,15.0,27.8,1.7,OKC,C,1.7 90%,1631119,1610612760,Oklahoma City Thunder
+Jaylon Tyson,2023-24,69.7,22.8,-0.6,CLE,SG,-0.6 33%,1642281,1610612739,Cleveland Cavaliers
+Jayson Tatum,2023-24,97.1,50.2,0.7,BOS,SF,0.7 72%,1628369,1610612738,Boston Celtics
+Jeff Dowtin Jr.,2023-24,58.5,41.2,-0.8,PHI,PG,-0.8 25%,1630288,1610612755,Philadelphia 76Ers
+Jeff Green,2023-24,93.5,41.4,-1.2,HOU,PF,-1.2 10%,201145,1610612745,Houston Rockets
+Jerami Grant,2023-24,83.0,75.8,-0.5,POR,PF,-0.5 36%,203924,1610612757,Portland Trail Blazers
+Jeremiah Robinson-Earl,2023-24,86.3,38.8,-1.3,NOP,PF,-1.3 10%,1630526,1610612740,New Orleans Pelicans
+Jeremy Sochan,2023-24,99.1,88.0,-0.3,SAS,PF,-0.3 44%,1631110,1610612759,San Antonio Spurs
+Jericho Sims,2023-24,7.8,31.1,0.8,MIL,C,0.8 75%,1630579,1610612752,New York Knicks
+Jett Howard,2023-24,38.8,28.3,-1.0,ORL,SF,-1 14%,1641724,1610612753,Orlando Magic
+Jevon Carter,2023-24,16.4,58.3,0.3,CHI,PG,0.3 62%,1628975,1610612741,Chicago Bulls
+Jimmy Butler III,2023-24,89.5,66.0,0.9,GSW,SF,0.9 80%,202710,1610612748,Miami Heat
+Jock Landale,2023-24,30.5,26.3,0.9,HOU,C,0.9 77%,1629111,1610612745,Houston Rockets
+Joel Embiid,2023-24,15.2,40.4,2.2,PHI,C,2.2 95%,203954,1610612755,Philadelphia 76Ers
+John Collins,2023-24,91.5,52.7,0.1,UTA,PF,0.1 62%,1628381,1610612762,Utah Jazz
+John Konchar,2023-24,54.7,47.1,1.7,MEM,SF,1.7 87%,1629723,1610612763,Memphis Grizzlies
+Johnny Davis,2023-24,70.6,42.8,0.1,WAS,SG,0.1 53%,1631098,1610612764,Washington Wizards
+Johnny Furphy,2023-24,35.2,13.4,0.6,IND,SF,0.6 70%,1642277,1610612754,Indiana Pacers
+Johnny Juzang,2023-24,67.3,48.9,-1.4,UTA,SG,-1.4 6%,1630548,1610612762,Utah Jazz
+Jonas Valančiūnas,2023-24,2.0,46.1,-0.2,SAC,C,-0.2 38%,202685,1610612740,New Orleans Pelicans
+Jonathan Isaac,2023-24,68.2,49.5,3.0,ORL,PF,3 99%,1628371,1610612753,Orlando Magic
+Jonathan Kuminga,2023-24,68.8,56.6,-0.5,GSW,SF,-0.5 38%,1630228,1610612744,Golden State Warriors
+Jonathan Mogbo,2023-24,87.7,50.8,0.8,TOR,PF,0.8 78%,1642367,1610612761,Toronto Raptors
+Jordan Clarkson,2023-24,41.5,53.9,-2.5,UTA,SG,-2.5 1%,203903,1610612762,Utah Jazz
+Jordan Goodwin,2023-24,85.9,54.0,1.0,LAL,PG,1 77%,1630692,1610612763,Memphis Grizzlies
+Jordan Hawkins,2023-24,58.3,45.4,-2.6,NOP,SG,-2.6 1%,1641722,1610612740,New Orleans Pelicans
+Jordan McLaughlin,2023-24,13.5,28.2,1.2,SAS,PG,1.2 83%,1629162,1610612750,Minnesota Timberwolves
+Jordan Miller,2023-24,72.9,32.4,-0.6,LAC,SF,-0.6 26%,1641757,1610612746,La Clippers
+Jordan Poole,2023-24,43.7,38.7,-1.7,WAS,SG,-1.7 5%,1629673,1610612764,Washington Wizards
+Jordan Walsh,2023-24,97.8,21.9,0.9,BOS,SF,0.9 74%,1641775,1610612738,Boston Celtics
+Jose Alvarado,2023-24,28.3,66.7,1.0,NOP,PG,1 72%,1630631,1610612740,New Orleans Pelicans
+Josh Giddey,2023-24,71.1,51.4,-0.5,CHI,SF,-0.5 36%,1630581,1610612760,Oklahoma City Thunder
+Josh Green,2023-24,45.7,93.7,0.0,CHA,SG,0 56%,1630182,1610612742,Dallas Mavericks
+Josh Hart,2023-24,76.7,50.2,1.2,NYK,SF,1.2 83%,1628404,1610612752,New York Knicks
+Josh Minott,2023-24,79.4,23.9,1.0,MIN,PF,1 79%,1631169,1610612750,Minnesota Timberwolves
+Josh Okogie,2023-24,91.0,76.6,2.0,CHA,SF,2 94%,1629006,1610612756,Phoenix Suns
+Jrue Holiday,2023-24,85.2,79.9,1.4,BOS,PG,1.4 87%,201950,1610612738,Boston Celtics
+Julian Champagnie,2023-24,75.6,57.0,-0.6,SAS,SF,-0.6 27%,1630577,1610612759,San Antonio Spurs
+Julian Phillips,2023-24,70.4,42.5,-0.1,CHI,SF,-0.1 61%,1641763,1610612741,Chicago Bulls
+Julian Strawther,2023-24,37.0,33.8,-1.7,DEN,SF,-1.7 6%,1631124,1610612743,Denver Nuggets
+Julius Randle,2023-24,49.8,56.2,-0.7,MIN,PF,-0.7 28%,203944,1610612752,New York Knicks
+Justin Champagnie,2023-24,97.3,56.5,0.2,WAS,SF,0.2 61%,1630551,1610612764,Washington Wizards
+Justin Edwards,2023-24,81.8,58.4,-1.9,PHI,SF,-1.9 2%,1642348,1610612755,Philadelphia 76ers
+Jusuf Nurkić,2023-24,4.0,55.7,3.2,CHA,C,3.2 99%,203994,1610612756,Phoenix Suns
+KJ Martin,2023-24,82.3,50.1,-0.6,UTA,SF,-0.6 21%,1630231,1610612755,Philadelphia 76Ers
+KJ Simpson,2023-24,39.9,52.6,-1.2,CHA,PG,-1.2 11%,1642354,1610612766,Charlotte Hornets
+Kai Jones,2023-24,13.7,28.5,0.3,DAL,C,0.3 65%,1630539,1610612746,La Clippers
+Karl-Anthony Towns,2023-24,4.7,45.4,0.2,NYK,C,0.2 64%,1626157,1610612750,Minnesota Timberwolves
+Karlo Matković,2023-24,11.7,34.9,0.2,NOP,C,0.2 61%,1631255,1610612740,New Orleans Pelicans
+Kawhi Leonard,2023-24,87.2,52.4,1.7,LAC,SF,1.7 90%,202695,1610612746,La Clippers
+Keaton Wallace,2023-24,17.3,53.3,0.0,ATL,PG,0 64%,1630811,1610612737,Atlanta Hawks
+Keegan Murray,2023-24,88.8,81.2,0.1,SAC,PF,0.1 67%,1631099,1610612758,Sacramento Kings
+Keion Brooks Jr.,2023-24,37.2,26.8,-0.6,NOP,SF,-0.6 21%,1631232,1610612740,New Orleans Pelicans
+Kel'el Ware,2023-24,5.4,34.0,1.1,MIA,C,1.1 83%,1642276,1610612748,Miami Heat
+Keldon Johnson,2023-24,81.4,43.5,-2.1,SAS,SF,-2.1 3%,1629640,1610612759,San Antonio Spurs
+Kelly Olynyk,2023-24,66.4,41.0,0.9,NOP,C,0.9 75%,203482,1610612761,Toronto Raptors
+Kelly Oubre Jr.,2023-24,96.6,72.2,-0.6,PHI,SF,-0.6 31%,1626162,1610612755,Philadelphia 76Ers
+Kenrich Williams,2023-24,97.5,39.0,1.7,OKC,SF,1.7 89%,1629026,1610612760,Oklahoma City Thunder
+Kentavious Caldwell-Pope,2023-24,31.6,76.8,1.8,ORL,SG,1.8 91%,203484,1610612743,Denver Nuggets
+Keon Ellis,2023-24,21.1,86.1,2.2,SAC,SG,2.2 95%,1631165,1610612758,Sacramento Kings
+Keon Johnson,2023-24,45.3,70.3,-0.6,BKN,SG,-0.6 24%,1630553,1610612751,Brooklyn Nets
+Kessler Edwards,2023-24,98.9,54.7,-0.2,DAL,SF,-0.2 46%,1630556,1610612758,Sacramento Kings
+Kevin Durant,2023-24,41.9,49.9,-0.4,PHX,PF,-0.4 39%,201142,1610612756,Phoenix Suns
+Kevin Huerter,2023-24,54.9,49.2,0.2,CHI,SG,0.2 63%,1628989,1610612758,Sacramento Kings
+Kevin Love,2023-24,19.7,46.1,0.5,MIA,PF,0.5 69%,201567,1610612748,Miami Heat
+Kevin Porter Jr.,2023-24,72.0,50.3,0.2,MIL,SG,0.2 67%,1629645,1610612749,Milwaukee Bucks
+Kevon Looney,2023-24,10.8,50.8,2.1,GSW,C,2.1 95%,1626172,1610612744,Golden State Warriors
+Khris Middleton,2023-24,64.6,36.8,-0.1,WAS,SF,-0.1 52%,203114,1610612749,Milwaukee Bucks
+Klay Thompson,2023-24,67.7,57.6,-1.6,DAL,SG,-1.6 6%,202691,1610612744,Golden State Warriors
+Kobe Brown,2023-24,72.2,25.0,-0.1,LAC,PF,-0.1 47%,1641738,1610612746,La Clippers
+Kris Dunn,2023-24,73.3,86.8,2.9,LAC,PG,2.9 98%,1627739,1610612762,Utah Jazz
+Kris Murray,2023-24,87.0,41.2,0.7,POR,PF,0.7 78%,1631200,1610612757,Portland Trail Blazers
+Kristaps Porziņģis,2023-24,65.2,45.7,2.3,BOS,C,2.3 96%,204001,1610612738,Boston Celtics
+Kyle Anderson,2023-24,90.1,42.2,1.5,MIA,PF,1.5 88%,203937,1610612750,Minnesota Timberwolves
+Kyle Filipowski,2023-24,54.3,42.8,-0.6,UTA,PF,-0.6 24%,1642271,1610612762,Utah Jazz
+Kyle Kuzma,2023-24,73.8,64.3,-1.0,MIL,PF,-1 12%,1628398,1610612764,Washington Wizards
+Kyle Lowry,2023-24,57.4,41.9,1.3,PHI,PG,1.3 83%,200768,1610612755,Philadelphia 76Ers
+Kyrie Irving,2023-24,46.2,66.9,-0.5,DAL,PG,-0.5 38%,202681,1610612742,Dallas Mavericks
+Kyshawn George,2023-24,84.3,53.3,0.6,WAS,SF,0.6 74%,1642273,1610612764,Washington Wizards
+LaMelo Ball,2023-24,57.2,46.0,-1.8,CHA,PG,-1.8 5%,1630163,1610612766,Charlotte Hornets
+Landry Shamet,2023-24,24.2,37.9,-0.4,NYK,SG,-0.4 41%,1629013,1610612764,Washington Wizards
+Larry Nance Jr.,2023-24,29.6,45.8,1.2,ATL,C,1.2 82%,1626204,1610612740,New Orleans Pelicans
+Lauri Markkanen,2023-24,95.7,67.2,-1.0,UTA,PF,-1 20%,1628374,1610612762,Utah Jazz
+LeBron James,2023-24,88.1,49.9,0.1,LAL,PF,0.1 57%,2544,1610612747,Los Angeles Lakers
+Lindy Waters III,2023-24,42.2,51.4,-0.2,DET,SG,-0.2 40%,1630322,1610612760,Oklahoma City Thunder
+Lonnie Walker IV,2023-24,23.1,35.8,-1.5,PHI,SG,-1.5 7%,1629022,1610612751,Brooklyn Nets
+Lonzo Ball,2023-24,46.0,78.1,1.9,CHI,PG,1.9 91%,1628366,1610612741,Chicago Bulls
+Luguentz Dort,2023-24,81.2,96.8,1.2,OKC,SG,1.2 82%,1629652,1610612760,Oklahoma City Thunder
+Luka Dončić,2023-24,86.5,44.3,1.2,LAL,SF,1.2 83%,1629029,1610612742,Dallas Mavericks
+Luke Kennard,2023-24,26.7,39.8,-1.2,MEM,SG,-1.2 13%,1628379,1610612763,Memphis Grizzlies
+Luke Kornet,2023-24,59.0,35.5,2.4,BOS,C,2.4 95%,1628436,1610612738,Boston Celtics
+Malaki Branham,2023-24,48.4,29.0,-2.2,SAS,SG,-2.2 2%,1631103,1610612759,San Antonio Spurs
+Malcolm Brogdon,2023-24,54.0,64.7,-0.9,WAS,PG,-0.9 17%,1627763,1610612757,Portland Trail Blazers
+Malik Beasley,2023-24,30.7,52.2,-0.7,DET,SG,-0.7 22%,1627736,1610612749,Milwaukee Bucks
+Malik Monk,2023-24,26.2,49.3,-1.0,SAC,SG,-1 13%,1628370,1610612758,Sacramento Kings
+Marcus Bagley,2023-24,62.8,17.7,-0.2,PHI,SF,-0.2 45%,1630542,1610612755,Philadelphia 76ers
+Marcus Sasser,2023-24,12.1,47.0,-0.4,DET,PG,-0.4 33%,1631204,1610612765,Detroit Pistons
+Marcus Smart,2023-24,70.2,66.1,0.7,WAS,PG,0.7 75%,203935,1610612763,Memphis Grizzlies
+Mark Williams,2023-24,16.8,44.1,0.5,CHA,C,0.5 66%,1631109,1610612766,Charlotte Hornets
+Marvin Bagley III,2023-24,9.9,33.4,0.1,MEM,PF,0.1 58%,1628963,1610612764,Washington Wizards
+Mason Plumlee,2023-24,7.0,51.1,1.5,PHX,C,1.5 85%,203486,1610612746,La Clippers
+Matas Buzelis,2023-24,83.2,44.4,0.0,CHI,PF,0 55%,1641824,1610612741,Chicago Bulls
+Matisse Thybulle,2023-24,61.4,57.6,2.3,POR,SF,2.3 98%,1629680,1610612757,Portland Trail Blazers
+Max Christie,2023-24,57.8,73.2,-0.6,DAL,SG,-0.6 24%,1631108,1610612747,Los Angeles Lakers
+Max Strus,2023-24,53.8,69.0,0.0,CLE,SG,0 57%,1629622,1610612739,Cleveland Cavaliers
+Maxi Kleber,2023-24,91.9,62.6,0.7,LAL,C,0.7 75%,1628467,1610612742,Dallas Mavericks
+Maxwell Lewis,2023-24,74.0,22.5,-0.4,BKN,SG,-0.4 27%,1641721,1610612747,Los Angeles Lakers
+Micah Potter,2023-24,82.1,36.9,-0.1,UTA,C,-0.1 44%,1630695,1610612762,Utah Jazz
+Michael Porter Jr.,2023-24,73.1,41.4,-0.7,DEN,PF,-0.7 23%,1629008,1610612743,Denver Nuggets
+Mikal Bridges,2023-24,35.4,82.6,-0.2,NYK,SF,-0.2 45%,1628969,1610612751,Brooklyn Nets
+Mike Conley,2023-24,33.4,50.0,1.2,MIN,PG,1.2 82%,201144,1610612750,Minnesota Timberwolves
+Miles Bridges,2023-24,63.7,54.7,-0.6,CHA,SF,-0.6 23%,1628970,1610612766,Charlotte Hornets
+Miles McBride,2023-24,29.8,58.2,0.8,NYK,PG,0.8 73%,1630540,1610612752,New York Knicks
+Mitchell Robinson,2023-24,2.2,30.5,2.1,NYK,C,2.1 93%,1629011,1610612752,New York Knicks
+Mo Bamba,2023-24,20.6,39.0,1.1,PHI,C,1.1 80%,1628964,1610612755,Philadelphia 76Ers
+Monté Morris,2023-24,27.1,38.2,-0.2,PHX,PG,-0.2 43%,1628420,1610612750,Minnesota Timberwolves
+Moritz Wagner,2023-24,17.7,34.3,0.4,ORL,C,0.4 68%,1629021,1610612753,Orlando Magic
+Moses Moody,2023-24,74.7,58.4,0.1,GSW,SG,0.1 63%,1630541,1610612744,Golden State Warriors
+Mouhamed Gueye,2023-24,61.2,30.1,1.8,ATL,C,1.8 91%,1631243,1610612737,Atlanta Hawks
+Moussa Diabaté,2023-24,29.4,50.0,0.6,CHA,C,0.6 71%,1631217,1610612746,La Clippers
+Myles Turner,2023-24,0.7,47.6,1.7,IND,C,1.7 89%,1626167,1610612754,Indiana Pacers
+Naji Marshall,2023-24,96.4,66.2,0.0,DAL,SF,0 50%,1630230,1610612740,New Orleans Pelicans
+Naz Reid,2023-24,68.6,40.1,1.4,MIN,C,1.4 81%,1629675,1610612750,Minnesota Timberwolves
+Neemias Queta,2023-24,72.4,31.1,0.8,BOS,C,0.8 76%,1629674,1610612738,Boston Celtics
+Nic Claxton,2023-24,5.8,54.1,1.4,BKN,C,1.4 85%,1629651,1610612751,Brooklyn Nets
+Nick Richards,2023-24,10.1,52.4,-0.5,PHX,C,-0.5 23%,1630208,1610612766,Charlotte Hornets
+Nick Smith Jr.,2023-24,45.5,48.3,-2.7,CHA,SG,-2.7 4%,1641733,1610612766,Charlotte Hornets
+Nickeil Alexander-Walker,2023-24,34.8,65.2,0.7,MIN,SG,0.7 73%,1629638,1610612750,Minnesota Timberwolves
+Nicolas Batum,2023-24,96.9,49.8,2.1,LAC,SF,2.1 92%,201587,1610612755,Philadelphia 76Ers
+Nikola Jokić,2023-24,3.6,45.6,2.2,DEN,C,2.2 93%,203999,1610612743,Denver Nuggets
+Nikola Jović,2023-24,88.3,43.6,0.7,MIA,PF,0.7 74%,1631107,1610612748,Miami Heat
+Nikola Vučević,2023-24,1.1,50.6,-0.5,CHI,C,-0.5 39%,202696,1610612741,Chicago Bulls
+Noah Clowney,2023-24,91.3,44.2,-0.6,BKN,PF,-0.6 28%,1641730,1610612751,Brooklyn Nets
+Norman Powell,2023-24,42.6,48.4,-0.3,LAC,SG,-0.3 46%,1626181,1610612746,La Clippers
+OG Anunoby,2023-24,63.2,73.8,1.4,NYK,SF,1.4 85%,1628384,1610612752,New York Knicks
+Obi Toppin,2023-24,63.5,34.5,-1.2,IND,PF,-1.2 12%,1630167,1610612754,Indiana Pacers
+Ochai Agbaji,2023-24,86.1,81.7,0.0,TOR,SG,0 54%,1630534,1610612761,Toronto Raptors
+Olivier-Maxence Prosper,2023-24,98.0,47.7,-0.1,DAL,PF,-0.1 50%,1641765,1610612742,Dallas Mavericks
+Onyeka Okongwu,2023-24,10.5,52.5,0.8,ATL,C,0.8 76%,1630168,1610612737,Atlanta Hawks
+Orlando Robinson,2023-24,14.1,23.0,0.1,TOR,C,0.1 56%,1631115,1610612748,Miami Heat
+Oscar Tshiebwe,2023-24,6.1,35.9,-0.3,UTA,C,-0.3 39%,1631131,1610612754,Indiana Pacers
+Oso Ighodaro,2023-24,21.7,46.5,1.3,PHX,C,1.3 84%,1642345,1610612756,Phoenix Suns
+Ousmane Dieng,2023-24,79.6,20.5,0.3,OKC,SF,0.3 65%,1631172,1610612760,Oklahoma City Thunder
+P.J. Washington,2023-24,96.2,76.5,1.1,DAL,PF,1.1 78%,1629023,1610612742,Dallas Mavericks
+Paolo Banchero,2023-24,41.3,48.4,-0.6,ORL,PF,-0.6 30%,1631094,1610612753,Orlando Magic
+Pascal Siakam,2023-24,47.1,49.2,0.4,IND,PF,0.4 69%,1627783,1610612754,Indiana Pacers
+Pat Connaughton,2023-24,69.1,38.2,-0.3,MIL,SG,-0.3 34%,1626192,1610612749,Milwaukee Bucks
+Pat Spencer,2023-24,43.5,33.0,-0.3,GSW,SG,-0.3 40%,1630311,1610612744,Golden State Warriors
+Patrick Williams,2023-24,65.5,67.6,-0.4,CHI,SF,-0.4 45%,1630172,1610612741,Chicago Bulls
+Patty Mills,2023-24,30.3,39.9,-0.4,LAC,PG,-0.4 37%,201988,1610612748,Miami Heat
+Paul George,2023-24,80.3,48.8,1.6,PHI,SF,1.6 88%,202331,1610612746,La Clippers
+Paul Reed,2023-24,10.3,35.4,2.5,DET,PF,2.5 97%,1630194,1610612755,Philadelphia 76Ers
+Payton Pritchard,2023-24,26.9,53.8,-0.4,BOS,PG,-0.4 40%,1630202,1610612738,Boston Celtics
+Pelle Larsson,2023-24,62.1,54.6,0.3,MIA,SG,0.3 65%,1641796,1610612748,Miami Heat
+Peyton Watson,2023-24,96.0,69.5,1.1,DEN,SF,1.1 79%,1631212,1610612743,Denver Nuggets
+Precious Achiuwa,2023-24,34.3,42.7,0.2,NYK,PF,0.2 62%,1630173,1610612752,New York Knicks
+Quentin Grimes,2023-24,49.6,59.3,-0.9,PHI,SG,-0.9 15%,1629656,1610612765,Detroit Pistons
+Quenton Jackson,2023-24,39.2,55.1,-0.6,IND,PG,-0.6 34%,1631245,1610612754,Indiana Pacers
+Quinten Post,2023-24,18.4,34.1,-0.6,GSW,C,-0.6 35%,1642366,1610612744,Golden State Warriors
+RJ Barrett,2023-24,49.1,54.1,-1.7,TOR,SF,-1.7 8%,1629628,1610612761,Toronto Raptors
+Rayan Rupert,2023-24,61.0,31.8,-1.3,POR,SG,-1.3 17%,1641712,1610612757,Portland Trail Blazers
+Reece Beekman,2023-24,31.4,44.3,0.1,BKN,PG,0.1 65%,1641736,1610612751,Brooklyn Nets
+Reed Sheppard,2023-24,38.3,37.5,0.2,HOU,PG,0.2 56%,1642263,1610612745,Houston Rockets
+Reggie Jackson,2023-24,80.5,46.6,-0.6,DEN,PG,-0.6 31%,202704,1610612743,Denver Nuggets
+Richaun Holmes,2023-24,0.2,32.3,0.8,WAS,C,0.8 74%,1626158,1610612764,Washington Wizards
+Ricky Council IV,2023-24,80.0,39.2,-1.2,PHI,SG,-1.2 13%,1641741,1610612755,Philadelphia 76Ers
+Rob Dillingham,2023-24,18.8,39.7,-1.6,MIN,PG,-1.6 8%,1642265,1610612750,Minnesota Timberwolves
+Robert Williams III,2023-24,14.3,47.7,2.4,POR,C,2.4 96%,1629057,1610612757,Portland Trail Blazers
+Ronald Holland II,2023-24,78.0,42.7,0.2,DET,SG,0.2 61%,1641842,1610612765,Detroit Pistons
+Royce O'Neale,2023-24,82.5,66.0,0.7,PHX,SF,0.7 69%,1626220,1610612756,Phoenix Suns
+Rudy Gobert,2023-24,2.5,48.1,3.8,MIN,C,3.8 99%,203497,1610612750,Minnesota Timberwolves
+Rui Hachimura,2023-24,87.4,63.7,0.1,LAL,PF,0.1 59%,1629060,1610612747,Los Angeles Lakers
+Russell Westbrook,2023-24,77.8,65.6,-0.8,DEN,PG,-0.8 19%,201566,1610612746,La Clippers
+Ryan Dunn,2023-24,90.8,89.9,-0.1,PHX,PF,-0.1 54%,1642346,1610612756,Phoenix Suns
+Ryan Rollins,2023-24,13.0,46.8,1.7,MIL,PG,1.7 87%,1631157,1610612749,Milwaukee Bucks
+Sam Hauser,2023-24,57.6,42.8,0.1,BOS,SF,0.1 59%,1630573,1610612738,Boston Celtics
+Sam Merrill,2023-24,31.2,44.6,0.8,CLE,SG,0.8 76%,1630241,1610612739,Cleveland Cavaliers
+Sandro Mamukelashvili,2023-24,78.7,22.7,0.2,SAS,PF,0.2 48%,1630572,1610612759,San Antonio Spurs
+Santi Aldama,2023-24,75.3,47.8,0.2,MEM,PF,0.2 49%,1630583,1610612763,Memphis Grizzlies
+Scoot Henderson,2023-24,46.4,44.5,-1.7,POR,PG,-1.7 5%,1630703,1610612757,Portland Trail Blazers
+Scottie Barnes,2023-24,76.0,65.4,1.0,TOR,SF,1 80%,1630567,1610612761,Toronto Raptors
+Scotty Pippen Jr.,2023-24,18.6,74.9,1.8,MEM,PG,1.8 90%,1630590,1610612763,Memphis Grizzlies
+Seth Curry,2023-24,28.5,40.5,-0.6,CHA,SG,-0.6 29%,203552,1610612766,Charlotte Hornets
+Shaedon Sharpe,2023-24,59.9,44.2,-2.1,POR,SG,-2.1 4%,1631101,1610612757,Portland Trail Blazers
+Shai Gilgeous-Alexander,2023-24,77.6,43.8,1.8,OKC,PG,1.8 89%,1628983,1610612760,Oklahoma City Thunder
+Shake Milton,2023-24,60.3,37.2,-0.7,LAL,SG,-0.7 28%,1629003,1610612752,New York Knicks
+Simone Fontecchio,2023-24,70.0,36.0,-0.5,DET,PF,-0.5 31%,1631323,1610612765,Detroit Pistons
+Spencer Dinwiddie,2023-24,69.5,51.5,-1.0,DAL,PG,-1 16%,203915,1610612747,Los Angeles Lakers
+Stephen Curry,2023-24,41.7,40.9,-0.9,GSW,PG,-0.9 20%,201939,1610612744,Golden State Warriors
+Stephon Castle,2023-24,35.7,87.8,-1.9,SAS,SG,-1.9 3%,1642264,1610612759,San Antonio Spurs
+Steven Adams,2023-24,12.3,36.9,1.7,HOU,C,1.7 90%,203500,1610612745,Houston Rockets
+Svi Mykhailiuk,2023-24,71.7,52.2,-0.6,UTA,SG,-0.6 20%,1629004,1610612738,Boston Celtics
+T.J. McConnell,2023-24,17.5,50.4,-0.3,IND,PG,-0.3 45%,204456,1610612754,Indiana Pacers
+Taj Gibson,2023-24,8.5,33.2,1.0,CHA,C,1 78%,201959,1610612765,Detroit Pistons
+Talen Horton-Tucker,2023-24,78.9,37.0,-0.6,CHI,SG,-0.6 29%,1629659,1610612762,Utah Jazz
+Tari Eason,2023-24,98.4,63.1,2.5,HOU,PF,2.5 96%,1631106,1610612745,Houston Rockets
+Taurean Prince,2023-24,76.2,65.2,-0.3,MIL,SF,-0.3 35%,1627752,1610612747,Los Angeles Lakers
+Terance Mann,2023-24,69.3,56.3,-1.3,ATL,SF,-1.3 9%,1629611,1610612746,La Clippers
+Terrence Shannon Jr.,2023-24,59.4,33.3,-0.5,MIN,SG,-0.5 34%,1630545,1610612750,Minnesota Timberwolves
+Terry Rozier,2023-24,25.6,61.2,-1.1,MIA,PG,-1.1 15%,1626179,1610612748,Miami Heat
+Thomas Bryant,2023-24,1.3,37.9,0.0,IND,C,0 48%,1628418,1610612748,Miami Heat
+Tidjane Salaün,2023-24,81.6,36.4,0.0,CHA,PF,0 41%,1642275,1610612766,Charlotte Hornets
+Tim Hardaway Jr.,2023-24,36.8,60.2,-1.1,DET,SG,-1.1 10%,203501,1610612742,Dallas Mavericks
+Tobias Harris,2023-24,56.1,51.2,1.6,DET,PF,1.6 86%,202699,1610612755,Philadelphia 76Ers
+Torrey Craig,2023-24,95.1,52.2,-0.7,BOS,PF,-0.7 34%,1628470,1610612741,Chicago Bulls
+Tosan Evbuomwan,2023-24,93.3,39.4,0.0,BKN,SF,0 53%,1641787,1610612765,Detroit Pistons
+Toumani Camara,2023-24,92.2,94.3,1.9,POR,PF,1.9 92%,1641739,1610612757,Portland Trail Blazers
+Trae Young,2023-24,25.3,35.6,-2.5,ATL,PG,-2.5 1%,1629027,1610612737,Atlanta Hawks
+Trayce Jackson-Davis,2023-24,4.9,53.8,0.4,GSW,C,0.4 65%,1631218,1610612744,Golden State Warriors
+Tre Jones,2023-24,22.2,63.6,0.4,CHI,PG,0.4 68%,1630200,1610612759,San Antonio Spurs
+Tre Mann,2023-24,36.5,50.9,-0.9,CHA,PG,-0.9 20%,1630544,1610612766,Charlotte Hornets
+Trendon Watford,2023-24,93.7,35.5,-0.1,BKN,PF,-0.1 45%,1630570,1610612751,Brooklyn Nets
+Trevelin Queen,2023-24,55.4,56.3,0.7,ORL,SG,0.7 72%,1630243,1610612753,Orlando Magic
+Trey Jemison,2023-24,11.9,26.2,-0.1,MEM,C,-0.1 48%,1641998,1610612763,Memphis Grizzlies
+Trey Lyles,2023-24,78.5,44.1,0.2,SAC,PF,0.2 62%,1626168,1610612758,Sacramento Kings
+Trey Murphy III,2023-24,84.5,65.8,-1.0,NOP,SF,-1 18%,1630530,1610612740,New Orleans Pelicans
+Tristan Thompson,2023-24,12.8,10.4,0.4,CLE,C,0.4 71%,202684,1610612739,Cleveland Cavaliers
+Tristan Vukcevic,2023-24,22.0,8.8,-0.2,WAS,C,-0.2 31%,1641774,1610612764,Washington Wizards
+Tristan da Silva,2023-24,90.6,38.0,-0.6,ORL,PF,-0.6 28%,1641783,1610612753,Orlando Magic
+Ty Jerome,2023-24,52.7,41.8,-0.4,CLE,PG,-0.4 36%,1629660,1610612739,Cleveland Cavaliers
+Tyler Herro,2023-24,29.1,42.8,-1.4,MIA,SG,-1.4 11%,1629639,1610612748,Miami Heat
+Tyler Kolek,2023-24,13.2,17.8,-0.6,NYK,PG,-0.6 36%,1642278,1610612752,New York Knicks
+Tyrese Haliburton,2023-24,21.3,33.6,-0.2,IND,PG,-0.2 49%,1630169,1610612754,Indiana Pacers
+Tyrese Martin,2023-24,63.0,44.1,-0.8,BKN,SG,-0.8 22%,1631213,1610612751,Brooklyn Nets
+Tyrese Maxey,2023-24,51.6,56.7,-1.7,PHI,PG,-1.7 6%,1630178,1610612755,Philadelphia 76Ers
+Tyus Jones,2023-24,20.9,61.3,-2.0,PHX,PG,-2 4%,1626145,1610612764,Washington Wizards
+Vasilije Micić,2023-24,50.0,41.5,-1.1,PHX,PG,-1.1 14%,203995,1610612766,Charlotte Hornets
+Victor Wembanyama,2023-24,7.2,55.2,4.0,SAS,C,4 100%,1641705,1610612759,San Antonio Spurs
+Vince Williams Jr.,2023-24,57.0,87.2,-0.1,MEM,SG,-0.1 52%,1631246,1610612763,Memphis Grizzlies
+Vít Krejčí,2023-24,52.0,41.3,0.2,ATL,SF,0.2 55%,1630249,1610612737,Atlanta Hawks
+Walker Kessler,2023-24,8.7,66.3,1.8,UTA,C,1.8 89%,1631117,1610612762,Utah Jazz
+Wendell Carter Jr.,2023-24,14.8,55.7,1.9,ORL,C,1.9 91%,1628976,1610612753,Orlando Magic
+Wendell Moore Jr.,2023-24,71.5,30.0,-0.4,CHA,SG,-0.4 33%,1631111,1610612750,Minnesota Timberwolves
+Yves Missi,2023-24,8.1,56.4,-1.4,NOP,C,-1.4 42%,1642274,1610612740,New Orleans Pelicans
+Zaccharie Risacher,2023-24,76.5,50.0,-1.7,ATL,SF,-1.7 3%,1642258,1610612737,Atlanta Hawks
+Zach Collins,2023-24,6.7,45.3,1.3,CHI,C,1.3 84%,1628380,1610612759,San Antonio Spurs
+Zach Edey,2023-24,3.8,43.4,0.7,MEM,C,0.7 81%,1641744,1610612763,Memphis Grizzlies
+Zach LaVine,2023-24,64.1,61.6,-1.3,SAC,SG,-1.3 7%,203897,1610612741,Chicago Bulls
+Zeke Nnaji,2023-24,92.8,45.2,1.2,DEN,PF,1.2 82%,1630192,1610612743,Denver Nuggets
+Ziaire Williams,2023-24,80.9,71.8,-0.3,BKN,SF,-0.3 43%,1630533,1610612763,Memphis Grizzlies
+Zion Williamson,2023-24,66.1,58.3,0.1,NOP,PF,0.1 56%,1629627,1610612740,New Orleans Pelicans

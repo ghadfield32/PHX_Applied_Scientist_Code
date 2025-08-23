@@ -1,0 +1,85 @@
+column,expected_dtype,actual_dtype,matches
+Player,object,object,True
+Season,object,object,True
+Team,,object,True
+Age,,float64,True
+GP,,int64,True
+GS,,int64,True
+MP,,float64,True
+PTS,,int64,True
+FG,,int64,True
+FGA,,int64,True
+3P,,int64,True
+3PA,,int64,True
+FT,,int64,True
+FTA,,int64,True
+TRB,,int64,True
+AST,,int64,True
+STL,,int64,True
+BLK,,int64,True
+TOV,,int64,True
+PF,,int64,True
+ORB,,int64,True
+DRB,,int64,True
+Position,,object,True
+TeamID,,int64,True
+Years_of_Service,,int64,True
+2P,,int64,True
+2PA,,int64,True
+eFG%,,float64,True
+2P%,,float64,True
+PER,,float64,True
+TS%,,float64,True
+ORB%,,float64,True
+DRB%,,float64,True
+TRB%,,float64,True
+AST%,,float64,True
+STL%,,float64,True
+BLK%,,float64,True
+TOV%,,float64,True
+USG%,,float64,True
+OWS,,float64,True
+DWS,,float64,True
+WS,,float64,True
+WS/48,,float64,True
+OBPM,,float64,True
+DBPM,,float64,True
+BPM,,float64,True
+VORP,,float64,True
+Wins,,float64,True
+Losses,,float64,True
+Injured,,bool,True
+Injury_Periods,,object,True
+Total_Days_Injured,,int64,True
+Injury_Risk,,object,True
+FG%,,float64,True
+3P%,,float64,True
+FT%,,float64,True
+PTS_per_36,,float64,True
+AST_per_36,,float64,True
+TRB_per_36,,float64,True
+Tm_FGA,,int64,True
+Tm_FTA,,int64,True
+Tm_TOV,,int64,True
+Tm_FG,,int64,True
+Tm_ORB,,int64,True
+Tm_DRB,,int64,True
+Tm_TRB,,int64,True
+Tm_MP,,float64,True
+Tm_AST,,int64,True
+Team_Poss,,float64,True
+Player_Poss,,float64,True
+Scoring_Usage%,,float64,True
+Turnover_Usage%,,float64,True
+Playmaking_Usage%,,float64,True
+True_Usage%,,float64,True
+Offensive_Load%,,float64,True
+Salary Cap,,float64,True
+Luxury Tax,,float64,True
+1st Apron,,float64,True
+2nd Apron,,float64,True
+BAE,,float64,True
+Non-Taxpayer MLE,,float64,True
+Taxpayer MLE,,float64,True
+Team Room MLE,,float64,True
+Salary_Cap_Inflated,,float64,True

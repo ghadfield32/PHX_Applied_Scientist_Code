@@ -1,0 +1,7 @@
+step,feature_count,details
+Original,252,252 numeric features
+Missing Filter,252,Keeping 252 after missingness filter
+Variance Threshold,50,50 final candidates
+MI Selection,50,MI applied
+Log Skew Suggestion,47,Suggested log1p for 47
+Missing Indicators,0,Added 0 indicators

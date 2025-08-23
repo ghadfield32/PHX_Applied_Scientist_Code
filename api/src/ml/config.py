@@ -1,18 +1,13 @@
-# api/src/ml/config.py
-
+# FILE: api/src/ml/config.py (CORRECTED AND COMPLETE)
 from pathlib import Path
 from typing import Any, Union, Optional, Literal, Tuple
 from dataclasses import dataclass
 import os
 import json
 
-
-# ── Project root discovery (similar to your example) ───────────────────────────
+# ── Project root discovery ─────────────────────────────────────────────────────
 def find_project_root(name: str = "nba_player_valuation_system") -> Path:
-    """
-    Walk up from this file until a directory named `name` or containing .git is found.
-    Fallback to cwd.
-    """
+    """Walk up from this file until a directory named `name` or containing .git is found."""
     try:
         p = Path(__file__).resolve()
     except NameError:
@@ -22,106 +17,52 @@ def find_project_root(name: str = "nba_player_valuation_system") -> Path:
             return parent
     return Path.cwd()
 
-
-# ------------------------------------------------------------------
-# Core static paths (existing)
-# ------------------------------------------------------------------
-
-# make project root api/
-# Project root (looks for directory named or .git under it)
+# Core static paths
 PROJECT_ROOT: Path = Path("api")
-
-# Data directories
 DATA_DIR: Path = PROJECT_ROOT / "src" / "ml" / "data"
 AIRFLOW_DATA_DIR: Path = PROJECT_ROOT / "src" / "airflow_project" / "data"
 LOG_DIR: Path = PROJECT_ROOT / "src" / "logs"
-
-# Where model artifacts live
 ARTIFACTS_DIR: Path = DATA_DIR / "ml_artifacts"
-
-# Where registry-resolved artifacts are cached locally for prediction fast-paths
 REGISTRY_LOCAL_CACHE_DIR: Path = ARTIFACTS_DIR / "registry_cache"
-
-# Engineered datasets
 FINAL_ENGINEERED_DATASET_DIR: Path = AIRFLOW_DATA_DIR / "merged_final_dataset"
-
-# Final ML-ready dataset (fixed assignment; previously missing '=' caused NameError)
 FINAL_ML_DATASET_DIR: Path = DATA_DIR / "final_ml_dataset"
-
-# Model store
 MODEL_STORE_DIR: Path = DATA_DIR / "model_store"
-
-# Column schema path (relative to project root)
 COLUMN_SCHEMA_PATH: Path = PROJECT_ROOT / "src" / "ml" / "column_schema.yaml"
-
-# Feature store
 FEATURE_STORE_DIR: Path = DATA_DIR / "feature_store"
-
-# Feature selection docs
 FEATURE_SELECTION_DIR: Path = DATA_DIR / "feature_selection"
-
-# Add near other AIRFLOW paths
 MAX_CONTRACT_VALUES_CSV: Path = AIRFLOW_DATA_DIR / "spotrac_contract_data" / "exported_csv" / "max_contract_values.csv"
 
-
-# ------------------------------------------------------------------
-# Dev / Training adjustable section
-# ------------------------------------------------------------------
-# === Stage profiles & canonical bundle paths ===
-# -------------------------------
-# #Modelling: environment & paths
-# -------------------------------
-# Environment stage for modeling flows (local/dev/stage/prod)
+# Environment and MLflow configuration
 ML_ENV: str = os.getenv("ML_ENV", "dev")
-
-# Default raw mlruns directory (local file store)
 _DEFAULT_MLFLOW_TRACKING_URI = (ARTIFACTS_DIR / "mlruns").resolve().as_uri()
-
-# Raw override (could be a bare path, a file:// variant, or http(s))
 _raw_mlflow_uri = os.getenv("MLFLOW_TRACKING_URI", _DEFAULT_MLFLOW_TRACKING_URI)
 
 def _canonicalize_tracking_uri(uri: str) -> str:
-    """
-    Normalize a user-provided tracking URI into something MLflow accepts.
-    - Converts bare or relative paths into absolute file:/// URIs.
-    - Repairs Windows-style file://C:\\... to file:///C:/... using pathlib.
-    """
+    """Normalize a user-provided tracking URI into something MLflow accepts."""
     from urllib.parse import urlparse
     parsed = urlparse(uri)
-
-    # HTTP/HTTPS are passed through
     if parsed.scheme in ("http", "https"):
         return uri
-
-    # File scheme: normalize via pathlib to get canonical form (e.g., file:///C:/...)
     if parsed.scheme == "file":
-        # Strip the 'file://' prefix to get the path component, then feed to pathlib
-        path_part = uri[len("file://") :]
+        path_part = uri[len("file://"):]
         try:
             p = Path(path_part)
             return p.resolve().as_uri()
         except Exception:
-            # Fallback: if something goes wrong, return original
             return uri
-
-    # No scheme: treat as local path
     try:
         p = Path(uri)
         return p.resolve().as_uri()
     except Exception:
-        return uri  # best effort
+        return uri
 
 def _parse_families_env(raw: str) -> tuple[str, ...]:
-    """
-    Robustly parse MODEL_FAMILIES_SMOKE from either JSON (['cat', 'xgb']) or CSV.
-    Strips quotes/brackets and dedups while preserving order.
-    """
+    """Robustly parse MODEL_FAMILIES_SMOKE from either JSON or CSV."""
     s = (raw or "").strip()
     out: list[str] = []
     if not s:
         return tuple()
 
-    # Try JSON list first (most specific)
     if s.startswith("[") and s.endswith("]"):
         try:
             arr = json.loads(s)
@@ -131,140 +72,98 @@ def _parse_families_env(raw: str) -> tuple[str, ...]:
                     out.append(t)
             return tuple(out)
         except Exception:
-            pass  # fall through to CSV
+            pass
 
-    # CSV fallback - handle mixed formats by cleaning up first
-    s = s.strip("[]")  # tolerate accidental [] wrappers
-    # Split by comma and clean each token
+    s = s.strip("[]")
     for tok in s.split(","):
-        t = tok.strip().strip("'\"[]")  # strip quotes and brackets from individual tokens
+        t = tok.strip().strip("'\"[]")
         if t and t not in out:
             out.append(t)
     return tuple(out)
 
-# Final normalized tracking URI used by the system
+# Final configurations
 MLFLOW_TRACKING_URI: str = _canonicalize_tracking_uri(_raw_mlflow_uri)
-
-# Experiment name override
-MLFLOW_EXPERIMENT_NAME: str = os.getenv(
-    "MLFLOW_EXPERIMENT_NAME",
-    "nba_featurestore_smoke"
-)
-
-
-# Where to save model artifacts for training/eval (smoke & beyond)
+MLFLOW_EXPERIMENT_NAME: str = os.getenv("MLFLOW_EXPERIMENT_NAME", "nba_featurestore_smoke")
 MODEL_ARTIFACTS_DIR: Path = Path(os.getenv("MODEL_ARTIFACTS_DIR", str(ARTIFACTS_DIR)))
-
-# Feature store directory (allow override)
 FEATURE_STORE_DIR: Path = Path(os.getenv("FEATURE_STORE_DIR", str(FEATURE_STORE_DIR)))
-
-# Feature Store behaviors
 FEATURESTORE_PREFERRED_STAGE: str = os.getenv("FEATURESTORE_PREFERRED_STAGE", "Production")
 FEATURESTORE_AUTO_BOOTSTRAP: bool = os.getenv("FEATURESTORE_AUTO_BOOTSTRAP", "1").lower() in ("1", "true", "yes")
-
-# The default model_family used to name the feature store namespace
 DEFAULT_FEATURESTORE_MODEL_FAMILY: str = os.getenv("FEATURESTORE_MODEL_FAMILY", "linear_ridge")
 
-# Default families for the smoke comparison run (comma-separated env override)
+# Enhanced model families with stacking
 DEFAULT_MODEL_FAMILIES_SMOKE: tuple[str, ...] = _parse_families_env(
-    os.getenv("MODEL_FAMILIES_SMOKE", "linear_ridge,lasso,elasticnet,rf,xgb,lgbm,cat")
+    os.getenv("MODEL_FAMILIES_SMOKE", "linear_ridge,lasso,elasticnet,rf,xgb,lgbm,cat,stacking")
 )
 
-# Helpful utility to format the namespace on disk
+# Stacking-specific configuration
+STACKING_DEFAULT_BASE_ESTIMATORS: tuple[str, ...] = _parse_families_env(
+    os.getenv("STACKING_BASE_ESTIMATORS", "linear_ridge,xgb,lgbm,cat")
+)
+STACKING_DEFAULT_META_LEARNER: str = os.getenv("STACKING_META_LEARNER", "linear_ridge")
+STACKING_DEFAULT_CV_FOLDS: int = int(os.getenv("STACKING_CV_FOLDS", "5"))
+STACKING_DEFAULT_CV_STRATEGY: str = os.getenv("STACKING_CV_STRATEGY", "time_series")
+STACKING_USE_PASSTHROUGH: bool = os.getenv("STACKING_USE_PASSTHROUGH", "false").lower() in ("1", "true", "yes")
+
+# Utility functions
 def feature_store_namespace(model_family: str, target: str) -> str:
-    # keep target stable and obvious in namespace
     return f"{model_family}_{target}"
 
-# Model selection (which metric picks the Production model)
 SELECTED_METRIC: Literal["rmse", "mae", "r2"] = os.getenv("SELECTED_METRIC", "mae").lower()
 
 def metric_higher_is_better(metric: str) -> bool:
     return metric.lower() in {"r2"}
 
-# MLflow Model Registry integration
+# Registry configuration
 USE_MODEL_REGISTRY: bool = os.getenv("USE_MODEL_REGISTRY", "1").lower() in ("1","true","yes")
-
-# Registry alias mapping (next to registry helpers)
-REGISTRY_ALIAS_DEV   = os.getenv("MLFLOW_ALIAS_DEV",   "dev")
+REGISTRY_ALIAS_DEV = os.getenv("MLFLOW_ALIAS_DEV", "dev")
 REGISTRY_ALIAS_STAGE = os.getenv("MLFLOW_ALIAS_STAGE", "stage")
-REGISTRY_ALIAS_PROD  = os.getenv("MLFLOW_ALIAS_PROD",  "prod")
+REGISTRY_ALIAS_PROD = os.getenv("MLFLOW_ALIAS_PROD", "prod")
 
 def registry_alias_for_env(env: Optional[str] = None) -> str:
-    """
-    Map ML_ENV (dev/stage/prod and their aliases) to a registry alias string.
-    Defaults are 'dev','stage','prod' but can be overridden via env vars above.
-    """
     e = _normalize_stage_env(env or ML_ENV)
     return {
-        "dev":  REGISTRY_ALIAS_DEV,
+        "dev": REGISTRY_ALIAS_DEV,
         "stage": REGISTRY_ALIAS_STAGE,
         "prod": REGISTRY_ALIAS_PROD,
     }.get(e, REGISTRY_ALIAS_DEV)
 
 def registry_name_for_target(target: str) -> str:
-    """
-    Use a single registered model per target, regardless of family.
-    Keeping families as tags/params makes it easy to compare while 
-    always having ONE Production pointer.
-    """
     default = f"nba_{target}_regressor"
     return os.getenv("MODEL_REGISTRY_NAME", default)
 
-
-# === Stage profiles & canonical bundle paths ===
-# Normalize incoming ML_ENV / stage strings so that variants like "staging"
-# or "production" are mapped to the canonical internal keys ("stage", "prod").
+# Stage profiles
 _STAGE_ALIASES: dict[str, str] = {
     "staging": "stage",
     "production": "prod",
     "development": "dev",
-    # keep canonical forms mapping to themselves implicitly
 }
 
 def _normalize_stage_env(env: Optional[str] = None) -> str:
-    """
-    Return the canonical internal stage key for a given input.
-    e.g., "staging" -> "stage", "production" -> "prod", case-insensitive.
-    """
     e = (env or ML_ENV).lower()
-    return _STAGE_ALIASES.get(e, e)  # fallback to itself if already canonical
+    return _STAGE_ALIASES.get(e, e)
 
 @dataclass(frozen=True)
 class StageProfile:
-    name: Literal["dev", "stage", "prod"]  # internal canonical names
-    # Which registry stage (if used) this environment maps to
+    name: Literal["dev", "stage", "prod"]
     registry_stage: Literal["Staging", "Production"]
-    # Which metric to compare when promoting within this env
     selected_metric: Literal["rmse", "mae", "r2"] = SELECTED_METRIC
-    # Minimal improvement needed to promote (0.0 => any improvement)
     min_improvement: float = 0.0
 
-# NOTE: we keep the internal canonical keys here; external callers can pass
-# "staging" or "production" because of normalization helpers.
 STAGE_PROFILES: dict[str, StageProfile] = {
-    "dev":   StageProfile("dev",   "Staging",    selected_metric=SELECTED_METRIC, min_improvement=0.0),
-    "stage": StageProfile("stage", "Staging",    selected_metric=SELECTED_METRIC, min_improvement=0.0),
-    "prod":  StageProfile("prod",  "Production", selected_metric=SELECTED_METRIC, min_improvement=0.0),
+    "dev": StageProfile("dev", "Staging", selected_metric=SELECTED_METRIC, min_improvement=0.0),
+    "stage": StageProfile("stage", "Staging", selected_metric=SELECTED_METRIC, min_improvement=0.0),
+    "prod": StageProfile("prod", "Production", selected_metric=SELECTED_METRIC, min_improvement=0.0),
 }
 
-# Canonical "one bundle per stage per target"
+# Bundle directories
 BUNDLE_ROOT: Path = ARTIFACTS_DIR / "model_bundles"
-# === Per-family bundles (exactly 3 per family: dev/stage/prod) ===
 FAMILY_BUNDLE_ROOT: Path = ARTIFACTS_DIR / "family_bundles"
 
 def family_bundle_dir_for(model_family: str, target: str, env: Optional[str] = None) -> Path:
-    """
-    Canonical on-disk location for a family's promoted artifacts per stage env.
-    e.g., api/src/ml/data/ml_artifacts/family_bundles/<target>/<family>/<env>/
-    """
     canonical = _normalize_stage_env(env or ML_ENV)
     return FAMILY_BUNDLE_ROOT / target / model_family / canonical
 
-
 def bundle_dir_for(target: str, env: Optional[str] = None) -> Path:
-    """
-    Returns the canonical bundle directory, normalizing env aliases.
-    """
     canonical = _normalize_stage_env(env or ML_ENV)
     return BUNDLE_ROOT / target / canonical
 
@@ -273,24 +172,48 @@ AUTOCLEAN_FAMILY_ARTIFACTS: bool = os.getenv("AUTOCLEAN_FAMILY_ARTIFACTS", "1").
 PREDICT_USE_BUNDLE_FIRST: bool = os.getenv("PREDICT_USE_BUNDLE_FIRST", "1").lower() in ("1", "true", "yes")
 
 def registry_stage_for_env(env: Optional[str] = None) -> str:
-    """
-    Given an environment name (e.g., "dev", "staging", "prod", "production"), return
-    the corresponding MLflow registry stage string (e.g., "Staging" or "Production").
-    """
     canonical = _normalize_stage_env(env)
     return STAGE_PROFILES.get(canonical, STAGE_PROFILES["dev"]).registry_stage
 
+# MISSING TRAINING CONFIG CLASS (ROOT CAUSE OF ERROR)
+@dataclass
+class TrainingConfig:
+    """
+    Training configuration for any model family (sklearn/stacking/bayes_hier).
+    """
+    model_family: str = "linear_ridge"
+    target: str = "AAV"
+    use_cap_pct_target: bool = False
+    max_train_rows: Optional[int] = None
+    n_splits: int = 4
+    n_trials: int = 20
+    random_state: int = 42
+    drop_columns_exact: list[str] = None
+    feature_exclude_prefixes: list[str] = None
+
+    # --- Bayesian-only knobs (new) ---
+    bayes_draws: int = int(os.getenv("BAYES_DRAWS", "1000"))
+    bayes_tune: int = int(os.getenv("BAYES_TUNE", "1000"))
+    bayes_target_accept: float = float(os.getenv("BAYES_TARGET_ACCEPT", "0.9"))
+    bayes_chains: int = int(os.getenv("BAYES_CHAINS", "2"))
+    bayes_cores: int = int(os.getenv("BAYES_CORES", "2"))
+    # configurable grouping columns; default common pair
+    bayes_group_cols: tuple[str, ...] = tuple(
+        os.getenv("BAYES_GROUP_COLS", "position,Season").split(",")
+    )
+
+    def __post_init__(self):
+        if self.drop_columns_exact is None:
+            self.drop_columns_exact = []
+        if self.feature_exclude_prefixes is None:
+            self.feature_exclude_prefixes = []
+        # basic sanity
+        if self.bayes_draws < 100 or self.bayes_tune < 100:
+            print("[TrainingConfig] Warning: very small draws/tune may lead to unstable posteriors.")
 
 @dataclass
 class DevTrainConfig:
-    """
-    REPLACE your existing DevTrainConfig with this enhanced version.
-
-    NEW FEATURES:
-    - Convergence-specific settings
-    - Enhanced preprocessing options
-    - Better cross-validation strategies
-    """
+    """Enhanced DevTrainConfig with stacking ensemble support."""
     stage: Literal["dev", "train", "prod"] = "dev"
 
     # Enhanced preprocessing
@@ -301,12 +224,12 @@ class DevTrainConfig:
     apply_type_conversions: bool = True
     drop_unexpected_columns: bool = True
 
-    # NEW: Feature scaling improvements
+    # Feature scaling improvements
     enable_robust_scaling: bool = True
     enable_outlier_detection: bool = True
     outlier_contamination: float = 0.1
 
-    # Feature selection (existing)
+    # Feature selection
     perm_threshold: float = 0.001
     shap_threshold: float = 0.001
     selection_mode: Literal["intersection", "union"] = "union"
@@ -319,21 +242,27 @@ class DevTrainConfig:
     shap_nsamples: int = 100
     max_relative_regression: float = 0.05
 
-    # NEW: Model-specific convergence settings
-    linear_max_iter: int = 50000  # Increased from default
-    linear_tol: float = 1e-6  # Tighter tolerance
+    # Model-specific convergence settings
+    linear_max_iter: int = 50000
+    linear_tol: float = 1e-6
     enable_feature_selection_for_linear: bool = True
 
-    # NEW: Cross-validation improvements
+    # Cross-validation improvements
     cv_strategy: Literal["time_series", "group", "stratified"] = "time_series"
     cv_n_splits: int = 5
     cv_test_size: float = 0.2
 
-    # --- Convenience computed properties ---
+    # Stacking ensemble configuration
+    stacking_base_estimators: tuple[str, ...] = STACKING_DEFAULT_BASE_ESTIMATORS
+    stacking_meta_learner: str = STACKING_DEFAULT_META_LEARNER
+    stacking_cv_folds: int = STACKING_DEFAULT_CV_FOLDS
+    stacking_cv_strategy: str = STACKING_DEFAULT_CV_STRATEGY
+    stacking_use_passthrough: bool = STACKING_USE_PASSTHROUGH
+    stacking_enable_base_tuning: bool = True
+    stacking_meta_tuning_trials: int = 20
+
     def make_selection_kwargs(self) -> dict:
-        """
-        Build a dict that can be unpacked into SelectionConfig-like consumers.
-        """
+        """Build a dict that can be unpacked into SelectionConfig-like consumers."""
         return {
             "perm_n_repeats": self.perm_n_repeats,
             "perm_max_samples": self.perm_max_samples,
@@ -348,7 +277,43 @@ class DevTrainConfig:
             "max_relative_regression": self.max_relative_regression,
         }
 
+    def make_stacking_params(self) -> dict:
+        """Build default stacking parameters from configuration."""
+        return {
+            "base_estimators": list(self.stacking_base_estimators),
+            "meta_learner": self.stacking_meta_learner,
+            "cv_folds": self.stacking_cv_folds,
+            "cv_strategy": self.stacking_cv_strategy,
+            "passthrough": self.stacking_use_passthrough,
+            "base_params": self._get_default_base_params(),
+            "meta_params": self._get_default_meta_params()
+        }
+
+    def _get_default_base_params(self) -> dict:
+        """Get default hyperparameters for base estimators."""
+        defaults = {
+            "linear_ridge": {"alpha": 1.0},
+            "lasso": {"alpha": 0.01},
+            "elasticnet": {"alpha": 0.01, "l1_ratio": 0.5},
+            "rf": {"n_estimators": 300, "max_depth": 10},
+            "xgb": {"n_estimators": 300, "max_depth": 6, "learning_rate": 0.1},
+            "lgbm": {"n_estimators": 300, "max_depth": 6, "learning_rate": 0.1},
+            "cat": {"iterations": 300, "depth": 6, "learning_rate": 0.1}
+        }
+        return {family: params for family, params in defaults.items() 
+                if family in self.stacking_base_estimators}
+
+    def _get_default_meta_params(self) -> dict:
+        """Get default hyperparameters for meta-learner."""
+        meta_defaults = {
+            "linear_ridge": {"alpha": 0.1},
+            "lasso": {"alpha": 0.01, "max_iter": 10000},
+            "elasticnet": {"alpha": 0.01, "l1_ratio": 0.5, "max_iter": 10000}
+        }
+        return meta_defaults.get(self.stacking_meta_learner, {})
+
     def validate(self):
+        """Enhanced validation with stacking checks."""
         if not (0 <= self.quantile_clipping[0] < self.quantile_clipping[1] <= 1):
             raise ValueError("quantile_clipping must satisfy 0 <= low < high <=1")
         if self.max_safe_rows < 1_000:
@@ -358,52 +323,158 @@ class DevTrainConfig:
         if self.perm_threshold < 0 or self.shap_threshold < 0:
             raise ValueError("thresholds must be non-negative")
 
+        # Stacking validation
+        if len(self.stacking_base_estimators) < 2:
+            raise ValueError("stacking_base_estimators must have at least 2 estimators")
+        if self.stacking_cv_folds < 2:
+            raise ValueError("stacking_cv_folds must be >= 2")
+        if self.stacking_cv_strategy not in ("time_series", "kfold"):
+            raise ValueError("stacking_cv_strategy must be 'time_series' or 'kfold'")
 
-# Default instantiation accessible for quick imports
-DEFAULT_DEV_TRAIN_CONFIG = DevTrainConfig()
-
-
-
-
-
-
-
-
-
-# --- Training/Tuning section ---
 @dataclass
 class TuningConfig:
-    """
-    Controls whether Bayesian tuning runs, how many trials / splits, and
-    which families to include. Separates the tuning stage from final evaluation.
-    """
+    """Enhanced tuning configuration with stacking ensemble support."""
     model_families: Tuple[str, ...] = DEFAULT_MODEL_FAMILIES_SMOKE
-    n_trials: int = 2
+    n_trials: int = 20
     n_splits: int = 4
-    use_bayesian: bool = False  # whether to run Optuna tuning before final training
+    use_bayesian: bool = True
 
+    # Stacking-specific tuning configuration
+    stacking_n_trials: int = 50
+    stacking_enable_base_tuning: bool = False
+    stacking_base_trials_per_family: int = 10
+    stacking_meta_trials: int = 20
+    stacking_max_base_combinations: int = 10
+
+    def get_trials_for_family(self, model_family: str) -> int:
+        """Get the appropriate number of trials for a given model family."""
+        if model_family == "stacking":
+            return self.stacking_n_trials
+        return self.n_trials
+
+    def should_tune_family(self, model_family: str) -> bool:
+        """Determine whether to tune a specific model family."""
+        if not self.use_bayesian:
+            return False
+        if model_family == "stacking" and not self.stacking_enable_base_tuning:
+            return False
+        return True
+
+# CREATE THE MISSING DEFAULTS INSTANCE (ROOT CAUSE FIX)
+DEFAULT_DEV_TRAIN_CONFIG = DevTrainConfig()
 DEFAULT_TUNING_CONFIG = TuningConfig()
+DEFAULTS = TrainingConfig()  # This was the missing piece causing the NameError!
 
+# Stacking ensemble utilities
+def get_stacking_default_params(target: str = "AAV") -> dict:
+    """Get default stacking parameters optimized for NBA player valuation."""
+    return {
+        "base_estimators": list(STACKING_DEFAULT_BASE_ESTIMATORS),
+        "meta_learner": STACKING_DEFAULT_META_LEARNER,
+        "cv_folds": STACKING_DEFAULT_CV_FOLDS,
+        "cv_strategy": STACKING_DEFAULT_CV_STRATEGY,
+        "passthrough": STACKING_USE_PASSTHROUGH,
+        "base_params": {
+            "linear_ridge": {"alpha": 1.0},
+            "xgb": {
+                "n_estimators": 300,
+                "max_depth": 6,
+                "learning_rate": 0.1,
+                "subsample": 0.8,
+                "colsample_bytree": 0.8
+            },
+            "lgbm": {
+                "n_estimators": 300,
+                "max_depth": 6,
+                "learning_rate": 0.1,
+                "subsample": 0.8,
+                "colsample_bytree": 0.8
+            },
+            "cat": {
+                "iterations": 300,
+                "depth": 6,
+                "learning_rate": 0.1
+            }
+        },
+        "meta_params": {"alpha": 0.1}
+    }
 
+def is_stacking_family(model_family: str) -> bool:
+    """Check if a model family is a stacking ensemble."""
+    return model_family.lower() == "stacking"
 
+def get_stacking_dependencies(model_family: str) -> list[str]:
+    """Get the base model dependencies for a stacking model."""
+    if not is_stacking_family(model_family):
+        return []
+    return list(STACKING_DEFAULT_BASE_ESTIMATORS)
 
+def get_training_order(model_families: list[str]) -> list[str]:
+    """Return model families in the correct training order. Stacking models should be trained after their base estimators."""
+    stacking_families = [f for f in model_families if is_stacking_family(f)]
+    base_families = [f for f in model_families if not is_stacking_family(f)]
+    return base_families + stacking_families
 
+# MISSING HELPER FUNCTION (ANOTHER ROOT CAUSE)
+def get_master_parquet_path() -> Path:
+    """
+    Get the path to the master dataset parquet file.
+    This function was referenced but not defined, causing another potential error.
+    """
+    return FINAL_ENGINEERED_DATASET_DIR / "final_merged_with_all.parquet"
 
-# ------------------------------------------------------------------
-# CLI / direct invocation helper (for debugging)
-# ------------------------------------------------------------------
+# Debug function to validate all required components exist
+def validate_configuration():
+    """Debug function to validate all configuration components are properly defined."""
+    errors = []
+
+    # Check required classes exist
+    try:
+        TrainingConfig()
+        print("✅ TrainingConfig class defined correctly")
+    except Exception as e:
+        errors.append(f"❌ TrainingConfig error: {e}")
+
+    # Check DEFAULTS exists
+    try:
+        assert DEFAULTS is not None
+        print("✅ DEFAULTS instance defined correctly")
+    except Exception as e:
+        errors.append(f"❌ DEFAULTS error: {e}")
+
+    # Check required functions exist
+    try:
+        path = get_master_parquet_path()
+        print(f"✅ get_master_parquet_path() returns: {path}")
+    except Exception as e:
+        errors.append(f"❌ get_master_parquet_path() error: {e}")
+
+    # Check stacking utilities
+    try:
+        params = get_stacking_default_params()
+        print(f"✅ Stacking params generated: {len(params)} keys")
+    except Exception as e:
+        errors.append(f"❌ Stacking utilities error: {e}")
+
+    if errors:
+        print("\n=== CONFIGURATION ERRORS ===")
+        for error in errors:
+            print(error)
+        return False
+    else:
+        print("\n✅ All configuration components validated successfully!")
+        return True
+
 if __name__ == "__main__":
-    print("all directories and dev/train config:")
-    print(f"PROJECT_ROOT: {PROJECT_ROOT}")
-    print(f"DATA_DIR: {DATA_DIR}")
-    print(f"LOG_DIR: {LOG_DIR}")
-    print(f"ARTIFACTS_DIR: {ARTIFACTS_DIR}")
-    print(f"FINAL_ENGINEERED_DATASET_DIR: {FINAL_ENGINEERED_DATASET_DIR}")
-    print(f"FINAL_ML_DATASET_DIR: {FINAL_ML_DATASET_DIR}")
-    print(f"MODEL_STORE_DIR: {MODEL_STORE_DIR}")
-    print(f"FEATURE_STORE_DIR: {FEATURE_STORE_DIR}")
-    print(f"COLUMN_SCHEMA_PATH: {COLUMN_SCHEMA_PATH}")
-    print(f"FEATURE_SELECTION_DIR: {FEATURE_SELECTION_DIR}")
-    print("\nDefault Dev/Train Config:")
-    print(DEFAULT_DEV_TRAIN_CONFIG)
-    print(f"MAX_CONTRACT_VALUES_CSV: {MAX_CONTRACT_VALUES_CSV}")
+    print("=== CONFIGURATION DEBUG VALIDATION ===")
+    validate_configuration()
+
+    print("\nTesting stacking configuration:")
+    config = DevTrainConfig()
+    stacking_params = config.make_stacking_params()
+    print(f"Default stacking params: {stacking_params}")
+
+    print("\nTesting training order:")
+    families = ["linear_ridge", "xgb", "stacking", "lgbm", "cat"]
+    training_order = get_training_order(families)
+    print(f"Training order: {training_order}")

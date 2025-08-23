@@ -1,0 +1,10 @@
+html/static
+pandas
+pandas
+pandas/row0hdr
+pandas/row0hdr
+inline-js
+datatable-ajax
+js/varHistory
+__NEXT_DATA__
+json/array_of_arrays

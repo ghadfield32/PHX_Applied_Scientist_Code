@@ -1,0 +1,11 @@
+{
+  "build_timestamp": "2025-07-25T00:20:22.926540",
+  "start_year": 2024,
+  "end_year": 2025,
+  "total_players": 10216,
+  "total_teams": 90,
+  "seasons_processed": 2,
+  "failed_seasons": [],
+  "players_path": "data\\lookup\\all_players.parquet",
+  "teams_path": "data\\lookup\\all_teams.parquet"
+}

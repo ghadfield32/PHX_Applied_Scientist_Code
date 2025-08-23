@@ -1,0 +1,451 @@
+AGE_x,MP,PLAYER_NAME,PLUSMINUS,LT_06_PCT,FREQ,TEAM_ABBREVIATION_x,season,source_x,POSITION_x,AGE_y,DLEBRON,DDRIP,DDARKO,DBPM,CraftedDPM_x,TEAM_ABBREVIATION_y,source_y,POSITION_y,AGE,VersatilityRating,MatchupDifficulty,CraftedDPM_y,TEAM_ABBREVIATION,POSITION,source
+,,A.J. Lawson,,,,,2023-24,,,,,,,,,,,,24,39.5,22.8,-0.3 42%,TOR,SG,craftednba
+,,AJ Green,,,,,2023-24,,,,,,,,,,,,25,44.6,51.1,0 67%,MIL,SG,craftednba
+,,AJ Johnson,,,,,2023-24,,,,,,,,,,,,20,24.7,29.6,-0.8 11%,WAS,SG,craftednba
+,,Aaron Gordon,,,,,2023-24,,,,,,,,,,,,29,85.4,64.6,0.5 69%,DEN,PF,craftednba
+,,Aaron Holiday,,,,,2023-24,,,,,,,,,,,,28,27.4,49.2,0.6 70%,HOU,PG,craftednba
+25.0,1123.0,Aaron Nesmith,-11.2%,50.3%,32.4%,IND,2023-24,craftednba,SF,,,,,,,,,,25,55.2,61.4,-0.4 38%,IND,SF,craftednba
+,,Aaron Wiggins,,,,,2023-24,,,,,,,,,,,,26,83.4,42.7,-0.2 43%,OKC,SG,craftednba
+,,Adem Bona,,,,,2023-24,,,,,,,,,,,,21,15.7,35.2,0.7 78%,PHI,C,craftednba
+,,Ajay Mitchell,,,,,2023-24,,,,,,,,,,,,22,46.9,33.3,0.4 68%,OKC,SG,craftednba
+,,Al Horford,,,,,2023-24,,,38.0,1.2,0.9,1.9,1.1,2.2 94%,BOS,craftednba,C,38,76.9,61.4,2.2 94%,BOS,C,craftednba
+,,Alec Burks,,,,,2023-24,,,,,,,,,,,,33,32.5,38.4,0.2 60%,MIA,SG,craftednba
+,,Alex Caruso,,,,,2023-24,,,30.0,1.6,2.0,2.3,3.9,3.9 100%,OKC,craftednba,PG,30,95.5,73.7,3.9 100%,OKC,PG,craftednba
+,,Alex Len,,,,,2023-24,,,,,,,,,,,,31,2.7,26.2,1.1 80%,LAL,C,craftednba
+,,Alex Sarr,,,,,2023-24,,,,,,,,,,,,19,4.3,55.5,-0.3 36%,WAS,PF,craftednba
+,,Alperen Sengun,,,,,2023-24,,,,,,,,,,,,22,26.5,40.5,1.4 84%,HOU,C,craftednba
+22.0,2225.0,Amen Thompson,-9.7%,52.9%,35.7%,HOU,2023-24,craftednba,SF,22.0,1.8,2.3,1.1,2.6,2.4 98%,HOU,craftednba,SF,22,74.4,84.1,2.4 98%,HOU,SF,craftednba
+,,Amir Coffey,,,,,2023-24,,,,,,,,,,,,27,51.3,55.7,-1.2 11%,LAC,SF,craftednba
+,,Andre Drummond,,,,,2023-24,,,,,,,,,,,,31,2.9,45.2,0.4 69%,PHI,C,craftednba
+,,Andre Jackson Jr.,,,,,2023-24,,,,,,,,,,,,23,40.4,92.7,0 42%,MIL,SF,craftednba
+,,Andrew Nembhard,,,,,2023-24,,,,,,,,,,,,25,17.0,100.0,0.6 71%,IND,PG,craftednba
+,,Andrew Wiggins,,,,,2023-24,,,,,,,,,,,,29,73.5,84.3,-0.5 36%,MIA,SF,craftednba
+,,Anfernee Simons,,,,,2023-24,,,,,,,,,,,,25,44.2,43.3,-2.4 2%,POR,PG,craftednba
+,,Anthony Black,,,,,2023-24,,,,,,,,,,,,21,48.9,63.1,1.2 85%,ORL,PG,craftednba
+31.0,1706.0,Anthony Davis,-11.9%,52.6%,38.7%,DAL,2023-24,craftednba,C,31.0,1.6,1.6,2.0,1.5,3.1 98%,DAL,craftednba,C,31,12.6,56.4,3.1 98%,DAL,C,craftednba
+,,Anthony Edwards,,,,,2023-24,,,,,,,,,,,,23,79.1,55.3,0 58%,MIN,SG,craftednba
+,,Anthony Gill,,,,,2023-24,,,,,,,,,,,,32,92.6,30.5,-0.3 41%,WAS,PF,craftednba
+,,Antonio Reeves,,,,,2023-24,,,,,,,,,,,,24,33.9,25.1,-1.4 9%,NOP,SG,craftednba
+22.0,1328.0,Ausar Thompson,-9.6%,53.9%,32.7%,DET,2023-24,craftednba,SF,22.0,1.6,2.3,1.2,2.5,2.6 97%,DET,craftednba,SF,22,93.0,84.0,2.6 97%,DET,SF,craftednba
+,,Austin Reaves,,,,,2023-24,,,,,,,,,,,,26,52.5,62.1,-1 17%,LAL,SG,craftednba
+,,Ayo Dosunmu,,,,,2023-24,,,,,,,,,,,,25,34.5,79.2,-1 15%,CHI,SG,craftednba
+,,Bam Adebayo,,,,,2023-24,,,27.0,1.2,1.7,1.4,1.0,2 93%,MIA,craftednba,C,27,13.9,60.6,2 93%,MIA,C,craftednba
+,,Baylor Scheierman,,,,,2023-24,,,,,,,,,,,,24,50.2,15.3,-0.1 57%,BOS,SG,craftednba
+,,Ben Sheppard,,,,,2023-24,,,,,,,,,,,,23,20.2,69.3,-0.6 35%,IND,SG,craftednba
+,,Ben Simmons,,,,,2023-24,,,,,,,,,,,,28,89.9,51.0,1.2 81%,LAC,PF,craftednba
+,,Bennedict Mathurin,,,,,2023-24,,,,,,,,,,,,22,43.9,53.2,-1.5 8%,IND,SF,craftednba
+,,Bilal Coulibaly,,,,,2023-24,,,,,,,,,,,,20,75.1,96.2,-0.9 21%,WAS,SF,craftednba
+,,Bismack Biyombo,,,,,2023-24,,,,,,,,,,,,32,1.6,28.6,0.9 80%,SAS,C,craftednba
+,,Blake Wesley,,,,,2023-24,,,,,,,,,,,,21,25.8,44.7,0.4 64%,SAS,PG,craftednba
+,,Bobby Portis,,,,,2023-24,,,,,,,,,,,,29,37.4,39.1,-0.1 47%,MIL,PF,craftednba
+,,Bogdan Bogdanović,,,,,2023-24,,,,,,,,,,,,32,47.5,39.4,-0.1 54%,LAC,SG,craftednba
+,,Bol Bol,,,,,2023-24,,,,,,,,,,,,25,64.3,28.8,0.4 66%,PHX,C,craftednba
+,,Bradley Beal,,,,,2023-24,,,,,,,,,,,,31,53.6,82.3,-1.6 9%,PHX,SG,craftednba
+,,Brandin Podziemski,,,,,2023-24,,,,,,,,,,,,21,59.2,59.3,1.7 89%,GSW,SG,craftednba
+,,Brandon Boston Jr.,,,,,2023-24,,,,,,,,,,,,23,55.8,69.0,-0.7 26%,NOP,SG,craftednba
+28.0,1207.0,Brandon Clarke,-10.7%,52.1%,38.9%,MEM,2023-24,craftednba,PF,,,,,,,,,,28,65.9,41.5,1.4 86%,MEM,PF,craftednba
+,,Brandon Ingram,,,,,2023-24,,,,,,,,,,,,27,52.2,46.4,-0.7 25%,TOR,SF,craftednba
+22.0,924.0,Brandon Miller,-8.6%,54.7%,41.1%,CHA,2023-24,craftednba,SF,,,,,,,,,,22,46.6,52.3,-1.2 14%,CHA,SF,craftednba
+,,Brandon Williams,,,,,2023-24,,,,,,,,,,,,25,23.3,48.5,-0.7 26%,DAL,PG,craftednba
+,,Brice Sensabaugh,,,,,2023-24,,,,,,,,,,,,21,66.6,34.8,-2.7 1%,UTA,SF,craftednba
+,,Brook Lopez,,,,,2023-24,,,36.0,0.9,0.9,2.7,0.4,2.7 96%,MIL,craftednba,C,36,6.5,48.9,2.7 96%,MIL,C,craftednba
+,,Bruce Brown,,,,,2023-24,,,,,,,,,,,,28,77.1,57.1,-0.8 24%,NOP,SG,craftednba
+,,Bub Carrington,,,,,2023-24,,,,,,,,,,,,19,34.1,58.8,-0.4 35%,WAS,SG,craftednba
+,,Buddy Hield,,,,,2023-24,,,,,,,,,,,,31,60.8,49.3,-0.7 27%,GSW,SG,craftednba
+,,CJ McCollum,,,,,2023-24,,,,,,,,,,,,33,53.1,53.2,-1.8 4%,NOP,SG,craftednba
+,,Cade Cunningham,,,,,2023-24,,,,,,,,,,,,23,85.7,51.9,-0.5 26%,DET,SG,craftednba
+,,Caleb Houstan,,,,,2023-24,,,,,,,,,,,,22,50.4,23.4,-0.6 34%,ORL,SG,craftednba
+,,Caleb Martin,,,,,2023-24,,,,,,,,,,,,29,88.6,79.8,0.3 63%,DAL,SF,craftednba
+,,Cam Reddish,,,,,2023-24,,,,,,,,,,,,25,74.9,78.1,0.5 68%,LAL,SF,craftednba
+,,Cam Spencer,,,,,2023-24,,,,,,,,,,,,24,15.5,27.0,-0.8 23%,MEM,SG,craftednba
+,,Cam Whitmore,,,,,2023-24,,,,,,,,,,,,20,92.4,36.7,-0.9 12%,HOU,SF,craftednba
+,,Cameron Johnson,,,,,2023-24,,,,,,,,,,,,28,72.6,52.4,-0.7 24%,BKN,PF,craftednba
+,,Cameron Payne,,,,,2023-24,,,,,,,,,,,,30,23.5,28.8,-0.2 55%,NYK,PG,craftednba
+,,Caris LeVert,,,,,2023-24,,,,,,,,,,,,30,61.7,54.9,-0.2 46%,ATL,SF,craftednba
+,,Cason Wallace,,,,,2023-24,,,,,,,,,,,,21,52.9,71.9,1.5 86%,OKC,PG,craftednba
+,,Charles Bassey,,,,,2023-24,,,,,,,,,,,,24,11.0,44.7,0.7 73%,SAS,C,craftednba
+22.0,877.0,Chet Holmgren,-18.4%,45%,47%,OKC,2023-24,craftednba,C,22.0,1.7,2.2,2.7,1.9,3.2 99%,OKC,craftednba,C,22,33.6,55.3,3.2 99%,OKC,C,craftednba
+,,Chris Boucher,,,,,2023-24,,,,,,,,,,,,32,75.8,30.9,-0.1 51%,TOR,C,craftednba
+,,Chris Paul,,,,,2023-24,,,,,,,,,,,,39,54.5,42.0,0.8 74%,SAS,PG,craftednba
+,,Christian Braun,,,,,2023-24,,,,,,,,,,,,23,36.3,84.4,0 58%,DEN,SF,craftednba
+24.0,342.0,Christian Koloko,-10.2%,54.3%,43.9%,LAL,2023-24,craftednba,C,,,,,,,,,,24,16.1,27.6,1.3 85%,LAL,C,craftednba
+30.0,1176.0,Clint Capela,-10.3%,54.4%,41.1%,ATL,2023-24,craftednba,C,,,,,,,,,,30,0.4,52.7,1.3 85%,ATL,C,craftednba
+,,Coby White,,,,,2023-24,,,,,,,,,,,,25,42.4,42.9,-1.9 4%,CHI,PG,craftednba
+,,Cody Martin,,,,,2023-24,,,,,,,,,,,,29,98.2,75.3,1.8 88%,PHX,SF,craftednba
+,,Cody Williams,,,,,2023-24,,,,,,,,,,,,20,82.7,56.0,-1.1 16%,UTA,SF,craftednba
+,,Colby Jones,,,,,2023-24,,,,,,,,,,,,22,56.3,34.6,0.4 63%,WAS,SG,craftednba
+,,Cole Anthony,,,,,2023-24,,,,,,,,,,,,24,28.7,49.4,0.4 66%,ORL,PG,craftednba
+,,Collin Gillespie,,,,,2023-24,,,,,,,,,,,,25,32.3,55.6,-0.2 30%,PHX,PG,craftednba
+,,Collin Sexton,,,,,2023-24,,,,,,,,,,,,26,58.7,60.8,-2.7 1%,UTA,PG,craftednba
+,,Corey Kispert,,,,,2023-24,,,,,,,,,,,,25,51.1,33.0,-2.6 1%,WAS,SF,craftednba
+,,Cory Joseph,,,,,2023-24,,,,,,,,,,,,33,21.5,48.8,-0.1 55%,ORL,PG,craftednba
+,,Craig Porter Jr.,,,,,2023-24,,,,,,,,,,,,24,32.7,35.3,-0.4 37%,CLE,PG,craftednba
+,,D'Angelo Russell,,,,,2023-24,,,,,,,,,,,,28,62.3,49.7,-0.2 47%,BKN,PG,craftednba
+,,DaQuan Jeffries,,,,,2023-24,,,,,,,,,,,,27,87.9,49.8,-0.4 23%,CHA,SG,craftednba
+,,Dalano Banton,,,,,2023-24,,,,,,,,,,,,25,79.8,31.7,-0.3 39%,POR,SG,craftednba
+,,Dalen Terry,,,,,2023-24,,,,,,,,,,,,22,48.0,59.9,0.6 76%,CHI,SG,craftednba
+,,Dalton Knecht,,,,,2023-24,,,,,,,,,,,,23,66.8,40.0,-2 2%,LAL,SF,craftednba
+,,Damian Lillard,,,,,2023-24,,,,,,,,,,,,34,31.8,44.9,-1 19%,MIL,PG,craftednba
+,,Damion Baugh,,,,,2023-24,,,,,,,,,,,,24,51.8,68.4,-1 11%,CHA,SG,craftednba
+26.0,1226.0,Daniel Gafford,-14.5%,48.6%,44.2%,DAL,2023-24,craftednba,C,,,,,,,,,,26,8.3,56.6,1 77%,DAL,C,craftednba
+,,Danté Exum,,,,,2023-24,,,,,,,,,,,,29,85.0,68.4,-0.1 47%,DAL,SG,craftednba
+,,Dariq Whitehead,,,,,2023-24,,,,,,,,,,,,20,40.1,18.1,-0.9 12%,BKN,SG,craftednba
+,,Darius Garland,,,,,2023-24,,,,,,,,,,,,25,28.0,56.9,-0.9 16%,CLE,PG,craftednba
+23.0,410.0,David Roddy,-8.2%,53.8%,42.5%,HOU,2023-24,craftednba,PF,,,,,,,,,,23,67.9,38.7,-0.6 26%,HOU,PF,craftednba
+,,Davion Mitchell,,,,,2023-24,,,,,,,,,,,,26,17.9,96.1,0.5 73%,MIA,PG,craftednba
+,,Day'Ron Sharpe,,,,,2023-24,,,,,,,,,,,,23,9.0,42.6,1.4 86%,BKN,C,craftednba
+,,De'Aaron Fox,,,,,2023-24,,,,,,,,,,,,27,35.9,65.4,-0.6 29%,SAS,PG,craftednba
+,,De'Andre Hunter,,,,,2023-24,,,,,,,,,,,,27,84.1,62.9,-1.1 13%,CLE,SF,craftednba
+,,DeAndre Jordan,,,,,2023-24,,,,,,,,,,,,36,3.1,33.2,0.9 80%,DEN,C,craftednba
+,,DeMar DeRozan,,,,,2023-24,,,,,,,,,,,,35,48.7,35.7,-1 16%,SAC,SF,craftednba
+,,Dean Wade,,,,,2023-24,,,28.0,0.9,0.8,1.4,1.2,2.3 95%,CLE,craftednba,PF,28,95.3,62.0,2.3 95%,CLE,PF,craftednba
+,,Deandre Ayton,,,,,2023-24,,,,,,,,,,,,26,5.2,59.4,0.4 67%,POR,C,craftednba
+,,Dejounte Murray,,,,,2023-24,,,,,,,,,,,,28,43.3,84.0,-0.8 22%,NOP,PG,craftednba
+,,Delon Wright,,,,,2023-24,,,32.0,0.4,2.2,1.2,1.4,2 92%,NYK,craftednba,PG,32,24.4,48.3,2 92%,NYK,PG,craftednba
+,,Deni Avdija,,,,,2023-24,,,,,,,,,,,,24,93.9,51.5,0.2 64%,POR,SF,craftednba
+,,Dennis Schröder,,,,,2023-24,,,,,,,,,,,,31,25.1,77.9,-0.7 26%,DET,PG,craftednba
+,,Dereck Lively II,,,,,2023-24,,,20.0,1.6,2.0,1.5,2.2,2.5 97%,DAL,craftednba,C,20,19.3,60.4,2.5 97%,DAL,C,craftednba
+,,Derrick Jones Jr.,,,,,2023-24,,,,,,,,,,,,27,80.7,83.0,1.1 82%,LAC,PF,craftednba
+,,Derrick White,,,,,2023-24,,,,,,,,,,,,30,44.8,64.2,1.6 88%,BOS,SG,craftednba
+,,Desmond Bane,,,,,2023-24,,,,,,,,,,,,26,50.7,61.9,0.1 53%,MEM,SG,craftednba
+,,Devin Booker,,,,,2023-24,,,,,,,,,,,,28,58.1,56.0,-1.9 3%,PHX,SG,craftednba
+,,Devin Carter,,,,,2023-24,,,,,,,,,,,,22,19.1,61.2,-0.1 61%,SAC,SG,craftednba
+,,Devin Vassell,,,,,2023-24,,,,,,,,,,,,24,40.6,53.7,-1.3 10%,SAS,SG,craftednba
+,,Dillon Brooks,,,,,2023-24,,,,,,,,,,,,29,99.6,83.5,0.5 70%,HOU,SF,craftednba
+,,Dillon Jones,,,,,2023-24,,,,,,,,,,,,23,91.7,17.9,0.1 66%,OKC,SF,craftednba
+,,Domantas Sabonis,,,,,2023-24,,,,,,,,,,,,28,0.9,55.7,0.9 73%,SAC,C,craftednba
+,,Dominick Barlow,,,,,2023-24,,,,,,,,,,,,21,20.0,29.2,-0.4 42%,ATL,PF,craftednba
+20.0,1324.0,Donovan Clingan,-13%,50.8%,35.3%,POR,2023-24,craftednba,C,20.0,2.2,2.2,1.0,1.4,2.2 97%,POR,craftednba,C,20,7.4,39.9,2.2 97%,POR,C,craftednba
+,,Donovan Mitchell,,,,,2023-24,,,,,,,,,,,,28,47.3,42.1,0.2 66%,CLE,SG,craftednba
+,,Donte DiVincenzo,,,,,2023-24,,,,,,,,,,,,28,35.0,43.5,0.2 56%,MIN,SG,craftednba
+,,Dorian Finney-Smith,,,,,2023-24,,,,,,,,,,,,31,100.0,84.5,1.6 87%,LAL,SF,craftednba
+,,Doug McDermott,,,,,2023-24,,,,,,,,,,,,33,38.1,27.1,-2.2 2%,SAC,SF,craftednba
+34.0,1983.0,Draymond Green,-8.9%,54.4%,32.2%,GSW,2023-24,craftednba,PF,34.0,2.4,3.0,3.4,2.8,4.5 100%,GSW,craftednba,PF,34,65.0,57.3,4.5 100%,GSW,PF,craftednba
+,,Drew Eubanks,,,,,2023-24,,,,,,,,,,,,27,9.4,36.4,0.9 75%,LAC,C,craftednba
+,,Dru Smith,,,,,2023-24,,,,,,,,,,,,27,20.4,62.0,1.3 84%,MIA,SG,craftednba
+,,Duncan Robinson,,,,,2023-24,,,,,,,,,,,,30,37.7,32.2,-0.7 25%,MIA,SF,craftednba
+,,Duop Reath,,,,,2023-24,,,,,,,,,,,,28,26.0,29.8,-0.8 20%,POR,C,craftednba
+,,Dwight Powell,,,,,2023-24,,,33.0,1.3,0.8,2.6,1.5,2.2 92%,DAL,craftednba,C,33,30.9,35.8,2.2 92%,DAL,C,craftednba
+,,Dyson Daniels,,,,,2023-24,,,21.0,1.5,1.9,0.7,2.6,1.8 91%,ATL,craftednba,SG,21,44.4,95.6,1.8 91%,ATL,SG,craftednba
+,,Elfrid Payton,,,,,2023-24,,,,,,,,,,,,30,50.9,44.5,0 51%,NOP,PG,craftednba
+,,Eric Gordon,,,,,2023-24,,,,,,,,,,,,36,77.4,45.9,-0.9 20%,PHI,SG,craftednba
+23.0,2167.0,Evan Mobley,-8.8%,54.4%,41.7%,CLE,2023-24,craftednba,PF,23.0,1.7,1.4,1.0,1.5,2.2 94%,CLE,craftednba,PF,23,63.9,49.3,2.2 94%,CLE,PF,craftednba
+,,Franz Wagner,,,,,2023-24,,,,,,,,,,,,23,64.8,61.0,0.9 79%,ORL,SF,craftednba
+,,Fred VanVleet,,,,,2023-24,,,30.0,0.7,1.2,1.4,1.3,1.9 91%,HOU,craftednba,PG,30,30.0,74.0,1.9 91%,HOU,PG,craftednba
+,,GG Jackson,,,,,2023-24,,,,,,,,,,,,20,84.8,50.9,-1.6 7%,MEM,PF,craftednba
+,,Gabe Vincent,,,,,2023-24,,,,,,,,,,,,28,45.1,66.3,0.2 59%,LAL,SG,craftednba
+,,Garrison Mathews,,,,,2023-24,,,,,,,,,,,,28,33.2,34.1,-0.5 32%,ATL,SG,craftednba
+,,Gary Harris,,,,,2023-24,,,,,,,,,,,,30,22.9,53.7,1.1 81%,ORL,SG,craftednba
+,,Gary Payton II,,,,,2023-24,,,,,,,,,,,,32,32.1,88.1,1.3 84%,GSW,SG,craftednba
+,,Georges Niang,,,,,2023-24,,,,,,,,,,,,31,74.2,34.6,-1.2 8%,ATL,PF,craftednba
+,,Giannis Antetokounmpo,,,,,2023-24,,,30.0,0.9,1.3,2.1,2.5,2.3 96%,MIL,craftednba,PF,30,56.5,48.2,2.3 96%,MIL,PF,craftednba
+,,Goga Bitadze,,,,,2023-24,,,25.0,2.6,1.2,2.0,2.8,2.8 98%,ORL,craftednba,C,25,6.3,43.6,2.8 98%,ORL,C,craftednba
+,,Gradey Dick,,,,,2023-24,,,,,,,,,,,,21,36.1,50.3,-1.8 6%,TOR,SG,craftednba
+,,Grant Williams,,,,,2023-24,,,,,,,,,,,,26,41.0,64.9,0.2 62%,CHA,PF,craftednba
+,,Grayson Allen,,,,,2023-24,,,,,,,,,,,,29,40.8,44.7,-0.7 23%,PHX,SG,craftednba
+,,Guerschon Yabusele,,,,,2023-24,,,,,,,,,,,,29,22.6,50.2,-0.9 19%,PHI,PF,craftednba
+22.0,762.0,Gui Santos,-8.3%,53.4%,36.4%,GSW,2023-24,craftednba,PF,,,,,,,,,,22,89.0,42.0,0.5 70%,GSW,PF,craftednba
+,,Harrison Barnes,,,,,2023-24,,,,,,,,,,,,32,68.4,58.0,-1.7 7%,SAS,PF,craftednba
+,,Haywood Highsmith,,,,,2023-24,,,,,,,,,,,,28,83.6,79.9,1.6 86%,MIA,SF,craftednba
+,,Herbert Jones,,,,,2023-24,,,26.0,0.2,2.1,1.7,0.2,2.7 97%,NOP,craftednba,SF,26,94.2,72.2,2.7 97%,NOP,SF,craftednba
+,,Hunter Tyson,,,,,2023-24,,,,,,,,,,,,24,71.3,26.1,-0.8 22%,DEN,PF,craftednba
+,,Immanuel Quickley,,,,,2023-24,,,,,,,,,,,,25,19.5,54.5,-0.1 51%,TOR,PG,craftednba
+,,Isaac Jones,,,,,2023-24,,,,,,,,,,,,24,65.7,36.8,-1 18%,SAC,PF,craftednba
+,,Isaac Okoro,,,,,2023-24,,,,,,,,,,,,24,78.3,70.5,0.8 77%,CLE,SF,craftednba
+,,Isaiah Collier,,,,,2023-24,,,,,,,,,,,,20,49.3,62.1,-1.3 9%,UTA,PG,craftednba
+,,Isaiah Hartenstein,,,,,2023-24,,,26.0,2.0,1.7,2.9,2.6,3 99%,OKC,craftednba,C,26,9.2,55.9,3 99%,OKC,C,craftednba
+,,Isaiah Joe,,,,,2023-24,,,,,,,,,,,,25,39.0,37.9,0.1 60%,OKC,SG,craftednba
+23.0,1434.0,Isaiah Stewart,-10.7%,52.6%,36.4%,DET,2023-24,craftednba,C,23.0,2.0,0.7,1.2,2.1,2.1 94%,DET,craftednba,C,23,4.5,47.6,2.1 94%,DET,C,craftednba
+27.0,2624.0,Ivica Zubac,-9%,54.9%,34.8%,LAC,2023-24,craftednba,C,27.0,1.8,1.3,3.0,0.8,3.1 99%,LAC,craftednba,C,27,7.6,53.9,3.1 99%,LAC,C,craftednba
+,,Ja Morant,,,,,2023-24,,,,,,,,,,,,25,37.9,58.3,0.1 48%,MEM,PG,craftednba
+,,Ja'Kobe Walter,,,,,2023-24,,,,,,,,,,,,20,24.0,47.3,-0.7 33%,TOR,PG,craftednba
+,,Jabari Smith Jr.,,,,,2023-24,,,,,,,,,,,,21,94.4,44.6,0.1 60%,HOU,PF,craftednba
+,,Jabari Walker,,,,,2023-24,,,,,,,,,,,,22,70.9,27.3,0.1 59%,POR,PF,craftednba
+,,Jaden Hardy,,,,,2023-24,,,,,,,,,,,,22,60.5,39.7,-1.8 3%,DAL,SG,craftednba
+,,Jaden Ivey,,,,,2023-24,,,,,,,,,,,,22,27.8,75.9,-1.8 5%,DET,SG,craftednba
+,,Jaden McDaniels,,,,,2023-24,,,,,,,,,,,,24,89.2,86.1,1.7 88%,MIN,SF,craftednba
+,,Jaden Springer,,,,,2023-24,,,,,,,,,,,,22,56.7,41.7,0.9 74%,UTA,SG,craftednba
+,,Jae'Sean Tate,,,,,2023-24,,,29.0,0.4,0.8,1.4,1.4,2.1 93%,HOU,craftednba,PF,29,99.3,37.0,2.1 93%,HOU,PF,craftednba
+,,Jaime Jaquez Jr.,,,,,2023-24,,,,,,,,,,,,23,94.8,45.1,0.1 50%,MIA,SF,craftednba
+,,Jake LaRavia,,,,,2023-24,,,,,,,,,,,,23,55.6,51.6,0.2 64%,SAC,SF,craftednba
+,,Jakob Poeltl,,,,,2023-24,,,29.0,1.2,1.3,2.5,1.3,2.4 96%,TOR,craftednba,C,29,1.8,61.5,2.4 96%,TOR,C,craftednba
+,,Jalen Brunson,,,,,2023-24,,,,,,,,,,,,28,33.0,39.4,-1.5 7%,NYK,PG,craftednba
+,,Jalen Duren,,,,,2023-24,,,,,,,,,,,,21,3.4,53.1,1.1 77%,DET,C,craftednba
+,,Jalen Green,,,,,2023-24,,,,,,,,,,,,22,43.0,48.4,-1.7 5%,HOU,SG,craftednba
+,,Jalen Hood-Schifino,,,,,2023-24,,,,,,,,,,,,21,53.4,35.8,-0.9 10%,PHI,PG,craftednba
+,,Jalen Johnson,,,,,2023-24,,,23.0,0.9,1.1,1.1,1.4,1.8 90%,ATL,craftednba,PF,23,27.6,53.1,1.8 90%,ATL,PF,craftednba
+,,Jalen Pickett,,,,,2023-24,,,,,,,,,,,,25,47.8,41.1,0 52%,DEN,PG,craftednba
+,,Jalen Smith,,,,,2023-24,,,,,,,,,,,,24,11.2,39.1,0.1 60%,CHI,PF,craftednba
+,,Jalen Suggs,,,,,2023-24,,,23.0,0.5,1.9,1.7,1.3,2.2 93%,ORL,craftednba,PG,23,38.6,76.8,2.2 93%,ORL,PG,craftednba
+,,Jalen Williams,,,,,2023-24,,,,,,,,,,,,23,98.7,55.9,1.2 81%,OKC,SG,craftednba
+,,Jalen Wilson,,,,,2023-24,,,,,,,,,,,,24,83.9,52.2,-1.2 15%,BKN,SF,craftednba
+,,Jamal Cain,,,,,2023-24,,,,,,,,,,,,25,86.8,41.1,-0.4 31%,NOP,SF,craftednba
+,,Jamal Murray,,,,,2023-24,,,,,,,,,,,,27,60.1,55.0,-1.2 15%,DEN,PG,craftednba
+,,Jamal Shead,,,,,2023-24,,,,,,,,,,,,22,15.9,57.4,-1.3 12%,TOR,PG,craftednba
+,,James Harden,,,,,2023-24,,,,,,,,,,,,35,89.7,53.0,0.4 70%,LAC,SG,craftednba
+,,Jamison Battle,,,,,2023-24,,,,,,,,,,,,23,23.8,27.3,-1.5 8%,TOR,SF,craftednba
+,,Jarace Walker,,,,,2023-24,,,,,,,,,,,,21,67.5,44.3,0.2 63%,IND,PF,craftednba
+,,Jared Butler,,,,,2023-24,,,,,,,,,,,,24,48.2,38.9,-0.6 29%,PHI,SG,craftednba
+,,Jared McCain,,,,,2023-24,,,,,,,,,,,,20,67.0,49.1,-1.8 4%,PHI,SG,craftednba
+25.0,2207.0,Jaren Jackson Jr.,-13.9%,49.7%,36.3%,MEM,2023-24,craftednba,PF,25.0,0.8,1.2,1.8,0.8,2.1 93%,MEM,craftednba,PF,25,62.6,51.3,2.1 93%,MEM,PF,craftednba
+,,Jarred Vanderbilt,,,,,2023-24,,,,,,,,,,,,25,99.8,69.3,1.7 87%,LAL,PF,craftednba
+,,Jarrett Allen,,,,,2023-24,,,26.0,1.8,1.4,2.1,1.2,2.3 94%,CLE,craftednba,C,26,9.6,54.5,2.3 94%,CLE,C,craftednba
+,,Javonte Green,,,,,2023-24,,,,,,,,,,,,31,94.6,67.4,0.7 77%,CLE,SF,craftednba
+24.0,1093.0,Jaxson Hayes,-8.9%,54.2%,37.8%,LAL,2023-24,craftednba,C,24.0,1.6,1.6,1.4,1.3,2.1 92%,LAL,craftednba,C,24,14.6,42.8,2.1 92%,LAL,C,craftednba
+26.0,748.0,Jay Huff,-8.3%,54.5%,47.9%,MEM,2023-24,craftednba,C,,,,,,,,,,26,22.4,31.0,0.2 66%,MEM,C,craftednba
+,,Jaylen Brown,,,,,2023-24,,,,,,,,,,,,28,90.4,69.8,-0.7 22%,BOS,SF,craftednba
+,,Jaylen Clark,,,,,2023-24,,,,,,,,,,,,23,59.6,73.3,0.1 59%,MIN,SG,craftednba
+,,Jaylen Wells,,,,,2023-24,,,,,,,,,,,,21,24.9,96.4,-1.3 12%,MEM,SF,craftednba
+,,Jaylin Williams,,,,,2023-24,,,22.0,1.4,1.6,0.6,2.7,1.7 90%,OKC,craftednba,C,22,15.0,27.8,1.7 90%,OKC,C,craftednba
+,,Jaylon Tyson,,,,,2023-24,,,,,,,,,,,,22,69.7,22.8,-0.6 33%,CLE,SG,craftednba
+,,Jayson Tatum,,,,,2023-24,,,,,,,,,,,,26,97.1,50.2,0.7 72%,BOS,SF,craftednba
+,,Jeff Dowtin Jr.,,,,,2023-24,,,,,,,,,,,,27,58.5,41.2,-0.8 25%,PHI,PG,craftednba
+,,Jeff Green,,,,,2023-24,,,,,,,,,,,,38,93.5,41.4,-1.2 10%,HOU,PF,craftednba
+30.0,1524.0,Jerami Grant,-7.9%,54.8%,36.1%,POR,2023-24,craftednba,PF,,,,,,,,,,30,83.0,75.8,-0.5 36%,POR,PF,craftednba
+,,Jeremiah Robinson-Earl,,,,,2023-24,,,,,,,,,,,,24,86.3,38.8,-1.3 10%,NOP,PF,craftednba
+,,Jeremy Sochan,,,,,2023-24,,,,,,,,,,,,21,99.1,88.0,-0.3 44%,SAS,PF,craftednba
+26.0,632.0,Jericho Sims,-12.2%,50.5%,36.8%,MIL,2023-24,craftednba,C,,,,,,,,,,26,7.8,31.1,0.8 75%,MIL,C,craftednba
+,,Jett Howard,,,,,2023-24,,,,,,,,,,,,21,38.8,28.3,-1 14%,ORL,SF,craftednba
+,,Jevon Carter,,,,,2023-24,,,,,,,,,,,,29,16.4,58.3,0.3 62%,CHI,PG,craftednba
+,,Jimmy Butler III,,,,,2023-24,,,,,,,,,,,,35,89.5,66.0,0.9 80%,GSW,SF,craftednba
+,,Jock Landale,,,,,2023-24,,,,,,,,,,,,29,30.5,26.3,0.9 77%,HOU,C,craftednba
+,,Joel Embiid,,,,,2023-24,,,30.0,-0.4,1.3,2.2,-0.3,2.2 95%,PHI,craftednba,C,30,15.2,40.4,2.2 95%,PHI,C,craftednba
+,,John Collins,,,,,2023-24,,,,,,,,,,,,27,91.5,52.7,0.1 62%,UTA,PF,craftednba
+,,John Konchar,,,,,2023-24,,,,,,,,,,,,28,54.7,47.1,1.7 87%,MEM,SF,craftednba
+,,Johnny Furphy,,,,,2023-24,,,,,,,,,,,,20,35.2,13.4,0.6 70%,IND,SF,craftednba
+,,Johnny Juzang,,,,,2023-24,,,,,,,,,,,,23,67.3,48.9,-1.4 6%,UTA,SG,craftednba
+,,Jonas Valančiūnas,,,,,2023-24,,,,,,,,,,,,32,2.0,46.1,-0.2 38%,SAC,C,craftednba
+27.0,1090.0,Jonathan Isaac,-11.8%,51.9%,43.7%,ORL,2023-24,craftednba,PF,27.0,2.6,1.1,2.3,1.8,3 99%,ORL,craftednba,PF,27,68.2,49.5,3 99%,ORL,PF,craftednba
+,,Jonathan Kuminga,,,,,2023-24,,,,,,,,,,,,22,68.8,56.6,-0.5 38%,GSW,SF,craftednba
+,,Jonathan Mogbo,,,,,2023-24,,,,,,,,,,,,23,87.7,50.8,0.8 78%,TOR,PF,craftednba
+,,Jordan Clarkson,,,,,2023-24,,,,,,,,,,,,32,41.5,53.9,-2.5 1%,UTA,SG,craftednba
+,,Jordan Goodwin,,,,,2023-24,,,,,,,,,,,,26,85.9,54.0,1 77%,LAL,PG,craftednba
+,,Jordan Hawkins,,,,,2023-24,,,,,,,,,,,,22,58.3,45.4,-2.6 1%,NOP,SG,craftednba
+,,Jordan McLaughlin,,,,,2023-24,,,,,,,,,,,,28,13.5,28.2,1.2 83%,SAS,PG,craftednba
+,,Jordan Miller,,,,,2023-24,,,,,,,,,,,,25,72.9,32.4,-0.6 26%,LAC,SF,craftednba
+,,Jordan Poole,,,,,2023-24,,,,,,,,,,,,25,43.7,38.7,-1.7 5%,WAS,SG,craftednba
+,,Jordan Walsh,,,,,2023-24,,,,,,,,,,,,20,97.8,21.9,0.9 74%,BOS,SF,craftednba
+,,Jose Alvarado,,,,,2023-24,,,,,,,,,,,,26,28.3,66.7,1 72%,NOP,PG,craftednba
+,,Josh Giddey,,,,,2023-24,,,,,,,,,,,,22,71.1,51.4,-0.5 36%,CHI,SF,craftednba
+,,Josh Green,,,,,2023-24,,,,,,,,,,,,24,45.7,93.7,0 56%,CHA,SG,craftednba
+,,Josh Hart,,,,,2023-24,,,,,,,,,,,,29,76.7,50.2,1.2 83%,NYK,SF,craftednba
+,,Josh Minott,,,,,2023-24,,,,,,,,,,,,22,79.4,23.9,1 79%,MIN,PF,craftednba
+,,Josh Okogie,,,,,2023-24,,,26.0,0.7,1.2,1.9,1.6,2 94%,CHA,craftednba,SF,26,91.0,76.6,2 94%,CHA,SF,craftednba
+,,Jrue Holiday,,,,,2023-24,,,,,,,,,,,,34,85.2,79.9,1.4 87%,BOS,PG,craftednba
+,,Julian Champagnie,,,,,2023-24,,,,,,,,,,,,23,75.6,57.0,-0.6 27%,SAS,SF,craftednba
+,,Julian Phillips,,,,,2023-24,,,,,,,,,,,,21,70.4,42.5,-0.1 61%,CHI,SF,craftednba
+,,Julian Strawther,,,,,2023-24,,,,,,,,,,,,22,37.0,33.8,-1.7 6%,DEN,SF,craftednba
+,,Julius Randle,,,,,2023-24,,,,,,,,,,,,30,49.8,56.2,-0.7 28%,MIN,PF,craftednba
+23.0,1340.0,Justin Champagnie,-9.3%,53.9%,38.4%,WAS,2023-24,craftednba,SF,,,,,,,,,,23,97.3,56.5,0.2 61%,WAS,SF,craftednba
+,,Justin Edwards,,,,,2023-24,,,,,,,,,,,,21,81.8,58.4,-1.9 2%,PHI,SF,craftednba
+,,Jusuf Nurkić,,,,,2023-24,,,30.0,1.6,1.1,3.0,0.9,3.2 99%,CHA,craftednba,C,30,4.0,55.7,3.2 99%,CHA,C,craftednba
+,,KJ Martin,,,,,2023-24,,,,,,,,,,,,24,82.3,50.1,-0.6 21%,UTA,SF,craftednba
+,,KJ Simpson,,,,,2023-24,,,,,,,,,,,,22,39.9,52.6,-1.2 11%,CHA,PG,craftednba
+,,Kai Jones,,,,,2023-24,,,,,,,,,,,,24,13.7,28.5,0.3 65%,DAL,C,craftednba
+,,Karl-Anthony Towns,,,,,2023-24,,,,,,,,,,,,29,4.7,45.4,0.2 64%,NYK,C,craftednba
+,,Karlo Matković,,,,,2023-24,,,,,,,,,,,,23,11.7,34.9,0.2 61%,NOP,C,craftednba
+,,Kawhi Leonard,,,,,2023-24,,,33.0,0.1,1.8,1.6,0.6,1.7 90%,LAC,craftednba,SF,33,87.2,52.4,1.7 90%,LAC,SF,craftednba
+,,Keaton Wallace,,,,,2023-24,,,,,,,,,,,,25,17.3,53.3,0 64%,ATL,PG,craftednba
+24.0,2610.0,Keegan Murray,-9.1%,53.7%,36.4%,SAC,2023-24,craftednba,PF,,,,,,,,,,24,88.8,81.2,0.1 67%,SAC,PF,craftednba
+,,Keion Brooks Jr.,,,,,2023-24,,,,,,,,,,,,24,37.2,26.8,-0.6 21%,NOP,SF,craftednba
+,,Kel'el Ware,,,,,2023-24,,,,,,,,,,,,20,5.4,34.0,1.1 83%,MIA,C,craftednba
+,,Keldon Johnson,,,,,2023-24,,,,,,,,,,,,25,81.4,43.5,-2.1 3%,SAS,SF,craftednba
+,,Kelly Olynyk,,,,,2023-24,,,,,,,,,,,,33,66.4,41.0,0.9 75%,NOP,C,craftednba
+,,Kelly Oubre Jr.,,,,,2023-24,,,,,,,,,,,,29,96.6,72.2,-0.6 31%,PHI,SF,craftednba
+,,Kenrich Williams,,,,,2023-24,,,,,,,,,,,,30,97.5,39.0,1.7 89%,OKC,SF,craftednba
+,,Kentavious Caldwell-Pope,,,,,2023-24,,,31.0,0.8,0.7,1.8,1.6,1.8 91%,ORL,craftednba,SG,31,31.6,76.8,1.8 91%,ORL,SG,craftednba
+,,Keon Ellis,,,,,2023-24,,,25.0,1.4,2.5,1.3,2.0,2.2 95%,SAC,craftednba,SG,25,21.1,86.1,2.2 95%,SAC,SG,craftednba
+,,Keon Johnson,,,,,2023-24,,,,,,,,,,,,22,45.3,70.3,-0.6 24%,BKN,SG,craftednba
+,,Kessler Edwards,,,,,2023-24,,,,,,,,,,,,24,98.9,54.7,-0.2 46%,DAL,SF,craftednba
+,,Kevin Durant,,,,,2023-24,,,,,,,,,,,,36,41.9,49.9,-0.4 39%,PHX,PF,craftednba
+,,Kevin Huerter,,,,,2023-24,,,,,,,,,,,,26,54.9,49.2,0.2 63%,CHI,SG,craftednba
+,,Kevin Love,,,,,2023-24,,,,,,,,,,,,36,19.7,46.1,0.5 69%,MIA,PF,craftednba
+,,Kevin Porter Jr.,,,,,2023-24,,,,,,,,,,,,24,72.0,50.3,0.2 67%,MIL,SG,craftednba
+28.0,1142.0,Kevon Looney,-11.2%,51.3%,37%,GSW,2023-24,craftednba,C,28.0,1.7,0.7,1.4,1.3,2.1 95%,GSW,craftednba,C,28,10.8,50.8,2.1 95%,GSW,C,craftednba
+,,Khris Middleton,,,,,2023-24,,,,,,,,,,,,33,64.6,36.8,-0.1 52%,WAS,SF,craftednba
+,,Klay Thompson,,,,,2023-24,,,,,,,,,,,,34,67.7,57.6,-1.6 6%,DAL,SG,craftednba
+,,Kobe Brown,,,,,2023-24,,,,,,,,,,,,25,72.2,25.0,-0.1 47%,LAC,PF,craftednba
+,,Kris Dunn,,,,,2023-24,,,30.0,2.1,2.3,1.9,3.4,2.9 98%,LAC,craftednba,PG,30,73.3,86.8,2.9 98%,LAC,PG,craftednba
+24.0,1040.0,Kris Murray,-10.5%,52.1%,48.4%,POR,2023-24,craftednba,PF,,,,,,,,,,24,87.0,41.2,0.7 78%,POR,PF,craftednba
+29.0,1210.0,Kristaps Porziņģis,-15.6%,47.7%,39.2%,BOS,2023-24,craftednba,C,29.0,1.0,1.6,1.7,1.2,2.3 96%,BOS,craftednba,C,29,65.2,45.7,2.3 96%,BOS,C,craftednba
+,,Kyle Anderson,,,,,2023-24,,,,,,,,,,,,31,90.1,42.2,1.5 88%,MIA,PF,craftednba
+,,Kyle Filipowski,,,,,2023-24,,,,,,,,,,,,21,54.3,42.8,-0.6 24%,UTA,PF,craftednba
+,,Kyle Kuzma,,,,,2023-24,,,,,,,,,,,,29,73.8,64.3,-1 12%,MIL,PF,craftednba
+,,Kyle Lowry,,,,,2023-24,,,,,,,,,,,,38,57.4,41.9,1.3 83%,PHI,PG,craftednba
+,,Kyrie Irving,,,,,2023-24,,,,,,,,,,,,32,46.2,66.9,-0.5 38%,DAL,PG,craftednba
+,,Kyshawn George,,,,,2023-24,,,,,,,,,,,,21,84.3,53.3,0.6 74%,WAS,SF,craftednba
+,,LaMelo Ball,,,,,2023-24,,,,,,,,,,,,23,57.2,46.0,-1.8 5%,CHA,PG,craftednba
+,,Landry Shamet,,,,,2023-24,,,,,,,,,,,,27,24.2,37.9,-0.4 41%,NYK,SG,craftednba
+,,Larry Nance Jr.,,,,,2023-24,,,,,,,,,,,,32,29.6,45.8,1.2 82%,ATL,C,craftednba
+,,Lauri Markkanen,,,,,2023-24,,,,,,,,,,,,27,95.7,67.2,-1 20%,UTA,PF,craftednba
+,,LeBron James,,,,,2023-24,,,,,,,,,,,,40,88.1,49.9,0.1 57%,LAL,PF,craftednba
+,,Lindy Waters III,,,,,2023-24,,,,,,,,,,,,27,42.2,51.4,-0.2 40%,DET,SG,craftednba
+,,Lonnie Walker IV,,,,,2023-24,,,,,,,,,,,,26,23.1,35.8,-1.5 7%,PHI,SG,craftednba
+,,Lonzo Ball,,,,,2023-24,,,27.0,0.8,1.4,1.4,1.7,1.9 91%,CHI,craftednba,PG,27,46.0,78.1,1.9 91%,CHI,PG,craftednba
+,,Luguentz Dort,,,,,2023-24,,,,,,,,,,,,25,81.2,96.8,1.2 82%,OKC,SG,craftednba
+,,Luka Dončić,,,,,2023-24,,,,,,,,,,,,25,86.5,44.3,1.2 83%,LAL,SF,craftednba
+,,Luke Kennard,,,,,2023-24,,,,,,,,,,,,28,26.7,39.8,-1.2 13%,MEM,SG,craftednba
+29.0,1361.0,Luke Kornet,-11.9%,50.5%,38.8%,BOS,2023-24,craftednba,C,29.0,1.6,0.8,1.9,1.7,2.4 95%,BOS,craftednba,C,29,59.0,35.5,2.4 95%,BOS,C,craftednba
+,,Malaki Branham,,,,,2023-24,,,,,,,,,,,,21,48.4,29.0,-2.2 2%,SAS,SG,craftednba
+,,Malcolm Brogdon,,,,,2023-24,,,,,,,,,,,,32,54.0,64.7,-0.9 17%,WAS,PG,craftednba
+,,Malik Beasley,,,,,2023-24,,,,,,,,,,,,28,30.7,52.2,-0.7 22%,DET,SG,craftednba
+,,Malik Monk,,,,,2023-24,,,,,,,,,,,,26,26.2,49.3,-1 13%,SAC,SG,craftednba
+23.0,253.0,Marcus Bagley,-7.6%,53.7%,37.6%,PHI,2023-24,craftednba,SF,,,,,,,,,,23,62.8,17.7,-0.2 45%,PHI,SF,craftednba
+,,Marcus Sasser,,,,,2023-24,,,,,,,,,,,,24,12.1,47.0,-0.4 33%,DET,PG,craftednba
+,,Marcus Smart,,,,,2023-24,,,,,,,,,,,,30,70.2,66.1,0.7 75%,WAS,PG,craftednba
+,,Mark Williams,,,,,2023-24,,,,,,,,,,,,23,16.8,44.1,0.5 66%,CHA,C,craftednba
+25.0,265.0,Marvin Bagley III,-16.6%,50%,31.5%,MEM,2023-24,craftednba,PF,,,,,,,,,,25,9.9,33.4,0.1 58%,MEM,PF,craftednba
+,,Mason Plumlee,,,,,2023-24,,,,,,,,,,,,34,7.0,51.1,1.5 85%,PHX,C,craftednba
+20.0,1511.0,Matas Buzelis,-8.5%,54%,45.1%,CHI,2023-24,craftednba,PF,,,,,,,,,,20,83.2,44.4,0 55%,CHI,PF,craftednba
+,,Matisse Thybulle,,,,,2023-24,,,27.0,1.5,1.7,1.6,5.1,2.3 98%,POR,craftednba,SF,27,61.4,57.6,2.3 98%,POR,SF,craftednba
+,,Max Christie,,,,,2023-24,,,,,,,,,,,,21,57.8,73.2,-0.6 24%,DAL,SG,craftednba
+,,Max Strus,,,,,2023-24,,,,,,,,,,,,28,53.8,69.0,0 57%,CLE,SG,craftednba
+,,Maxi Kleber,,,,,2023-24,,,,,,,,,,,,33,91.9,62.6,0.7 75%,LAL,C,craftednba
+,,Maxwell Lewis,,,,,2023-24,,,,,,,,,,,,22,74.0,22.5,-0.4 27%,BKN,SG,craftednba
+,,Micah Potter,,,,,2023-24,,,,,,,,,,,,26,82.1,36.9,-0.1 44%,UTA,C,craftednba
+,,Michael Porter Jr.,,,,,2023-24,,,,,,,,,,,,26,73.1,41.4,-0.7 23%,DEN,PF,craftednba
+,,Mikal Bridges,,,,,2023-24,,,,,,,,,,,,28,35.4,82.6,-0.2 45%,NYK,SF,craftednba
+,,Mike Conley,,,,,2023-24,,,,,,,,,,,,37,33.4,50.0,1.2 82%,MIN,PG,craftednba
+,,Miles Bridges,,,,,2023-24,,,,,,,,,,,,26,63.7,54.7,-0.6 23%,CHA,SF,craftednba
+,,Miles McBride,,,,,2023-24,,,,,,,,,,,,24,29.8,58.2,0.8 73%,NYK,PG,craftednba
+,,Mitchell Robinson,,,,,2023-24,,,26.0,1.1,0.5,2.0,1.8,2.1 93%,NYK,craftednba,C,26,2.2,30.5,2.1 93%,NYK,C,craftednba
+,,Monté Morris,,,,,2023-24,,,,,,,,,,,,29,27.1,38.2,-0.2 43%,PHX,PG,craftednba
+,,Moritz Wagner,,,,,2023-24,,,,,,,,,,,,27,17.7,34.3,0.4 68%,ORL,C,craftednba
+,,Moses Moody,,,,,2023-24,,,,,,,,,,,,22,74.7,58.4,0.1 63%,GSW,SG,craftednba
+22.0,533.0,Mouhamed Gueye,-8.6%,54.4%,41.4%,ATL,2023-24,craftednba,C,22.0,2.1,2.3,1.0,1.0,1.8 91%,ATL,craftednba,C,22,61.2,30.1,1.8 91%,ATL,C,craftednba
+,,Moussa Diabaté,,,,,2023-24,,,,,,,,,,,,23,29.4,50.0,0.6 71%,CHA,C,craftednba
+,,Myles Turner,,,,,2023-24,,,,,,,,,,,,28,0.7,47.6,1.7 89%,IND,C,craftednba
+,,Naji Marshall,,,,,2023-24,,,,,,,,,,,,27,96.4,66.2,0 50%,DAL,SF,craftednba
+,,Naz Reid,,,,,2023-24,,,,,,,,,,,,25,68.6,40.1,1.4 81%,MIN,C,craftednba
+,,Neemias Queta,,,,,2023-24,,,,,,,,,,,,25,72.4,31.1,0.8 76%,BOS,C,craftednba
+,,Nic Claxton,,,,,2023-24,,,,,,,,,,,,25,5.8,54.1,1.4 85%,BKN,C,craftednba
+,,Nick Richards,,,,,2023-24,,,,,,,,,,,,27,10.1,52.4,-0.5 23%,PHX,C,craftednba
+,,Nick Smith Jr.,,,,,2023-24,,,,,,,,,,,,20,45.5,48.3,-2.7 4%,CHA,SG,craftednba
+,,Nickeil Alexander-Walker,,,,,2023-24,,,,,,,,,,,,26,34.8,65.2,0.7 73%,MIN,SG,craftednba
+,,Nicolas Batum,,,,,2023-24,,,36.0,1.3,0.6,1.5,2.0,2.1 92%,LAC,craftednba,SF,36,96.9,49.8,2.1 92%,LAC,SF,craftednba
+,,Nikola Jokić,,,,,2023-24,,,29.0,0.5,1.5,1.3,3.3,2.2 93%,DEN,craftednba,C,29,3.6,45.6,2.2 93%,DEN,C,craftednba
+,,Nikola Jović,,,,,2023-24,,,,,,,,,,,,21,88.3,43.6,0.7 74%,MIA,PF,craftednba
+,,Nikola Vučević,,,,,2023-24,,,,,,,,,,,,34,1.1,50.6,-0.5 39%,CHI,C,craftednba
+,,Noah Clowney,,,,,2023-24,,,,,,,,,,,,20,91.3,44.2,-0.6 28%,BKN,PF,craftednba
+,,Norman Powell,,,,,2023-24,,,,,,,,,,,,31,42.6,48.4,-0.3 46%,LAC,SG,craftednba
+,,OG Anunoby,,,,,2023-24,,,,,,,,,,,,27,63.2,73.8,1.4 85%,NYK,SF,craftednba
+,,Obi Toppin,,,,,2023-24,,,,,,,,,,,,26,63.5,34.5,-1.2 12%,IND,PF,craftednba
+,,Ochai Agbaji,,,,,2023-24,,,,,,,,,,,,24,86.1,81.7,0 54%,TOR,SG,craftednba
+,,Olivier-Maxence Prosper,,,,,2023-24,,,,,,,,,,,,22,98.0,47.7,-0.1 50%,DAL,PF,craftednba
+,,Onyeka Okongwu,,,,,2023-24,,,,,,,,,,,,24,10.5,52.5,0.8 76%,ATL,C,craftednba
+,,Orlando Robinson,,,,,2023-24,,,,,,,,,,,,24,14.1,23.0,0.1 56%,TOR,C,craftednba
+,,Oscar Tshiebwe,,,,,2023-24,,,,,,,,,,,,25,6.1,35.9,-0.3 39%,UTA,C,craftednba
+,,Oso Ighodaro,,,,,2023-24,,,,,,,,,,,,22,21.7,46.5,1.3 84%,PHX,C,craftednba
+,,Ousmane Dieng,,,,,2023-24,,,,,,,,,,,,21,79.6,20.5,0.3 65%,OKC,SF,craftednba
+,,P.J. Washington,,,,,2023-24,,,,,,,,,,,,26,96.2,76.5,1.1 78%,DAL,PF,craftednba
+,,Paolo Banchero,,,,,2023-24,,,,,,,,,,,,22,41.3,48.4,-0.6 30%,ORL,PF,craftednba
+,,Pascal Siakam,,,,,2023-24,,,,,,,,,,,,30,47.1,49.2,0.4 69%,IND,PF,craftednba
+,,Pat Connaughton,,,,,2023-24,,,,,,,,,,,,32,69.1,38.2,-0.3 34%,MIL,SG,craftednba
+,,Pat Spencer,,,,,2023-24,,,,,,,,,,,,28,43.5,33.0,-0.3 40%,GSW,SG,craftednba
+,,Patrick Williams,,,,,2023-24,,,,,,,,,,,,23,65.5,67.6,-0.4 45%,CHI,SF,craftednba
+,,Patty Mills,,,,,2023-24,,,,,,,,,,,,36,30.3,39.9,-0.4 37%,LAC,PG,craftednba
+,,Paul George,,,,,2023-24,,,,,,,,,,,,34,80.3,48.8,1.6 88%,PHI,SF,craftednba
+25.0,438.0,Paul Reed,-10.8%,52.8%,45.6%,DET,2023-24,craftednba,PF,25.0,2.7,0.9,1.6,4.0,2.5 97%,DET,craftednba,PF,25,10.3,35.4,2.5 97%,DET,PF,craftednba
+,,Payton Pritchard,,,,,2023-24,,,,,,,,,,,,27,26.9,53.8,-0.4 40%,BOS,PG,craftednba
+,,Pelle Larsson,,,,,2023-24,,,,,,,,,,,,23,62.1,54.6,0.3 65%,MIA,SG,craftednba
+,,Peyton Watson,,,,,2023-24,,,,,,,,,,,,22,96.0,69.5,1.1 79%,DEN,SF,craftednba
+,,Precious Achiuwa,,,,,2023-24,,,,,,,,,,,,25,34.3,42.7,0.2 62%,NYK,PF,craftednba
+,,Quentin Grimes,,,,,2023-24,,,,,,,,,,,,24,49.6,59.3,-0.9 15%,PHI,SG,craftednba
+,,Quenton Jackson,,,,,2023-24,,,,,,,,,,,,26,39.2,55.1,-0.6 34%,IND,PG,craftednba
+,,Quinten Post,,,,,2023-24,,,,,,,,,,,,24,18.4,34.1,-0.6 35%,GSW,C,craftednba
+,,RJ Barrett,,,,,2023-24,,,,,,,,,,,,24,49.1,54.1,-1.7 8%,TOR,SF,craftednba
+,,Rayan Rupert,,,,,2023-24,,,,,,,,,,,,20,61.0,31.8,-1.3 17%,POR,SG,craftednba
+,,Reece Beekman,,,,,2023-24,,,,,,,,,,,,23,31.4,44.3,0.1 65%,BKN,PG,craftednba
+,,Reed Sheppard,,,,,2023-24,,,,,,,,,,,,20,38.3,37.5,0.2 56%,HOU,PG,craftednba
+31.0,534.0,Richaun Holmes,-10.5%,52.9%,40%,WAS,2023-24,craftednba,C,,,,,,,,,,31,0.2,32.3,0.8 74%,WAS,C,craftednba
+,,Ricky Council IV,,,,,2023-24,,,,,,,,,,,,23,80.0,39.2,-1.2 13%,PHI,SG,craftednba
+,,Rob Dillingham,,,,,2023-24,,,,,,,,,,,,20,18.8,39.7,-1.6 8%,MIN,PG,craftednba
+,,Robert Williams III,,,,,2023-24,,,27.0,3.1,1.2,2.0,3.2,2.4 96%,POR,craftednba,C,27,14.3,47.7,2.4 96%,POR,C,craftednba
+,,Ronald Holland II,,,,,2023-24,,,,,,,,,,,,19,78.0,42.7,0.2 61%,DET,SG,craftednba
+,,Royce O'Neale,,,,,2023-24,,,,,,,,,,,,31,82.5,66.0,0.7 69%,PHX,SF,craftednba
+32.0,2388.0,Rudy Gobert,-9.8%,53.7%,36.5%,MIN,2023-24,craftednba,C,32.0,1.9,2.6,3.5,1.3,3.8 99%,MIN,craftednba,C,32,2.5,48.1,3.8 99%,MIN,C,craftednba
+,,Rui Hachimura,,,,,2023-24,,,,,,,,,,,,26,87.4,63.7,0.1 59%,LAL,PF,craftednba
+,,Russell Westbrook,,,,,2023-24,,,,,,,,,,,,36,77.8,65.6,-0.8 19%,DEN,PG,craftednba
+,,Ryan Dunn,,,,,2023-24,,,,,,,,,,,,22,90.8,89.9,-0.1 54%,PHX,PF,craftednba
+,,Ryan Rollins,,,,,2023-24,,,,,,,,,,,,22,13.0,46.8,1.7 87%,MIL,PG,craftednba
+,,Sam Hauser,,,,,2023-24,,,,,,,,,,,,27,57.6,42.8,0.1 59%,BOS,SF,craftednba
+,,Sam Merrill,,,,,2023-24,,,,,,,,,,,,28,31.2,44.6,0.8 76%,CLE,SG,craftednba
+,,Sandro Mamukelashvili,,,,,2023-24,,,,,,,,,,,,25,78.7,22.7,0.2 48%,SAS,PF,craftednba
+,,Santi Aldama,,,,,2023-24,,,,,,,,,,,,24,75.3,47.8,0.2 49%,MEM,PF,craftednba
+,,Scoot Henderson,,,,,2023-24,,,,,,,,,,,,20,46.4,44.5,-1.7 5%,POR,PG,craftednba
+,,Scottie Barnes,,,,,2023-24,,,,,,,,,,,,23,76.0,65.4,1 80%,TOR,SF,craftednba
+,,Scotty Pippen Jr.,,,,,2023-24,,,24.0,0.7,1.7,1.2,1.8,1.8 90%,MEM,craftednba,PG,24,18.6,74.9,1.8 90%,MEM,PG,craftednba
+,,Seth Curry,,,,,2023-24,,,,,,,,,,,,34,28.5,40.5,-0.6 29%,CHA,SG,craftednba
+,,Shaedon Sharpe,,,,,2023-24,,,,,,,,,,,,21,59.9,44.2,-2.1 4%,POR,SG,craftednba
+,,Shai Gilgeous-Alexander,,,,,2023-24,,,,,,,,,,,,26,77.6,43.8,1.8 89%,OKC,PG,craftednba
+,,Shake Milton,,,,,2023-24,,,,,,,,,,,,28,60.3,37.2,-0.7 28%,LAL,SG,craftednba
+,,Simone Fontecchio,,,,,2023-24,,,,,,,,,,,,29,70.0,36.0,-0.5 31%,DET,PF,craftednba
+,,Spencer Dinwiddie,,,,,2023-24,,,,,,,,,,,,31,69.5,51.5,-1 16%,DAL,PG,craftednba
+,,Stephen Curry,,,,,2023-24,,,,,,,,,,,,36,41.7,40.9,-0.9 20%,GSW,PG,craftednba
+,,Stephon Castle,,,,,2023-24,,,,,,,,,,,,20,35.7,87.8,-1.9 3%,SAS,SG,craftednba
+,,Steven Adams,,,,,2023-24,,,31.0,0.4,0.5,2.8,0.3,1.7 90%,HOU,craftednba,C,31,12.3,36.9,1.7 90%,HOU,C,craftednba
+,,Svi Mykhailiuk,,,,,2023-24,,,,,,,,,,,,27,71.7,52.2,-0.6 20%,UTA,SG,craftednba
+,,T.J. McConnell,,,,,2023-24,,,,,,,,,,,,32,17.5,50.4,-0.3 45%,IND,PG,craftednba
+39.0,409.0,Taj Gibson,-12.3%,49.3%,36.7%,CHA,2023-24,craftednba,C,,,,,,,,,,39,8.5,33.2,1 78%,CHA,C,craftednba
+,,Talen Horton-Tucker,,,,,2023-24,,,,,,,,,,,,24,78.9,37.0,-0.6 29%,CHI,SG,craftednba
+,,Tari Eason,,,,,2023-24,,,23.0,1.6,1.0,1.7,2.6,2.5 96%,HOU,craftednba,PF,23,98.4,63.1,2.5 96%,HOU,PF,craftednba
+,,Taurean Prince,,,,,2023-24,,,,,,,,,,,,30,76.2,65.2,-0.3 35%,MIL,SF,craftednba
+,,Terance Mann,,,,,2023-24,,,,,,,,,,,,28,69.3,56.3,-1.3 9%,ATL,SF,craftednba
+,,Terrence Shannon Jr.,,,,,2023-24,,,,,,,,,,,,24,59.4,33.3,-0.5 34%,MIN,SG,craftednba
+,,Terry Rozier,,,,,2023-24,,,,,,,,,,,,30,25.6,61.2,-1.1 15%,MIA,PG,craftednba
+,,Thomas Bryant,,,,,2023-24,,,,,,,,,,,,27,1.3,37.9,0 48%,IND,C,craftednba
+,,Tidjane Salaün,,,,,2023-24,,,,,,,,,,,,19,81.6,36.4,0 41%,CHA,PF,craftednba
+,,Tim Hardaway Jr.,,,,,2023-24,,,,,,,,,,,,32,36.8,60.2,-1.1 10%,DET,SG,craftednba
+,,Tobias Harris,,,,,2023-24,,,,,,,,,,,,32,56.1,51.2,1.6 86%,DET,PF,craftednba
+34.0,314.0,Torrey Craig,-10.8%,53.2%,34.3%,BOS,2023-24,craftednba,PF,,,,,,,,,,34,95.1,52.2,-0.7 34%,BOS,PF,craftednba
+,,Tosan Evbuomwan,,,,,2023-24,,,,,,,,,,,,23,93.3,39.4,0 53%,BKN,SF,craftednba
+,,Toumani Camara,,,,,2023-24,,,24.0,0.5,1.4,1.2,0.8,1.9 92%,POR,craftednba,PF,24,92.2,94.3,1.9 92%,POR,PF,craftednba
+,,Trae Young,,,,,2023-24,,,,,,,,,,,,26,25.3,35.6,-2.5 1%,ATL,PG,craftednba
+,,Trayce Jackson-Davis,,,,,2023-24,,,,,,,,,,,,24,4.9,53.8,0.4 65%,GSW,C,craftednba
+,,Tre Jones,,,,,2023-24,,,,,,,,,,,,25,22.2,63.6,0.4 68%,CHI,PG,craftednba
+,,Tre Mann,,,,,2023-24,,,,,,,,,,,,23,36.5,50.9,-0.9 20%,CHA,PG,craftednba
+,,Trendon Watford,,,,,2023-24,,,,,,,,,,,,24,93.7,35.5,-0.1 45%,BKN,PF,craftednba
+,,Trevelin Queen,,,,,2023-24,,,,,,,,,,,,27,55.4,56.3,0.7 72%,ORL,SG,craftednba
+,,Trey Lyles,,,,,2023-24,,,,,,,,,,,,29,78.5,44.1,0.2 62%,SAC,PF,craftednba
+,,Trey Murphy III,,,,,2023-24,,,,,,,,,,,,24,84.5,65.8,-1 18%,NOP,SF,craftednba
+,,Tristan Thompson,,,,,2023-24,,,,,,,,,,,,33,12.8,10.4,0.4 71%,CLE,C,craftednba
+,,Tristan Vukcevic,,,,,2023-24,,,,,,,,,,,,21,22.0,8.8,-0.2 31%,WAS,C,craftednba
+,,Tristan da Silva,,,,,2023-24,,,,,,,,,,,,23,90.6,38.0,-0.6 28%,ORL,PF,craftednba
+,,Ty Jerome,,,,,2023-24,,,,,,,,,,,,27,52.7,41.8,-0.4 36%,CLE,PG,craftednba
+,,Tyler Herro,,,,,2023-24,,,,,,,,,,,,25,29.1,42.8,-1.4 11%,MIA,SG,craftednba
+,,Tyler Kolek,,,,,2023-24,,,,,,,,,,,,23,13.2,17.8,-0.6 36%,NYK,PG,craftednba
+,,Tyrese Haliburton,,,,,2023-24,,,,,,,,,,,,24,21.3,33.6,-0.2 49%,IND,PG,craftednba
+,,Tyrese Martin,,,,,2023-24,,,,,,,,,,,,25,63.0,44.1,-0.8 22%,BKN,SG,craftednba
+,,Tyrese Maxey,,,,,2023-24,,,,,,,,,,,,24,51.6,56.7,-1.7 6%,PHI,PG,craftednba
+,,Tyus Jones,,,,,2023-24,,,,,,,,,,,,28,20.9,61.3,-2 4%,PHX,PG,craftednba
+,,Vasilije Micić,,,,,2023-24,,,,,,,,,,,,31,50.0,41.5,-1.1 14%,PHX,PG,craftednba
+21.0,1527.0,Victor Wembanyama,-13.6%,50.8%,42.7%,SAS,2023-24,craftednba,C,21.0,2.4,2.7,2.1,2.9,4 100%,SAS,craftednba,C,21,7.2,55.2,4 100%,SAS,C,craftednba
+,,Vince Williams Jr.,,,,,2023-24,,,,,,,,,,,,24,57.0,87.2,-0.1 52%,MEM,SG,craftednba
+,,Vít Krejčí,,,,,2023-24,,,,,,,,,,,,24,52.0,41.3,0.2 55%,ATL,SF,craftednba
+23.0,1740.0,Walker Kessler,-10.8%,53.4%,38%,UTA,2023-24,craftednba,C,,,,,,,,,,23,8.7,66.3,1.8 89%,UTA,C,craftednba
+,,Wendell Carter Jr.,,,,,2023-24,,,25.0,1.1,1.5,1.4,0.9,1.9 91%,ORL,craftednba,C,25,14.8,55.7,1.9 91%,ORL,C,craftednba
+,,Wendell Moore Jr.,,,,,2023-24,,,,,,,,,,,,23,71.5,30.0,-0.4 33%,CHA,SG,craftednba
+,,Yves Missi,,,,,2023-24,,,,,,,,,,,,20,8.1,56.4,-1.4 42%,NOP,C,craftednba
+,,Zaccharie Risacher,,,,,2023-24,,,,,,,,,,,,19,76.5,50.0,-1.7 3%,ATL,SF,craftednba
+,,Zach Collins,,,,,2023-24,,,,,,,,,,,,27,6.7,45.3,1.3 84%,CHI,C,craftednba
+,,Zach Edey,,,,,2023-24,,,,,,,,,,,,22,3.8,43.4,0.7 81%,MEM,C,craftednba
+,,Zach LaVine,,,,,2023-24,,,,,,,,,,,,29,64.1,61.6,-1.3 7%,SAC,SG,craftednba
+24.0,608.0,Zeke Nnaji,-11.5%,50.7%,42%,DEN,2023-24,craftednba,PF,,,,,,,,,,24,92.8,45.2,1.2 82%,DEN,PF,craftednba
+,,Ziaire Williams,,,,,2023-24,,,,,,,,,,,,23,80.9,71.8,-0.3 43%,BKN,SF,craftednba
+,,Zion Williamson,,,,,2023-24,,,,,,,,,,,,24,66.1,58.3,0.1 56%,NOP,PF,craftednba
+24.0,432.0,,-9.5%,53.1%,37.2%,,2023-24,craftednba,C,,,,,,,,,,34,80.5,46.6,-0.6 31%,,PG,craftednba
+24.0,432.0,,-9.5%,53.1%,37.2%,,2023-24,craftednba,C,,,,,,,,,,22,70.6,42.8,0.1 53%,,SG,craftednba
+24.0,432.0,,-9.5%,53.1%,37.2%,,2023-24,craftednba,C,,,,,,,,,,24,61.9,17.6,-0.1 44%,,C,craftednba
+24.0,432.0,,-9.5%,53.1%,37.2%,,2023-24,craftednba,C,,,,,,,,,,26,20.6,39.0,1.1 80%,,C,craftednba
+24.0,432.0,,-9.5%,53.1%,37.2%,,2023-24,craftednba,C,,,,,,,,,,24,18.2,53.8,-0.2 46%,,SG,craftednba
+24.0,432.0,,-9.5%,53.1%,37.2%,,2023-24,craftednba,C,,,,,,,,,,25,11.9,26.2,-0.1 48%,,C,craftednba
+24.0,432.0,,-9.5%,53.1%,37.2%,,2023-24,craftednba,C,,,,,,,,,,32,5.6,39.5,0.4 68%,,C,craftednba
+24.0,432.0,,-9.5%,53.1%,37.2%,,2023-24,craftednba,C,,,,,,,,,,29,3.0,48.0,1.2 81%,,C,craftednba
+26.0,413.0,,-8.7%,53.7%,39.9%,,2023-24,craftednba,C,,,,,,,,,,34,80.5,46.6,-0.6 31%,,PG,craftednba
+26.0,413.0,,-8.7%,53.7%,39.9%,,2023-24,craftednba,C,,,,,,,,,,22,70.6,42.8,0.1 53%,,SG,craftednba
+26.0,413.0,,-8.7%,53.7%,39.9%,,2023-24,craftednba,C,,,,,,,,,,24,61.9,17.6,-0.1 44%,,C,craftednba
+26.0,413.0,,-8.7%,53.7%,39.9%,,2023-24,craftednba,C,,,,,,,,,,26,20.6,39.0,1.1 80%,,C,craftednba
+26.0,413.0,,-8.7%,53.7%,39.9%,,2023-24,craftednba,C,,,,,,,,,,24,18.2,53.8,-0.2 46%,,SG,craftednba
+26.0,413.0,,-8.7%,53.7%,39.9%,,2023-24,craftednba,C,,,,,,,,,,25,11.9,26.2,-0.1 48%,,C,craftednba
+26.0,413.0,,-8.7%,53.7%,39.9%,,2023-24,craftednba,C,,,,,,,,,,32,5.6,39.5,0.4 68%,,C,craftednba
+26.0,413.0,,-8.7%,53.7%,39.9%,,2023-24,craftednba,C,,,,,,,,,,29,3.0,48.0,1.2 81%,,C,craftednba
