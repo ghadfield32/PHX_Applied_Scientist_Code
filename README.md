@@ -116,6 +116,23 @@ A `Predicted vs Actual AAV_pctMaxCap` scatter (+ 45° line) illustrates erro
 git clone https://github.com/ghadfield32/PHX_Applied_Scientist_Code.git
 cd PHX_Applied_Scientist_Code
 
+```
+
+
+# For gpu development, use the devcontainer
+
+```bash
+# for local development, use the devcontainer
+cd .devcontainer
+cp .env.template .env #ensure ports are set and api keys input if needed
+uv sync
+docker-compose build --no-cache
+docker-compose up -d
+```
+
+
+for api and web development, use the following:
+```bash
 # install py deps (uv is optional)
 uv pip install -r requirements.txt  # or: pip install -e .[dev]
 
